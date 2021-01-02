@@ -1,0 +1,13 @@
+{
+  "ABOUT": {
+    "TEXT": "Blerb"
+  },
+  "HEADERS": {
+    "TITLE": "Favorite Recipes"
+  },
+  "NAV": {
+    "ABOUT": "About",
+    "HOME": "Home",
+    "RECIPES": "Recipes"
+  }
+}
