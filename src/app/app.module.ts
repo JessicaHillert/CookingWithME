@@ -8,11 +8,14 @@ import { HeaderComponent } from './header/header.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateLoader } from '@ngx-translate/core';
-import {  } from '@angular/common/http';
+import {} from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HomeComponent } from './home/home.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { AboutComponent } from './about/about.component';
+import { FodmapListComponent } from './fodmap-list/fodmap-list.component';
+import { FodmapListPageComponent } from './fodmap-list-page/fodmap-list-page.component';
+import { MEDietType } from './meDiet.pipe';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -25,22 +28,24 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderComponent,
     HomeComponent,
     RecipesComponent,
-    AboutComponent
+    AboutComponent,
+    FodmapListComponent,
+    FodmapListPageComponent,
+    MEDietType,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({
-        loader: {
-            provide: TranslateLoader,
-            useFactory: HttpLoaderFactory,
-            deps: [HttpClient]
-        }
-    })
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { 
-}
+export class AppModule {}

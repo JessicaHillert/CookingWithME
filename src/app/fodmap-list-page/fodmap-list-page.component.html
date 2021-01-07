@@ -1,0 +1,32 @@
+<h2>{{ "NAV.FODMAP_LIST" | translate }}</h2>
+<p>FODMAP är ... ibs ... inte för alla men generellt nyttigt</p>
+<p>Bra, medium och dåligt betyder ...</p>
+<p>
+  ME-diet. Antiinflamatorisk, unvika Fytokemikalier (Phytotoxin, antinutriants), socker och icke
+  vattenlösliga fibrer ... väldigt nyttigt och vänligt mot magen *=ME-diet
+</p>
+<p>Antiinflamatorisk mat betyder ...</p>
+<p>
+  Ickevattenlösliga fibrer irriterar magen (rekomenderar ej för känsliga
+  magar)... fullkorn ...
+</p>
+<p>Fytokemikalier ...</p>
+
+<p>[ ] Visa endast ME/CFS-diet</p>
+
+<app-fodmap-list [headers]="true"></app-fodmap-list>
+
+<app-fodmap-list
+  *ngFor="let section of sections"
+  [headers]="false"
+  [section]="section"
+></app-fodmap-list>
+
+<p>Källor: ...</p>
+<a>https://riverview.org/blog/uncategorized/get-an-oil-change-improving-your-omega-6-to-omega-3-ratio/</a>
+<a>https://alltomibs.se/wp-content/uploads/2016/03/fodmap-matlista-alltomibs.pdf</a>
+<a>https://en.wikipedia.org/wiki/Fatty_acid_ratio_in_food</a>
+<a>https://benthamopen.com/FULLTEXT/TOBIOTJ-13-68</a>
+<a>https://www.nutrientsreview.com/antinutrients</a>
+<a>https://alittlebityummy.com/low-fodmap-guide-to-reading-labels/</a>
+<a>https://www.ibsdiets.org/fodmap-diet/fodmap-food-list/</a>
