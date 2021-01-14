@@ -92,7 +92,7 @@ export const fodmapVegetables: FodmapSection = {
   title: 'FODMAP_LIST.VEGETABLES',
   good: [
     { ingredient: INGREDIENT.ALFALFAS, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.ARUGULAS, MEDiet: MEDietLevel.FULL }, //ruccola
+    { ingredient: INGREDIENT.ARUGULAS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.AUBERGINES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.BAMBOO_SHOOTS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.BELL_PEPPERS, MEDiet: MEDietLevel.FULL },
@@ -101,25 +101,25 @@ export const fodmapVegetables: FodmapSection = {
     { ingredient: INGREDIENT.BRUSSELS_SPROUTS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CANNED_CHAMPIGNONS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CARROTS, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.CHARDS, MEDiet: MEDietLevel.FULL }, //mangold
-    { ingredient: INGREDIENT.CHIVES, MEDiet: MEDietLevel.FULL }, //gräslök
+    { ingredient: INGREDIENT.CHARDS, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.CHIVES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CUCUMBERS, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.CURLY_KALE, MEDiet: MEDietLevel.FULL }, //grönkål
-    { ingredient: INGREDIENT.DAIKONS, MEDiet: MEDietLevel.FULL }, //rättika
-    { ingredient: INGREDIENT.ENDIVES, MEDiet: MEDietLevel.FULL }, //sydcikoria
+    { ingredient: INGREDIENT.CURLY_KALE, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.DAIKONS, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.ENDIVES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.GARLIC_OLIVE_OIL, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.GINGER, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.HERBS, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.LETTUCE, MEDiet: MEDietLevel.FULL }, //sallat
-    { ingredient: INGREDIENT.MUNG_BEAN_SPROUTS, MEDiet: MEDietLevel.FULL }, //böngroddar
+    { ingredient: INGREDIENT.LETTUCE, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.MUNG_BEAN_SPROUTS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.MUSTARD, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.OLIVES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.OYSTER_MUSHROOMS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.PARSNIPS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.POTATOES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.PUMPKINS, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.RUTABAGAS, MEDiet: MEDietLevel.FULL }, //kålrot
-    { ingredient: INGREDIENT.SCALLIONS_WHITE_PARTS, MEDiet: MEDietLevel.FULL }, //vårlök
+    { ingredient: INGREDIENT.RUTABAGAS, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.SCALLIONS_WHITE_PARTS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SEAWEEDS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SPICES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SPINAGES, MEDiet: MEDietLevel.FULL },
@@ -128,9 +128,9 @@ export const fodmapVegetables: FodmapSection = {
     { ingredient: INGREDIENT.ZUCCHINIS, MEDiet: MEDietLevel.FULL },
   ],
   medium: [
-    { ingredient: INGREDIENT.BEETS, MEDiet: MEDietLevel.FULL }, //rödbeta
+    { ingredient: INGREDIENT.BEETS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CELERIES, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.FENNELS, MEDiet: MEDietLevel.FULL }, //fänkål
+    { ingredient: INGREDIENT.FENNELS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.GREEN_PEAS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SAVOY_CABBAGES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SUNDRIED_TOMATOES, MEDiet: MEDietLevel.FULL },
@@ -158,16 +158,16 @@ export const fodmapNutsLegumesSeeds: FodmapSection = {
   good: [
     { ingredient: INGREDIENT.BRAZIL_NUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CACAO, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.CANOLA_OIL, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.CHESTNUTS, MEDiet: MEDietLevel.NO }, //kastanjer
+    { ingredient: INGREDIENT.CANOLA_OIL, MEDiet: MEDietLevel.SEMI },
+    { ingredient: INGREDIENT.CHESTNUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CHIA_SEEDS, MEDiet: MEDietLevel.SEMI },
-    { ingredient: INGREDIENT.FLAX_SEEDS, MEDiet: MEDietLevel.NO }, //linfrö
+    { ingredient: INGREDIENT.FLAX_SEEDS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.HEMP_SEEDS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.MACADAMIA_NUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.PEANUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.PECANS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.PINE_NUTS, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.POPPY_SEEDS, MEDiet: MEDietLevel.NO }, //vallmofrö
+    { ingredient: INGREDIENT.POPPY_SEEDS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.PSYLLIUM_SEEDS, MEDiet: MEDietLevel.SEMI },
     { ingredient: INGREDIENT.PUMPKIN_SEEDS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.SESAME_SEEDS, MEDiet: MEDietLevel.NO },
@@ -199,11 +199,11 @@ export const fodmapGrains: FodmapSection = {
   title: 'FODMAP_LIST.GRAINS',
   good: [
     { ingredient: INGREDIENT.AMARANTH, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.BROOM_CORN, MEDiet: MEDietLevel.NO }, //durra
+    { ingredient: INGREDIENT.BROOM_CORN, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.BROWN_RICE, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.BUCKWHEAT, MEDiet: MEDietLevel.SEMI },
     { ingredient: INGREDIENT.DEHULLED_QUINOA, MEDiet: MEDietLevel.SEMI },
-    { ingredient: INGREDIENT.MILLET, MEDiet: MEDietLevel.NO }, //hirs
+    { ingredient: INGREDIENT.MILLET, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.OAT_BRAN, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.OATS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.TEFF, MEDiet: MEDietLevel.NO },
@@ -212,8 +212,8 @@ export const fodmapGrains: FodmapSection = {
   medium: [],
   bad: [
     { ingredient: INGREDIENT.BARLEY, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.JUICE_CONCENTRATES, MEDiet: MEDietLevel.NO }, //korn
-    { ingredient: INGREDIENT.RYE, MEDiet: MEDietLevel.NO }, //råg
+    { ingredient: INGREDIENT.JUICE_CONCENTRATES, MEDiet: MEDietLevel.NO },
+    { ingredient: INGREDIENT.RYE, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.WHEAT, MEDiet: MEDietLevel.NO },
   ],
 };

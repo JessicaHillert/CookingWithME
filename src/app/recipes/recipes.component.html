@@ -1,6 +1,135 @@
-<h2>Recipes</h2>
+<h2>{{ "NAV.RECIPES" | translate }}</h2>
 
 <div id="mainContainer">
-  <div id="filterContainer"></div>
-  <div id="recipesContainer"></div>
+  <!-- FILTERS -->
+  <div id="filterContainer">
+    <!-- DIETS_OCCASIONS -->
+    <form [formGroup]="diets_occasions" class="box-wrapper">
+      <h3>{{ "TAGS.DIETS_OCCASIONS" | translate }}</h3>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="quick_easy" />
+        {{ "TAGS.QUICK_EASY" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="vegan" />
+        {{ "TAGS.VEGAN" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="fodmap" />
+        {{ "TAGS.FODMAP" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="me_diet" />
+        {{ "TAGS.ME_DIET" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="semi_me_diet" />
+        {{ "TAGS.SEMI_ME_DIET" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="christmas" />
+        {{ "TAGS.CHRISTMAS" | translate }}
+      </label>
+    </form>
+
+    <!-- MEAL TYPE -->
+    <form [formGroup]="meal_type" class="box-wrapper">
+      <h3>{{ "TAGS.MEAL_TYPE" | translate }}</h3>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="breakfasts_snacks" />
+        {{ "TAGS.BREAKFASTS_SNACKS" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="starters_sidedishes" />
+        {{ "TAGS.STARTERS_SIDEDISHES" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="main_courses" />
+        {{ "TAGS.MAIN_COURSES" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="sauces" />
+        {{ "TAGS.SAUCES" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="deserts" />
+        {{ "TAGS.DESERTS" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="drinks" />
+        {{ "TAGS.DRINKS" | translate }}
+      </label>
+    </form>
+
+    <!-- MAIN COURSE TYPE -->
+    <form
+      *ngIf="meal_type.get('main_courses')?.value"
+      [formGroup]="main_course_type"
+      class="box-wrapper"
+    >
+      <h3>{{ "TAGS.MAIN_COURSE_TYPE" | translate }}</h3>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="legumes" />
+        {{ "TAGS.LEGUMES" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="pastas" />
+        {{ "TAGS.PASTAS" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="pizza" />
+        {{ "TAGS.PIZZA" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="rice" />
+        {{ "TAGS.RICE" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="sallads" />
+        {{ "TAGS.SALLADS" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="seafood" />
+        {{ "TAGS.SEAFOOD" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="soups" />
+        {{ "TAGS.SOUPS" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="stews" />
+        {{ "TAGS.STEWS" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="sushi" />
+        {{ "TAGS.SUSHI" | translate }}
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" formControlName="wok" />
+        {{ "TAGS.WOK" | translate }}
+      </label>
+    </form>
+  </div>
+
+  <!-- RECIPES -->
+  <div id="recipesContainer">
+    <div id="recipesSubContainer">
+      <a
+        *ngFor="let recipe of recipes | async"
+        [routerLink]="'/recipe/' + recipe.id"
+        class="box-wrapper"
+      >
+        <img
+          *ngIf="recipe.image_small"
+          class="image"
+          [src]="recipe.image_small"
+          [alt]="'RECIPES.' + recipe.id + '.TITLE' | translate"
+        />
+        <h3>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h3>
+        <span *ngFor="let tag of getTags(recipe.tags); let last = last">
+          {{ (tag | translate) + (!last ? ", " : " ") }}
+        </span>
+      </a>
+    </div>
+  </div>
 </div>

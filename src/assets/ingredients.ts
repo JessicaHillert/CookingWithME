@@ -1,41 +1,32 @@
 export enum MEASUREMENT {
   DL = 'DL',
   GRAM = 'GRAM',
+  KG = 'KG',
   KRM = 'KRM',
   L = 'L',
   MSK = 'MSK',
   ST = 'ST',
   TSK = 'TSK',
-}
-
-export enum SECTION {
-  SERVING = 'SERVING',
-  JAM = 'JAM',
-  DOUGH = 'DOUGH',
-  DRESSING = 'DRESSING',
-  SAUCE = 'SAUCE',
+  PORTIONS = 'PORTIONS',
 }
 
 export interface Ingredient {
-  amount: string;
-  measurement: MEASUREMENT;
+  amount?: string;
+  measurement?: MEASUREMENT;
   ingredientAlternatives: Array<string>;
-  section?: SECTION;
-  optional: boolean;
+  optional?: boolean;
 }
 
 export function toIngredient(
-  amount: string,
-  measurement: MEASUREMENT,
   ingredientAlternatives: Array<string>,
-  section?: SECTION,
-  optional: boolean = false
+  amount?: string,
+  measurement?: MEASUREMENT,
+  optional?: boolean
 ): Ingredient {
   return {
     amount,
     measurement,
     ingredientAlternatives,
-    section,
     optional,
   };
 }
@@ -243,4 +234,10 @@ export enum INGREDIENT {
   WINTER_SQUASHES = 'WINTER_SQUASHES',
   YELLOW_PEAS = 'YELLOW_PEAS',
   ZUCCHINIS = 'ZUCCHINIS',
+  LEMON_JUICE = "LEMON_JUICE",
+  CARAWAY = "CARAWAY",
+  ROOT_VEGETABLES = "ROOT_VEGETABLES",
+  RASPBERRIES_FROZEN = "RASPBERRIES_FROZEN",
+  STRAWBERRIES_FROZEN = "STRAWBERRIES_FROZEN",
+  BLUEBERRIES_FROZEN = "BLUEBERRIES_FROZEN"
 }

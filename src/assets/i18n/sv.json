@@ -2,6 +2,9 @@
   "ABOUT": {
     "TEXT": "På denna sida finns nyttiga och goda recept!"
   },
+  "COMMON": {
+    "OR": "eller"
+  },
   "FODMAP_LIST": {
     "ANIMAL_PRODUCTS": "Animaliska produkter",
     "BERRIES": "Bär",
@@ -18,12 +21,6 @@
   },
   "HEADERS": {
     "TITLE": "Cooking with me"
-  },
-  "NAV": {
-    "ABOUT": "Om",
-    "HOME": "Hem",
-    "FODMAP_LIST": "FODMAP-lista",
-    "RECIPES": "Recept"
   },
   "INGREDIENT": {
     "ACAI": "Acai",
@@ -53,6 +50,7 @@
     "BLACK_PEPPER": "Svartpeppar",
     "BLACK_TEA": "Svart te",
     "BLACKBERRIES": "Björnbär",
+    "BLUEBERRIES_FROZEN": "Frysta blåbär",
     "BLUEBERRIES": "Blåbär",
     "BOK_CHOY": "Bok choy",
     "BOYSENBERRIES": "Boysenbär",
@@ -69,10 +67,12 @@
     "CANNED_CHICKPEAS": "Konserverade kikärtor",
     "CANOLA_OIL": "Rapsolja",
     "CANTALOUPE_MELONS": "Cantaloupe",
+    "CARAWAY": "Kummin",
     "CARROTS": "Morötter",
     "CASHEW_NUTS": "Cashewnötter",
     "CAULIFLOWERS": "Blomkål",
     "CELERIES": "Selleri",
+    "CHAMOMILE_TEA": "Kamomillte",
     "CHAMPIGNONS": "Champinjoner",
     "CHARDS": "Mangold",
     "CHERIMOYAS": "Cherimoya",
@@ -128,6 +128,7 @@
     "KIWIS": "Kiwi",
     "LACTOSE_FREE_MILK_PRODUCTS": "Laktosfria mjölkprodukter",
     "LEEKS": "Purjolökar",
+    "LEMON_JUICE": "Citronsaft",
     "LEMONS": "Citroner",
     "LENTILS": "Linser",
     "LETTUCE": "Sallat",
@@ -149,6 +150,7 @@
     "OLIVE_OIL": "Olivolja",
     "OLIVES": "Oliver",
     "ONIONS": "Lök",
+    "OOLONG_TEA": "Oolongte",
     "ORANGES": "Apelsiner",
     "OTHER_DRIED_FRUITS": "Andra torkade frukter",
     "OYSTER_MUSHROOMS": "Ostronskivling",
@@ -175,10 +177,12 @@
     "PUMPKINS": "Pumpor",
     "RAISINS": "Russin",
     "RAMBUTANS": "Rambutan",
+    "RASPBERRIES_FROZEN": "Frysta hallon",
     "RASPBERRIES": "Hallon",
     "RED_BEANS": "röda bönor",
     "RHUBARBS": "Rabarber",
     "ROOIBOS_TEA": "Rooiboste",
+    "ROOT_VEGETABLES": "Rotfrukter",
     "RUM": "Rom",
     "RUTABAGAS": "Kålrot",
     "RYE": "Råg",
@@ -197,6 +201,7 @@
     "SPICES": "Kryddor",
     "SPINAGES": "Spenat",
     "STAR_FRUITS": "Stjärnfrukter",
+    "STRAWBERRIES_FROZEN": "Frysta jordgubbar",
     "STRAWBERRIES": "Jordgubbar",
     "SUNDRIED_TOMATOES": "Soltorkade tomater",
     "SUNFLOWER_SEEDS": "Solrosfrön",
@@ -218,16 +223,114 @@
     "WATER": "Vatten",
     "WATERMELONS": "Vattenmeloner",
     "WHEAT": "Vete",
+    "WHISKEYS": "Whiskey",
     "WHITE_RICE": "Vitt ris",
     "WHITE_SUGAR": "Vitt socker",
     "WHITE_TEA": "Vitt te",
     "WILD_MEATS": "Vilt kött",
+    "WINES": "Vin",
     "WINTER_SQUASHES": "Vintersquash",
     "YELLOW_PEAS": "Gula ärtor",
-    "ZUCCHINIS": "Zucchinis",
-    "WHISKEYS": "Whiskey",
-    "WINES": "Vin",
-    "CHAMOMILE_TEA": "Kamomillte",
-    "OOLONG_TEA": "Oolongte"
+    "ZUCCHINIS": "Zucchinis"
+  },
+  "NAV": {
+    "ABOUT": "Om",
+    "HOME": "Hem",
+    "FODMAP_LIST": "FODMAP och ME-diet",
+    "RECIPES": "Recept"
+  },
+  "RECIPES": {
+    "1_1": {
+      "TITLE": "Chiapudding med hallon",
+      "STEPS": {
+        "1": "Lägg i allt i en matberedare eller skål",
+        "2": "Mixa i matberedaren eller med stavmixer",
+        "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
+      }
+    },
+    "1_2": {
+      "TITLE": "Chiapudding med jordgubb",
+      "STEPS": {
+        "1": "Lägg i allt i en matberedare eller skål",
+        "2": "Mixa i matberedaren eller med stavmixer",
+        "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
+      }
+    },
+    "1_3": {
+      "TITLE": "Chiapudding med bärblandning",
+      "STEPS": {
+        "1": "Lägg i allt i en matberedare eller skål",
+        "2": "Mixa i matberedaren eller med stavmixer",
+        "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
+      }
+    },
+    "5_1": {
+      "TITLE": "Ostig spenatsoppa",
+      "STEPS": {
+        "1": "Tillsätt alla ingredienser i en kastrull och koka i 15 minuter"
+      }
+    },
+    "7_4": {
+      "TITLE": "Ris med ugnsbakade rotsaker och tahinisås",
+      "STEPS": {
+        "1": "Sätt ugnen på 200°C",
+        "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",
+        "3": "Baka rotfrukterna i ugn i cirka 25 - 30 minuter",
+        "4": "Lägg alla ingredienser till såsen i en skål och blanda slät"
+      }
+    },
+    "MEASURMENT": {
+      "DL": "dl",
+      "GRAM": "gram",
+      "KG": "kg",
+      "KRM": "krm",
+      "L": "l",
+      "MSK": "msk",
+      "OPTIONAL": "(Valfritt)",
+      "PORTIONS": "portioner",
+      "ST": "st",
+      "TSK": "tsk"
+    },
+    "INGREDIENTS": "Ingredienser",
+    "INSTRUCTIONS": "Instruktioner",
+    "PORTIONS": "Portioner",
+    "SECTIONS": {
+      "DOUGH": "Deg",
+      "DRESSING": "Dressing",
+      "JAM": "Sylt",
+      "SAUCE": "Sås",
+      "TO_SERVE": "Servera med"
+    },
+    "TIME": "Tid"
+  },
+  "TAGS": {
+    "FILTER": "Filter",
+    "MEAL_TYPE": "Måltidstyp",
+    "MAIN_COURSE_TYPE": "Huvudrättstyp",
+    "DIETS_OCCASIONS": "Kost och tillfälle",
+    "BREAKFASTS_SNACKS": "Frukost och snacks",
+    "DESERTS": "Efterrätter",
+    "DRINKS": "Drycker",
+    "MAIN_COURSES": "Huvudrätter",
+    "SAUCES": "Såser",
+    "STARTERS_SIDEDISHES": "Förrätter",
+    "LEGUMES": "Baljväxter",
+    "PASTAS": "Pastarätter",
+    "PIZZA": "Pizza",
+    "RICE": "Risrätter",
+    "SALLADS": "Sallader",
+    "SEAFOOD": "Fisk och skaldjur",
+    "SOUPS": "Soppor",
+    "STEWS": "Grytor",
+    "SUSHI": "Sushi",
+    "WOK": "Wok",
+    "CHRISTMAS": "Jul",
+    "FODMAP": "Fodmap",
+    "QUICK_EASY": "Snabbt och lättlagat",
+    "VEGAN": "Veganskt",
+    "ME_DIET": "ME-diet",
+    "SEMI_ME_DIET": "Delvis ME-diet",
+    "MATCHES_ALL": "Recept matchar alla valda",
+    "MATCHES_ONE": "Recept matchar minst en vald"
   }
 }

@@ -1,0 +1,33 @@
+<h4 *ngIf="header">{{ "RECIPES.SECTIONS." + header | translate }}</h4>
+<span *ngFor="let ingredient of ingredients">
+  {{
+    ingredient.optional ? ("RECIPES.MEASURMENT.OPTIONAL" | translate) + " " : ""
+  }}
+  {{
+    ingredient.amount && ingredient.measurement
+      ? (ingredient.amount | amount: ingredient.measurement) +
+        " " +
+        ("RECIPES.MEASURMENT." + ingredient.measurement | translate)
+      : ""
+  }}
+  <ng-container
+    *ngFor="
+      let ingredientAlternative of ingredient.ingredientAlternatives;
+      let last = last;
+      let first = first
+    "
+  >
+    {{
+      !first && !last
+        ? ", "
+        : !first && last
+        ? " " + ("COMMON.OR" | translate) + " "
+        : ""
+    }}
+    {{
+      !ingredient.amount && first
+        ? ("INGREDIENT." + ingredientAlternative | translate | titlecase)
+        : ("INGREDIENT." + ingredientAlternative | translate | lowercase)
+    }}
+  </ng-container>
+</span>

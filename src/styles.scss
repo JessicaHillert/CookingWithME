@@ -1,6 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   margin: 0px;
+  background-color: gainsboro;
+}
+
+main {
+  min-width: 600px;
+  width: 80%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 12px 0px;
 }
 
 ul {
@@ -12,4 +26,17 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+span {
+  margin: 4px 0px;
+}
+
+.box-wrapper {
+  h3 {
+    margin-top: 0px;
+  }
+  background-color: white;
+  box-shadow: 0px 0px 4px 1px #a9a9a9;
+  padding: 20px;
 }

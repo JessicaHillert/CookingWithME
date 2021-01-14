@@ -1,0 +1,77 @@
+<div id="recipeHeader" class="box-wrapper">
+  <h2>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h2>
+  <div id="imgContainer">
+    <img
+      *ngIf="recipe.image_big"
+      id="image"
+      [src]="recipe.image_big"
+      alt="Picture of delicious food"
+    />
+  </div>
+  <div id="infoContainer">
+    <span id="time">
+      <b>{{ ("RECIPES.TIME" | translate) + ": " }}</b> {{ recipe.time | time }}
+    </span>
+    <span id="portions">
+      <b>{{ ("RECIPES.PORTIONS" | translate) + ": " }}</b> {{ recipe.portions }}
+    </span>
+    <span id="tags">
+      <ng-container *ngFor="let tag of getTags(recipe.tags); let last = last">{{
+        (tag | translate) + (!last ? ", " : "")
+      }}</ng-container>
+    </span>
+  </div>
+</div>
+
+<div id="instructionsContainer">
+  <div id="ingredientsContainer" class="box-wrapper">
+    <h3>{{ "RECIPES.INGREDIENTS" | translate }}</h3>
+    <!-- Base ingredients -->
+    <app-ingredients-list
+      *ngIf="recipe.ingredients.base"
+      [ingredients]="recipe.ingredients.base"
+    ></app-ingredients-list>
+
+    <!-- Jam ingredients -->
+    <app-ingredients-list
+      *ngIf="recipe.ingredients.jam"
+      [ingredients]="recipe.ingredients.jam"
+      header="JAM"
+    ></app-ingredients-list>
+
+    <!-- Dough ingredients -->
+    <app-ingredients-list
+      *ngIf="recipe.ingredients.dough"
+      [ingredients]="recipe.ingredients.dough"
+      header="DOUGH"
+    ></app-ingredients-list>
+
+    <!-- Dressing ingredients -->
+    <app-ingredients-list
+      *ngIf="recipe.ingredients.dressing"
+      [ingredients]="recipe.ingredients.dressing"
+      header="DRESSING"
+    ></app-ingredients-list>
+
+    <!-- Sauce ingredients -->
+    <app-ingredients-list
+      *ngIf="recipe.ingredients.sauce"
+      [ingredients]="recipe.ingredients.sauce"
+      header="SAUCE"
+    ></app-ingredients-list>
+
+    <!-- To serve with ingredients -->
+    <app-ingredients-list
+      *ngIf="recipe.ingredients.to_serve"
+      [ingredients]="recipe.ingredients.to_serve"
+      header="TO_SERVE"
+    ></app-ingredients-list>
+  </div>
+  <div id="stepsContainer" class="box-wrapper">
+    <h3>{{ "RECIPES.INSTRUCTIONS" | translate }}</h3>
+    <span *ngFor="let step of [].constructor(recipe.steps); let i = index">
+      {{ i + 1 + ". " }}
+      {{ "RECIPES." + recipe.id + ".STEPS." + (i + 1) | translate }}
+    </span>
+  </div>
+</div>

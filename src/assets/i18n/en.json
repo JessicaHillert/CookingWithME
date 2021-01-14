@@ -2,6 +2,9 @@
   "ABOUT": {
     "TEXT": "Blerb"
   },
+  "COMMON": {
+    "OR": "or"
+  },
   "FODMAP_LIST": {
     "ANIMAL_PRODUCTS": "Animal products",
     "BERRIES": "Berries",
@@ -18,12 +21,6 @@
   },
   "HEADERS": {
     "TITLE": "Cooking with me"
-  },
-  "NAV": {
-    "ABOUT": "About",
-    "HOME": "Home",
-    "FODMAP_LIST": "FODMAP list",
-    "RECIPES": "Recipes"
   },
   "INGREDIENT": {
     "ACAI": "Acai",
@@ -53,6 +50,7 @@
     "BLACK_PEPPER": "Black Pepper",
     "BLACK_TEA": "Black tea",
     "BLACKBERRIES": "Blackberries",
+    "BLUEBERRIES_FROZEN": "Frozen blueberries",
     "BLUEBERRIES": "Blueberries",
     "BOK_CHOY": "Bok choy",
     "BOYSENBERRIES": "Boysenberries",
@@ -69,10 +67,12 @@
     "CANNED_CHICKPEAS": "Canned chickpeas",
     "CANOLA_OIL": "Canola oil",
     "CANTALOUPE_MELONS": "Cantaloupe melons",
+    "CARAWAY": "Caraway",
     "CARROTS": "Carrots",
     "CASHEW_NUTS": "Cashew nuts",
     "CAULIFLOWERS": "Cauliflowers",
     "CELERIES": "Celeries",
+    "CHAMOMILE_TEA": "Chamomile tea",
     "CHAMPIGNONS": "Champignons",
     "CHARDS": "Chards",
     "CHERIMOYAS": "Cherimoyas",
@@ -128,6 +128,7 @@
     "KIWIS": "Kiwis",
     "LACTOSE_FREE_MILK_PRODUCTS": "Lactose free milk products",
     "LEEKS": "Leeks",
+    "LEMON_JUICE": "Lemon juice",
     "LEMONS": "Lemons",
     "LENTILS": "Lentils",
     "LETTUCE": "Lettuce",
@@ -149,6 +150,7 @@
     "OLIVE_OIL": "Olive oil",
     "OLIVES": "Olives",
     "ONIONS": "Onions",
+    "OOLONG_TEA": "Oolong tea",
     "ORANGES": "Oranges",
     "OTHER_DRIED_FRUITS": "Other dried fruits",
     "OYSTER_MUSHROOMS": "Oyster mushrooms",
@@ -175,10 +177,12 @@
     "PUMPKINS": "Pumpkins",
     "RAISINS": "Raisins",
     "RAMBUTANS": "Rambutans",
+    "RASPBERRIES_FROZEN": "Frozen raspberries",
     "RASPBERRIES": "Raspberries",
     "RED_BEANS": "Red beans",
     "RHUBARBS": "Rhubarbs",
     "ROOIBOS_TEA": "Rooibos tea",
+    "ROOT_VEGETABLES": "Root vegetables",
     "RUM": "Rum",
     "RUTABAGAS": "Rutabagas",
     "RYE": "Rye",
@@ -197,6 +201,7 @@
     "SPICES": "Spices",
     "SPINAGES": "Spinages",
     "STAR_FRUITS": "Star fruits",
+    "STRAWBERRIES_FROZEN": "Frozen strawberries",
     "STRAWBERRIES": "Strawberries",
     "SUNDRIED_TOMATOES": "Sundried tomatoes",
     "SUNFLOWER_SEEDS": "Sunflower seeds",
@@ -218,16 +223,115 @@
     "WATER": "Water",
     "WATERMELONS": "Water melons",
     "WHEAT": "Wheat",
+    "WHISKEYS": "Whiskeys",
     "WHITE_RICE": "White rice",
     "WHITE_SUGAR": "White sugar",
     "WHITE_TEA": "White tea",
     "WILD_MEATS": "Wild meats",
+    "WINES": "Wines",
     "WINTER_SQUASHES": "Winter squashes",
     "YELLOW_PEAS": "Yellow peas",
-    "ZUCCHINIS": "Zucchinis",
-    "WHISKEYS": "Whiskeys",
-    "WINES": "Wines",
-    "CHAMOMILE_TEA": "Chamomile tea",
-    "OOLONG_TEA": "Oolong tea"
+    "ZUCCHINIS": "Zucchinis"
+  },
+  "NAV": {
+    "ABOUT": "About",
+    "HOME": "Home",
+    "FODMAP_LIST": "FODMAP and ME diet",
+    "RECIPES": "Recipes"
+  },
+  "RECIPES": {
+    "1_1": {
+      "TITLE": "Raspberry chia pudding",
+      "STEPS": {
+        "1": "Put everything in a food processor or bowl",
+        "2": "Mix in the food processor or use a stick blender",
+        "3": "If wanted, wait 15-30 min for a thicker consistency"
+      }
+    },
+    "1_2": {
+      "TITLE": "Strawberry chia pudding",
+      "STEPS": {
+        "1": "Put everything in a food processor or bowl",
+        "2": "Mix in the food processor or use a stick blender",
+        "3": "If wanted, wait 15-30 min for a thicker consistency"
+      }
+    },
+    "1_3": {
+      "TITLE": "Very berry chia pudding",
+      "STEPS": {
+        "1": "Put everything in a food processor or bowl",
+        "2": "Mix in the food processor or use a stick blender",
+        "3": "If wanted, wait 15-30 min for a thicker consistency"
+      }
+    },
+    "5_1": {
+      "TITLE": "Cheesy spinage soup",
+      "STEPS": {
+        "1": "Lägg i allt i en matberedare eller skål",
+        "2": "Mixa i matberedaren eller med stavmixer"
+      }
+    },
+    "7_4": {
+      "TITLE": "Ris med ugnsbakade rotsaker och tahinisås",
+      "STEPS": {
+        "1": "Sätt ugnen på 200°C",
+        "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",
+        "3": "Baka rotfrukterna i ugn i cirka 25 - 30 minuter",
+        "4": "Lägg alla ingredienser till såsen i en skål och blanda slät"
+      }
+    },
+    "MEASURMENT": {
+      "DL": "cups",
+      "GRAM": "gram",
+      "KG": "kg",
+      "KRM": "pinch",
+      "L": "cups",
+      "MSK": "tbsp",
+      "OPTIONAL": "(Optional)",
+      "PORTIONS": "portions",
+      "ST": "pcs.",
+      "TSK": "tsp"
+    },
+    "INGREDIENTS": "Ingredients",
+    "INSTRUCTIONS": "Instructions",
+    "PORTIONS": "Portions",
+    "SECTIONS": {
+      "DOUGH": "Dough",
+      "DRESSING": "Dressing",
+      "JAM": "Jam",
+      "SAUCE": "Sauce",
+      "TO_SERVE": "To serve with"
+    },
+    "TIME": "Time"
+  },
+  "TAGS": {
+    "FILTER": "Filter",
+    "MEAL_TYPE": "Meal type",
+    "MAIN_COURSE_TYPE": "Main course type",
+    "DIETS_OCCASIONS": "Diet and occasion",
+    "BREAKFASTS_SNACKS": "Breakfasts and snacks",
+    "DESERTS": "Deserts",
+    "DRINKS": "Drinks",
+    "MAIN_COURSES": "Main courses",
+    "SAUCES": "Sauces",
+    "STARTERS_SIDEDISHES": "Starters and side dishes",
+    "LEGUMES": "Legumes",
+    "PASTAS": "Pasta dishes",
+    "PIZZA": "Pizza",
+    "RICE": "Rice dishes",
+    "SALLADS": "Sallads",
+    "SEAFOOD": "Seafood",
+    "SOUPS": "Soups",
+    "STEWS": "Stews",
+    "SUSHI": "Sushi",
+    "WOK": "Wok",
+    "CHRISTMAS": "Christmas",
+    "FODMAP": "Sodmap",
+    "QUICK_EASY": "Quick and easy",
+    "VEGAN": "Vegan",
+    "ME_DIET": "ME diet",
+    "SEMI_ME_DIET": "Semi ME diet",
+    "MATCHES_ALL": "Recipe matches all selected",
+    "MATCHES_ONE": "Recipe matches at least one selected"
   }
 }

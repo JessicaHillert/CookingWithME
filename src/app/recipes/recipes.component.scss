@@ -1,3 +1,58 @@
-#mainContainer{
+h3 {
+  font-size: 1em;
+}
+
+label,
+span {
+  font-size: 14px;
+}
+
+#mainContainer {
+  display: flex;
+}
+
+#filterContainer {
+  min-width: 200px;
+  h3 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+  }
+  form {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  span {
+    font-size: 12px;
+    padding-top: 4px;
+  }
+  label {
+    display: flex;
+    margin-top: 2px;
+    align-items: center;
+    input {
+      margin-right: 6px;
+    }
+  }
+}
+
+#recipesContainer {
+  flex-grow: 1;
+  margin-left: 40px;
+  #recipesSubContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    a {
+      width: 160px;
+      margin-right: 16px;
+      margin-bottom: 16px;
+    }
+  }
+  .image {
+    margin: -20px -20px 0px -20px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 12px;
+  }
 }

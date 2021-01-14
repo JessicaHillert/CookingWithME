@@ -1,0 +1,57 @@
+h2 {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+#recipeHeader {
+  margin-bottom: 20px;
+
+  #imgContainer {
+    margin: 0px -20px;
+    width: calc(100% + 40px);
+    text-align: center;
+    #image {
+      max-height: 50vh;
+      max-width: 100%;
+    }
+  }
+
+  #infoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    span {
+      margin-bottom: 0px;
+    }
+    #time,
+    #portions {
+      flex-basis: 15%;
+    }
+    #tags {
+      flex-basis: 70%;
+      text-align: end;
+    }
+  }
+}
+
+#instructionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4px;
+
+  #ingredientsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin-right: 4px;
+  }
+
+  #stepsContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 16px;
+  }
+}
