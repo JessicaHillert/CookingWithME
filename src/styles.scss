@@ -15,6 +15,7 @@ main {
 h3 {
   font-size: 1.2em;
   margin: 12px 0px;
+  margin-top: 20px;
 }
 
 ul {
@@ -30,6 +31,15 @@ a {
 
 span {
   margin: 4px 0px;
+}
+
+label {
+  display: flex;
+  margin-top: 2px;
+  align-items: center;
+  input {
+    margin-right: 6px;
+  }
 }
 
 .box-wrapper {

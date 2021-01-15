@@ -2,9 +2,9 @@ import { INGREDIENT } from './ingredients';
 
 export interface FodmapSection {
   title: string;
-  good: Array<FodmapIngredient>;
+  low: Array<FodmapIngredient>;
   medium: Array<FodmapIngredient>;
-  bad: Array<FodmapIngredient>;
+  high: Array<FodmapIngredient>;
 }
 
 export enum MEDietLevel {
@@ -20,7 +20,7 @@ export interface FodmapIngredient {
 
 export const fodmapFruits: FodmapSection = {
   title: 'FODMAP_LIST.FRUITS',
-  good: [
+  low: [
     { ingredient: INGREDIENT.BANANAS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.BARBARY_FIGS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CANTALOUPE_MELONS, MEDiet: MEDietLevel.FULL },
@@ -52,10 +52,11 @@ export const fodmapFruits: FodmapSection = {
     { ingredient: INGREDIENT.POMEGRANATES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.RAMBUTANS, MEDiet: MEDietLevel.FULL },
   ],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.APPLES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.APRICOTS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CHERIMOYAS, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.JUICE_CONCENTRATES, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CHERRIES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.MANGOS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.NECTARINE, MEDiet: MEDietLevel.FULL },
@@ -72,7 +73,7 @@ export const fodmapFruits: FodmapSection = {
 
 export const fodmapBerries: FodmapSection = {
   title: 'FODMAP_LIST.BERRIES',
-  good: [
+  low: [
     { ingredient: INGREDIENT.ACAI, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.BLUEBERRIES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CLOUDBERRIES, MEDiet: MEDietLevel.FULL },
@@ -82,7 +83,7 @@ export const fodmapBerries: FodmapSection = {
     { ingredient: INGREDIENT.STRAWBERRIES, MEDiet: MEDietLevel.FULL },
   ],
   medium: [],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.BLACKBERRIES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.BOYSENBERRIES, MEDiet: MEDietLevel.FULL },
   ],
@@ -90,7 +91,7 @@ export const fodmapBerries: FodmapSection = {
 
 export const fodmapVegetables: FodmapSection = {
   title: 'FODMAP_LIST.VEGETABLES',
-  good: [
+  low: [
     { ingredient: INGREDIENT.ALFALFAS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.ARUGULAS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.AUBERGINES, MEDiet: MEDietLevel.FULL },
@@ -138,7 +139,7 @@ export const fodmapVegetables: FodmapSection = {
     { ingredient: INGREDIENT.SWEET_POTATOES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.WINTER_SQUASHES, MEDiet: MEDietLevel.FULL },
   ],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.ARTICHOKES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.ASPARAGUS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.CAULIFLOWERS, MEDiet: MEDietLevel.FULL },
@@ -155,7 +156,7 @@ export const fodmapVegetables: FodmapSection = {
 
 export const fodmapNutsLegumesSeeds: FodmapSection = {
   title: 'FODMAP_LIST.NUTS_SEEDS_LEGUMES',
-  good: [
+  low: [
     { ingredient: INGREDIENT.BRAZIL_NUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CACAO, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CANOLA_OIL, MEDiet: MEDietLevel.SEMI },
@@ -182,7 +183,7 @@ export const fodmapNutsLegumesSeeds: FodmapSection = {
     { ingredient: INGREDIENT.HAZEL_NUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.TAHINI, MEDiet: MEDietLevel.NO },
   ],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.CASHEW_NUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CHICKPEAS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.KIDNEY_BEANS, MEDiet: MEDietLevel.NO },
@@ -197,7 +198,7 @@ export const fodmapNutsLegumesSeeds: FodmapSection = {
 
 export const fodmapGrains: FodmapSection = {
   title: 'FODMAP_LIST.GRAINS',
-  good: [
+  low: [
     { ingredient: INGREDIENT.AMARANTH, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.BROOM_CORN, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.BROWN_RICE, MEDiet: MEDietLevel.NO },
@@ -210,9 +211,8 @@ export const fodmapGrains: FodmapSection = {
     { ingredient: INGREDIENT.WHITE_RICE, MEDiet: MEDietLevel.SEMI },
   ],
   medium: [],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.BARLEY, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.JUICE_CONCENTRATES, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.RYE, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.WHEAT, MEDiet: MEDietLevel.NO },
   ],
@@ -220,7 +220,7 @@ export const fodmapGrains: FodmapSection = {
 
 export const fodmapAnimalProducts: FodmapSection = {
   title: 'FODMAP_LIST.ANIMAL_PRODUCTS',
-  good: [
+  low: [
     { ingredient: INGREDIENT.BUTTER, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.FISH, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.HARD_CHEESES, MEDiet: MEDietLevel.NO },
@@ -233,13 +233,15 @@ export const fodmapAnimalProducts: FodmapSection = {
     { ingredient: INGREDIENT.INDUSTRIAL_MEATS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.GRASS_FED_MEATS, MEDiet: MEDietLevel.SEMI },
     { ingredient: INGREDIENT.WILD_MEATS, MEDiet: MEDietLevel.SEMI },
+    { ingredient: INGREDIENT.VEGAN_MILKS, MEDiet: MEDietLevel.SEMI },
+    { ingredient: INGREDIENT.VEGAN_YOGHURTS, MEDiet: MEDietLevel.NO },
   ],
   medium: [
     { ingredient: INGREDIENT.SOFT_CHEESES, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CREAM, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.ANIMAL_YOGHURTS, MEDiet: MEDietLevel.NO },
   ],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.ANIMAL_MILKS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.ICE_CREAMS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.PROCESSED_MEATS, MEDiet: MEDietLevel.NO },
@@ -248,7 +250,7 @@ export const fodmapAnimalProducts: FodmapSection = {
 
 export const fodmapOthers: FodmapSection = {
   title: 'FODMAP_LIST.OTHERS',
-  good: [
+  low: [
     { ingredient: INGREDIENT.ARROWROOT, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.BAKING_SODA, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.BLACK_TEA, MEDiet: MEDietLevel.NO },
@@ -266,6 +268,7 @@ export const fodmapOthers: FodmapSection = {
     { ingredient: INGREDIENT.VINEGAR, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.WHITE_SUGAR, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.WHITE_TEA, MEDiet: MEDietLevel.NO },
+    { ingredient: INGREDIENT.COFFEE, MEDiet: MEDietLevel.NO },
   ],
   medium: [
     { ingredient: INGREDIENT.BEER, MEDiet: MEDietLevel.NO },
@@ -274,7 +277,7 @@ export const fodmapOthers: FodmapSection = {
     { ingredient: INGREDIENT.WINES, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.WHISKEYS, MEDiet: MEDietLevel.NO },
   ],
-  bad: [
+  high: [
     { ingredient: INGREDIENT.AGAVE, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CIDER, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.HONEY, MEDiet: MEDietLevel.SEMI },

@@ -1,49 +1,59 @@
 <ng-container *ngIf="headers">
   <div class="fodmapListContainer headers">
-    <div class="good">
-      <span>{{ "FODMAP_LIST.RATING.GOOD" | translate }}</span>
+    <div class="low">
+      <span>{{ "FODMAP_LIST.RATING.LOW" | translate }}</span>
     </div>
     <div class="medium">
       <span>{{ "FODMAP_LIST.RATING.MEDIUM" | translate }}</span>
     </div>
-    <div class="bad">
-      <span>{{ "FODMAP_LIST.RATING.BAD" | translate }}</span>
+    <div class="high">
+      <span>{{ "FODMAP_LIST.RATING.HIGH" | translate }}</span>
     </div>
   </div>
 </ng-container>
 
 <ng-container *ngIf="section">
   <h3>{{ section.title | translate }}</h3>
-  <div class="fodmapListContainer">
-    <div class="good">
-      <ul>
-        <li *ngFor="let fodmapIngredient of section.good">
-          {{
-            (fodmapIngredient.MEDiet | meDietType) +
-              ("INGREDIENT." + fodmapIngredient.ingredient | translate)
-          }}
-        </li>
-      </ul>
+  <ng-container
+    *ngIf="
+      section.low.length || section.medium.length || section.high.length;
+      else emptyList
+    "
+  >
+    <div class="fodmapListContainer">
+      <div class="low">
+        <ul>
+          <li *ngFor="let fodmapIngredient of section.low">
+            {{
+              (fodmapIngredient.MEDiet | meDietType) +
+                ("INGREDIENT." + fodmapIngredient.ingredient | translate)
+            }}
+          </li>
+        </ul>
+      </div>
+      <div class="medium">
+        <ul>
+          <li *ngFor="let fodmapIngredient of section.medium">
+            {{
+              (fodmapIngredient.MEDiet | meDietType) +
+                ("INGREDIENT." + fodmapIngredient.ingredient | translate)
+            }}
+          </li>
+        </ul>
+      </div>
+      <div class="high">
+        <ul>
+          <li *ngFor="let fodmapIngredient of section.high">
+            {{
+              (fodmapIngredient.MEDiet | meDietType) +
+                ("INGREDIENT." + fodmapIngredient.ingredient | translate)
+            }}
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="medium">
-      <ul>
-        <li *ngFor="let fodmapIngredient of section.medium">
-          {{
-            (fodmapIngredient.MEDiet | meDietType) +
-              ("INGREDIENT." + fodmapIngredient.ingredient | translate)
-          }}
-        </li>
-      </ul>
-    </div>
-    <div class="bad">
-      <ul>
-        <li *ngFor="let fodmapIngredient of section.bad">
-          {{
-            (fodmapIngredient.MEDiet | meDietType) +
-              ("INGREDIENT." + fodmapIngredient.ingredient | translate)
-          }}
-        </li>
-      </ul>
-    </div>
-  </div>
+  </ng-container>
+  <ng-template #emptyList>
+    {{ "FODMAP_LIST.NO_INGREDIENTS" | translate }}
+  </ng-template>
 </ng-container>

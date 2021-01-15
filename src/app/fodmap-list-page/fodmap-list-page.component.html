@@ -1,32 +1,118 @@
 <h2>{{ "NAV.FODMAP_LIST" | translate }}</h2>
-<p>FODMAP är ... ibs ... inte för alla men generellt nyttigt</p>
-<p>Bra, medium och dåligt betyder ...</p>
-<p>
-  ME-diet. Antiinflamatorisk, unvika Fytokemikalier (Phytotoxin, antinutriants), socker och icke
-  vattenlösliga fibrer ... väldigt nyttigt och vänligt mot magen *=ME-diet
-</p>
-<p>Antiinflamatorisk mat betyder ...</p>
-<p>
-  Ickevattenlösliga fibrer irriterar magen (rekomenderar ej för känsliga
-  magar)... fullkorn ...
-</p>
-<p>Fytokemikalier ...</p>
+<div id="textContainer" class="box-wrapper">
+  <h3>{{ "TAGS.FODMAP" | translate }}</h3>
+  <p>{{ "FODMAP_LIST.TEXT_FODMAP_1" | translate }}</p>
+  <p>{{ "FODMAP_LIST.TEXT_FODMAP_2" | translate }}</p>
+  <p>{{ "FODMAP_LIST.TEXT_FODMAP_3" | translate }}</p>
+  <p>{{ "FODMAP_LIST.TEXT_FODMAP_4" | translate }}</p>
 
-<p>[ ] Visa endast ME/CFS-diet</p>
+  <h3>{{ "TAGS.ME_DIET" | translate }}</h3>
+  <p>{{ "FODMAP_LIST.TEXT_ME_1" | translate }}</p>
+
+  <ul class="ul-normal">
+    <li class="green">{{ "TAGS.SEAFOOD" | translate }}</li>
+    <li class="orange">{{ "FODMAP_LIST.GRASSFED_WILD_MEATS" | translate }}</li>
+    <li class="green">{{ "INGREDIENT.EGGS" | translate }}</li>
+    <li class="green">{{ "FODMAP_LIST.VEGETABLES" | translate }}</li>
+    <li class="green">{{ "FODMAP_LIST.FRUITS" | translate }}</li>
+    <li class="green">{{ "FODMAP_LIST.BERRIES" | translate }}</li>
+    <li class="green">{{ "FODMAP_LIST.SOME_HERBAL_TEAS" | translate }}</li>
+  </ul>
+
+  <p>{{ "FODMAP_LIST.TEXT_ME_2" | translate }}</p>
+
+  <ul class="ul-normal">
+    <li class="red">{{ "FODMAP_LIST.ADDED_SUGAR" | translate }}</li>
+    <li class="red">{{ "INGREDIENT.COFFEE" | translate }}</li>
+    <li class="red">{{ "FODMAP_LIST.TEA" | translate }}</li>
+    <li class="orange">{{ "FODMAP_LIST.NUTS_SEED" | translate }}</li>
+    <li class="red">{{ "FODMAP_LIST.LEGUMES" | translate }}</li>
+    <li class="red">{{ "FODMAP_LIST.GRAINS_PSEUDOGRAINS" | translate }}</li>
+    <li class="red">{{ "FODMAP_LIST.DAIRY" | translate }}</li>
+    <li class="red">{{ "FODMAP_LIST.CONVENTIONAL_MEAT" | translate }}</li>
+  </ul>
+
+  <p>{{ "FODMAP_LIST.TEXT_ME_3" | translate }}</p>
+  <p>{{ "FODMAP_LIST.TEXT_ME_4" | translate }}</p>
+  <p>{{ "FODMAP_LIST.TEXT_ME_5" | translate }}</p>
+  <p class="remove-bottom-margin">{{ "FODMAP_LIST.TEXT_ME_6" | translate }}</p>
+</div>
+
+<div id="filterContainer">
+  <label class="checkbox">
+    <input type="checkbox" [formControl]="me_filter" />
+    {{ "FODMAP_LIST.FILTER_ME" | translate }}
+  </label>
+  <label class="checkbox">
+    <input type="checkbox" [formControl]="semi_me_filter" />
+    {{ "FODMAP_LIST.FILTER_SEMI_ME" | translate }}
+  </label>
+</div>
 
 <app-fodmap-list [headers]="true"></app-fodmap-list>
 
 <app-fodmap-list
-  *ngFor="let section of sections"
+  *ngFor="let section of filteredLists | async"
   [headers]="false"
   [section]="section"
 ></app-fodmap-list>
 
-<p>Källor: ...</p>
-<a>https://riverview.org/blog/uncategorized/get-an-oil-change-improving-your-omega-6-to-omega-3-ratio/</a>
-<a>https://alltomibs.se/wp-content/uploads/2016/03/fodmap-matlista-alltomibs.pdf</a>
-<a>https://en.wikipedia.org/wiki/Fatty_acid_ratio_in_food</a>
-<a>https://benthamopen.com/FULLTEXT/TOBIOTJ-13-68</a>
-<a>https://www.nutrientsreview.com/antinutrients</a>
-<a>https://alittlebityummy.com/low-fodmap-guide-to-reading-labels/</a>
-<a>https://www.ibsdiets.org/fodmap-diet/fodmap-food-list/</a>
+<h3>{{ "FODMAP_LIST.SOURCES" | translate }}</h3>
+<p class="sources-paragraph">{{ "TAGS.FODMAP" | translate }}</p>
+<ul>
+  <li>
+    <a
+      href="https://www.health.harvard.edu/diet-and-weight-loss/a-new-diet-to-manage-irritable-bowel-syndrome"
+    >
+      https://www.health.harvard.edu/diet-and-weight-loss/a-new-diet-to-manage-irritable-bowel-syndrome
+    </a>
+  </li>
+  <li>
+    <a href=" https://alittlebityummy.com/low-fodmap-guide-to-reading-labels/">
+      https://alittlebityummy.com/low-fodmap-guide-to-reading-labels/
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://alltomibs.se/wp-content/uploads/2016/03/fodmap-matlista-alltomibs.pdf"
+    >
+      https://alltomibs.se/wp-content/uploads/2016/03/fodmap-matlista-alltomibs.pdf
+    </a>
+  </li>
+  <li>
+    <a href="https://www.ibsdiets.org/fodmap-diet/fodmap-food-list/"
+      >https://www.ibsdiets.org/fodmap-diet/fodmap-food-list/
+    </a>
+  </li>
+</ul>
+
+<p class="sources-paragraph">{{ "TAGS.ME_DIET" | translate }}</p>
+<ul>
+  <li>
+    <a href="https://www.parsleyhealth.com/blog/dairy-and-inflammation/">
+      https://www.parsleyhealth.com/blog/dairy-and-inflammation/
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://riverview.org/blog/uncategorized/get-an-oil-change-improving-your-omega-6-to-omega-3-ratio/"
+    >
+      https://riverview.org/blog/uncategorized/get-an-oil-change-improving-your-omega-6-to-omega-3-ratio/
+    </a>
+  </li>
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Fatty_acid_ratio_in_food">
+      https://en.wikipedia.org/wiki/Fatty_acid_ratio_in_food
+    </a>
+  </li>
+  <li>
+    <a href="https://benthamopen.com/FULLTEXT/TOBIOTJ-13-68">
+      https://benthamopen.com/FULLTEXT/TOBIOTJ-13-68
+    </a>
+  </li>
+  <li>
+    <a href="https://www.nutrientsreview.com/antinutrients">
+      https://www.nutrientsreview.com/antinutrients
+    </a>
+  </li>
+</ul>

@@ -58,13 +58,13 @@ export class RecipesComponent implements OnInit {
   getTags = getTags;
 
   ngOnInit(): void {
-    this.diets_occasions.valueChanges.subscribe((change) => {
+    this.diets_occasions.valueChanges.subscribe(() => {
       this.filterList(DIETS_OCCASIONS);
     });
-    this.meal_type.valueChanges.subscribe((change) => {
+    this.meal_type.valueChanges.subscribe(() => {
       this.filterList(MEAL_TYPE);
     });
-    this.main_course_type.valueChanges.subscribe((change) => {
+    this.main_course_type.valueChanges.subscribe(() => {
       this.filterList(MAIN_COURSE_TYPE);
     });
   }
