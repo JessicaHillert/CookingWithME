@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  dark_mode: boolean = false;
+
+  constructor() {
+    this.dark_mode = localStorage.getItem('dark_mode') === 'true';
+  }
 }

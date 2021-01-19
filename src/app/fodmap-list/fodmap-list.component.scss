@@ -1,36 +1,37 @@
-.fodmapListContainer {
-  display: flex;
-}
-
-.fodmapListContainer.headers > div {
+.fodmap_list_container.headers > div {
   text-align: center;
   font-size: 1.4em;
   padding: 0.7em;
 }
 
-.fodmapListContainer > div {
-  flex-grow: 1;
-  flex-basis: 1px;
-}
+.fodmap_list_container {
+  display: flex;
 
-.low {
-  background-color: lightgreen;
-  border-radius: 4px 0px 0px 4px;
-}
+  div {
+    flex-grow: 1;
+    flex-basis: 1px;
+    color: black !important;
+  }
 
-.medium {
-  background-color: coral;
-}
+  ul {
+    padding: 2px 0px;
+  }
 
-.high {
-  background-color: #ff3b2f;
-  border-radius: 0px 4px 4px 0px;
-}
+  li {
+    padding: 2px 8px;
+  }
 
-ul {
-  padding: 2px 0px;
-}
+  .low {
+    background-color: lightgreen;
+    border-radius: 4px 0px 0px 4px;
+  }
 
-li {
-  padding: 2px 8px;
+  .medium {
+    background-color: coral;
+  }
+
+  .high {
+    background-color: #ff3b2f;
+    border-radius: 0px 4px 4px 0px;
+  }
 }

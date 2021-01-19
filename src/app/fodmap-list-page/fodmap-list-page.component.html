@@ -1,5 +1,5 @@
 <h2>{{ "NAV.FODMAP_LIST" | translate }}</h2>
-<div id="textContainer" class="box-wrapper">
+<div class="box_wrapper">
   <h3>{{ "TAGS.FODMAP" | translate }}</h3>
   <p>{{ "FODMAP_LIST.TEXT_FODMAP_1" | translate }}</p>
   <p>{{ "FODMAP_LIST.TEXT_FODMAP_2" | translate }}</p>
@@ -9,7 +9,7 @@
   <h3>{{ "TAGS.ME_DIET" | translate }}</h3>
   <p>{{ "FODMAP_LIST.TEXT_ME_1" | translate }}</p>
 
-  <ul class="ul-normal">
+  <ul class="ul_normal">
     <li class="green">{{ "TAGS.SEAFOOD" | translate }}</li>
     <li class="orange">{{ "FODMAP_LIST.GRASSFED_WILD_MEATS" | translate }}</li>
     <li class="green">{{ "INGREDIENT.EGGS" | translate }}</li>
@@ -21,7 +21,7 @@
 
   <p>{{ "FODMAP_LIST.TEXT_ME_2" | translate }}</p>
 
-  <ul class="ul-normal">
+  <ul class="ul_normal">
     <li class="red">{{ "FODMAP_LIST.ADDED_SUGAR" | translate }}</li>
     <li class="red">{{ "INGREDIENT.COFFEE" | translate }}</li>
     <li class="red">{{ "FODMAP_LIST.TEA" | translate }}</li>
@@ -35,10 +35,10 @@
   <p>{{ "FODMAP_LIST.TEXT_ME_3" | translate }}</p>
   <p>{{ "FODMAP_LIST.TEXT_ME_4" | translate }}</p>
   <p>{{ "FODMAP_LIST.TEXT_ME_5" | translate }}</p>
-  <p class="remove-bottom-margin">{{ "FODMAP_LIST.TEXT_ME_6" | translate }}</p>
+  <p class="remove_bottom_margin">{{ "FODMAP_LIST.TEXT_ME_6" | translate }}</p>
 </div>
 
-<div id="filterContainer">
+<div id="filter_container">
   <label class="checkbox">
     <input type="checkbox" [formControl]="me_filter" />
     {{ "FODMAP_LIST.FILTER_ME" | translate }}
@@ -58,7 +58,7 @@
 ></app-fodmap-list>
 
 <h3>{{ "FODMAP_LIST.SOURCES" | translate }}</h3>
-<p class="sources-paragraph">{{ "TAGS.FODMAP" | translate }}</p>
+<p class="sources_paragraph">{{ "TAGS.FODMAP" | translate }}</p>
 <ul>
   <li>
     <a
@@ -86,7 +86,7 @@
   </li>
 </ul>
 
-<p class="sources-paragraph">{{ "TAGS.ME_DIET" | translate }}</p>
+<p class="sources_paragraph">{{ "TAGS.ME_DIET" | translate }}</p>
 <ul>
   <li>
     <a href="https://www.parsleyhealth.com/blog/dairy-and-inflammation/">

@@ -194,12 +194,12 @@ export const cheesy_spinage_soup: Recipe = {
 };
 
 /** Rice dishes, 7 */
-export const rice_with_oven_baked_root_vegetagles_with_tahini_sauce: Recipe = {
+export const oven_baked_root_vegetagles_with_tahini_sauce: Recipe = {
   id: '7_4',
   image_big:
-    '/assets/pictures/rice_with_oven_baked_root_vegetagles_with_tahini_sauce_big.jpg',
+    '/assets/images/oven_baked_root_vegetagles_with_tahini_sauce_big.jpg',
   image_small:
-    '/assets/pictures/rice_with_oven_baked_root_vegetagles_with_tahini_sauce_small.jpg',
+    '/assets/images/oven_baked_root_vegetagles_with_tahini_sauce_small.jpg',
   time: 50,
   portions: 4,
   ingredients: {
@@ -245,5 +245,5 @@ export const recipes: Array<Recipe> = [
   cheesy_spinage_soup,
 
   /** Rice dishes, 7 */
-  rice_with_oven_baked_root_vegetagles_with_tahini_sauce,
+  oven_baked_root_vegetagles_with_tahini_sauce,
 ];

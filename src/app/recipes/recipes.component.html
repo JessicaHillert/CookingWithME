@@ -1,11 +1,12 @@
 <h2>{{ "NAV.RECIPES" | translate }}</h2>
 
-<div id="mainContainer">
+<div id="main_container">
   <!-- FILTERS -->
-  <div id="filterContainer">
+  <div id="filter_container">
     <!-- DIETS_OCCASIONS -->
-    <form [formGroup]="diets_occasions" class="box-wrapper">
-      <h3>{{ "TAGS.DIETS_OCCASIONS" | translate }}</h3>
+    <h3>{{ "TAGS.FILTER" | translate }}</h3>
+    <form [formGroup]="diets_occasions" class="box_wrapper">
+      <h4>{{ "TAGS.DIETS_OCCASIONS" | translate }}</h4>
       <label class="checkbox">
         <input type="checkbox" formControlName="quick_easy" />
         {{ "TAGS.QUICK_EASY" | translate }}
@@ -33,8 +34,8 @@
     </form>
 
     <!-- MEAL TYPE -->
-    <form [formGroup]="meal_type" class="box-wrapper">
-      <h3>{{ "TAGS.MEAL_TYPE" | translate }}</h3>
+    <form [formGroup]="meal_type" class="box_wrapper">
+      <h4>{{ "TAGS.MEAL_TYPE" | translate }}</h4>
       <label class="checkbox">
         <input type="checkbox" formControlName="breakfasts_snacks" />
         {{ "TAGS.BREAKFASTS_SNACKS" | translate }}
@@ -65,9 +66,9 @@
     <form
       *ngIf="meal_type.get('main_courses')?.value"
       [formGroup]="main_course_type"
-      class="box-wrapper"
+      class="box_wrapper"
     >
-      <h3>{{ "TAGS.MAIN_COURSE_TYPE" | translate }}</h3>
+      <h4>{{ "TAGS.MAIN_COURSE_TYPE" | translate }}</h4>
       <label class="checkbox">
         <input type="checkbox" formControlName="legumes" />
         {{ "TAGS.LEGUMES" | translate }}
@@ -112,12 +113,13 @@
   </div>
 
   <!-- RECIPES -->
-  <div id="recipesContainer">
-    <div id="recipesSubContainer">
+  <div id="recipes_container">
+    <h3>{{ "NAV.RECIPES" | translate }}</h3>
+    <div id="recipes_sub_container">
       <a
         *ngFor="let recipe of recipes | async"
         [routerLink]="'/recipe/' + recipe.id"
-        class="box-wrapper"
+        class="box_wrapper"
       >
         <img
           *ngIf="recipe.image_small"
@@ -125,7 +127,7 @@
           [src]="recipe.image_small"
           [alt]="'RECIPES.' + recipe.id + '.TITLE' | translate"
         />
-        <h3>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h3>
+        <h4>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h4>
         <span *ngFor="let tag of getTags(recipe.tags); let last = last">
           {{ (tag | translate) + (!last ? ", " : " ") }}
         </span>

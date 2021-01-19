@@ -1,16 +1,17 @@
 {
-  "ABOUT": {
-    "TEXT": "På denna sida finns nyttiga och goda recept!"
-  },
   "COMMON": {
-    "OR": "eller"
+    "OR": "eller",
+    "ALT": {
+      "PICTURE_FOOD": "Bild på mat som ser väldigt god ut",
+      "CHANGE_LANGUAGE": "Byt språk"
+    }
   },
   "FODMAP_LIST": {
     "ADDED_SUGAR": "Mat med tillsatt socker",
     "ANIMAL_PRODUCTS": "Animaliska produkter",
     "BERRIES": "Bär",
     "CONVENTIONAL_MEAT": "Konventionellt kött, oklart om allt kött helst ska uteslutas (inflammatoriskt, högt i omega 6)",
-    "DAIRY": "Mjölkprodukter (ckan vara inflammatoriska, mjölkprotein)",
+    "DAIRY": "Mjölkprodukter (kan vara inflammatoriska, mjölkprotein)",
     "FILTER_ME": "ME-diet (**)",
     "FILTER_SEMI_ME": "Semi ME-diet (*)",
     "FRUITS": "Frukter",
@@ -43,7 +44,7 @@
     }
   },
   "HEADERS": {
-    "TITLE": "Cooking with me"
+    "TITLE": "Cooking With Me"
   },
   "INGREDIENT": {
     "ACAI": "Acai",
@@ -259,6 +260,10 @@
     "VEGAN_MILKS": "Veganskt mjölkalternativ",
     "VEGAN_YOGHURTS": "Vegansk yoghurtalternativ"
   },
+  "LANGUAGE": {
+    "SV": "Svenska",
+    "EN": "English"
+  },
   "NAV": {
     "ABOUT": "Om",
     "HOME": "Hem",
@@ -297,7 +302,7 @@
       }
     },
     "7_4": {
-      "TITLE": "Ris med ugnsbakade rotsaker och tahinisås",
+      "TITLE": "Ugnsbakade rotsaker med tahinisås",
       "STEPS": {
         "1": "Sätt ugnen på 200°C",
         "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",

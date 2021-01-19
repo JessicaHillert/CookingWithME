@@ -1,9 +1,10 @@
 {
-  "ABOUT": {
-    "TEXT": "Blerb"
-  },
   "COMMON": {
-    "OR": "or"
+    "OR": "or",
+    "ALT": {
+      "PICTURE_FOOD": "Picture of delicious looking food",
+      "CHANGE_LANGUAGE": "Change language"
+    }
   },
   "FODMAP_LIST": {
     "ADDED_SUGAR": "Foods with added sugar",
@@ -43,7 +44,7 @@
     }
   },
   "HEADERS": {
-    "TITLE": "Cooking with me"
+    "TITLE": "Cooking With Me"
   },
   "INGREDIENT": {
     "ACAI": "Acai",
@@ -259,6 +260,10 @@
     "VEGAN_MILKS": "Vegan milk alternative",
     "VEGAN_YOGHURTS": "Vegan yoghurt alternativ"
   },
+  "LANGUAGE": {
+    "SV": "Svenska",
+    "EN": "English"
+  },
   "NAV": {
     "ABOUT": "About",
     "HOME": "Home",
@@ -298,7 +303,7 @@
       }
     },
     "7_4": {
-      "TITLE": "Ris med ugnsbakade rotsaker och tahinisås",
+      "TITLE": "Ugnsbakade rotsaker med tahinisås",
       "STEPS": {
         "1": "Sätt ugnen på 200°C",
         "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",
@@ -331,7 +336,7 @@
     "TIME": "Time"
   },
   "TAGS": {
-    "FILTER": "Filter",
+    "FILTER": "Filters",
     "MEAL_TYPE": "Meal type",
     "MAIN_COURSE_TYPE": "Main course type",
     "DIETS_OCCASIONS": "Diet and occasion",

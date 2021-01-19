@@ -1,3 +1,13 @@
-<header><app-header></app-header></header>
-<nav><app-nav></app-nav></nav>
-<main><router-outlet></router-outlet></main>
+<header>
+  <nav>
+    <app-nav
+      [dark_mode]="dark_mode"
+      (toogle_dark_mode)="dark_mode = !dark_mode"
+    ></app-nav>
+  </nav>
+</header>
+<main [class.dark_mode]="dark_mode">
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</main>

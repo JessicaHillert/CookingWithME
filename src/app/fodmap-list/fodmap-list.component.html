@@ -1,5 +1,5 @@
 <ng-container *ngIf="headers">
-  <div class="fodmapListContainer headers">
+  <div class="fodmap_list_container headers">
     <div class="low">
       <span>{{ "FODMAP_LIST.RATING.LOW" | translate }}</span>
     </div>
@@ -20,33 +20,33 @@
       else emptyList
     "
   >
-    <div class="fodmapListContainer">
+    <div class="fodmap_list_container">
       <div class="low">
         <ul>
-          <li *ngFor="let fodmapIngredient of section.low">
+          <li *ngFor="let fodmap_ingredient of section.low">
             {{
-              (fodmapIngredient.MEDiet | meDietType) +
-                ("INGREDIENT." + fodmapIngredient.ingredient | translate)
+              (fodmap_ingredient.MEDiet | meDietType) +
+                ("INGREDIENT." + fodmap_ingredient.ingredient | translate)
             }}
           </li>
         </ul>
       </div>
       <div class="medium">
         <ul>
-          <li *ngFor="let fodmapIngredient of section.medium">
+          <li *ngFor="let fodmap_ingredient of section.medium">
             {{
-              (fodmapIngredient.MEDiet | meDietType) +
-                ("INGREDIENT." + fodmapIngredient.ingredient | translate)
+              (fodmap_ingredient.MEDiet | meDietType) +
+                ("INGREDIENT." + fodmap_ingredient.ingredient | translate)
             }}
           </li>
         </ul>
       </div>
       <div class="high">
         <ul>
-          <li *ngFor="let fodmapIngredient of section.high">
+          <li *ngFor="let fodmap_ingredient of section.high">
             {{
-              (fodmapIngredient.MEDiet | meDietType) +
-                ("INGREDIENT." + fodmapIngredient.ingredient | translate)
+              (fodmap_ingredient.MEDiet | meDietType) +
+                ("INGREDIENT." + fodmap_ingredient.ingredient | translate)
             }}
           </li>
         </ul>

@@ -1,19 +1,19 @@
-<div id="recipeHeader" class="box-wrapper">
+<div id="recipe_header" class="box_wrapper">
   <h2>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h2>
-  <div id="imgContainer">
+  <div id="img_container">
     <img
       *ngIf="recipe.image_big"
       id="image"
       [src]="recipe.image_big"
-      alt="Picture of delicious food"
+      [alt]="'COMMON.ALT.PICTURE_FOOD' | translate"
     />
   </div>
-  <div id="infoContainer">
+  <div id="info_container">
     <span id="time">
-      <b>{{ ("RECIPES.TIME" | translate) + ": " }}</b> {{ recipe.time | time }}
+      {{ ("RECIPES.TIME" | translate) + ": " }} {{ recipe.time | time }}
     </span>
     <span id="portions">
-      <b>{{ ("RECIPES.PORTIONS" | translate) + ": " }}</b> {{ recipe.portions }}
+      {{ ("RECIPES.PORTIONS" | translate) + ": " }} {{ recipe.portions }}
     </span>
     <span id="tags">
       <ng-container *ngFor="let tag of getTags(recipe.tags); let last = last">{{
@@ -23,8 +23,8 @@
   </div>
 </div>
 
-<div id="instructionsContainer">
-  <div id="ingredientsContainer" class="box-wrapper">
+<div id="instructions_container">
+  <div id="ingredients_container" class="box_wrapper">
     <h3>{{ "RECIPES.INGREDIENTS" | translate }}</h3>
     <!-- Base ingredients -->
     <app-ingredients-list
@@ -67,7 +67,7 @@
       header="TO_SERVE"
     ></app-ingredients-list>
   </div>
-  <div id="stepsContainer" class="box-wrapper">
+  <div id="steps_container" class="box_wrapper">
     <h3>{{ "RECIPES.INSTRUCTIONS" | translate }}</h3>
     <span *ngFor="let step of [].constructor(recipe.steps); let i = index">
       {{ i + 1 + ". " }}

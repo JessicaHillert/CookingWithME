@@ -1,6 +1,54 @@
-<ul>
-  <a routerLink="/home" class="rightBorder">{{ "NAV.HOME" | translate }}</a>
-  <a routerLink="/recipes" class="rightBorder">{{ "NAV.RECIPES" | translate }}</a>
-  <a routerLink="/fodmap-list" class="rightBorder">{{ "NAV.FODMAP_LIST" | translate }}</a>
-  <a routerLink="/about">{{ "NAV.ABOUT" | translate }}</a>
-</ul>
+<div id="header_container" [class.dark_mode]="dark_mode">
+  <h1>{{ "HEADERS.TITLE" | translate }}</h1>
+  <nav>
+    <ul>
+      <a
+        routerLink="/home"
+        (click)="current_path = '/home'"
+        [class.selected_nav]="current_path === '/home' || current_path === '/'"
+      >
+        {{ "NAV.HOME" | translate }}
+      </a>
+      <a
+        routerLink="/recipes"
+        (click)="current_path = '/recipes'"
+        [class.selected_nav]="current_path === '/recipes'"
+      >
+        {{ "NAV.RECIPES" | translate }}
+      </a>
+      <a
+        routerLink="/fodmap-list"
+        (click)="current_path = '/fodmap-list'"
+        [class.selected_nav]="current_path === '/fodmap-list'"
+      >
+        {{ "NAV.FODMAP_LIST" | translate }}
+      </a>
+      <button
+        mat-icon-button
+        id="lang_button"
+        class="image_button"
+        [matMenuTriggerFor]="lang_menu"
+        aria-label="Change language"
+      >
+        <img
+          class="flag"
+          [src]="this.flag"
+          [alt]="'COMMON.ALT.CHANGE_LANGUAGE' | translate"
+        />
+      </button>
+      <button class="image_button" (click)="toggleDarkMode()">
+        <mat-icon>{{ dark_mode ? "dark_mode" : "wb_sunny" }} </mat-icon>
+      </button>
+    </ul>
+  </nav>
+</div>
+
+<mat-menu #lang_menu="matMenu">
+  <button
+    *ngFor="let lang of translate.getLangs()"
+    mat-menu-item
+    (click)="selectLang(lang)"
+  >
+    <span>{{ "LANGUAGE." + lang | uppercase | translate }}</span>
+  </button>
+</mat-menu>
