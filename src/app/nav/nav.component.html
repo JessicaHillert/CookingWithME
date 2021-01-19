@@ -4,22 +4,24 @@
     <ul>
       <a
         routerLink="/home"
-        (click)="current_path = '/home'"
-        [class.selected_nav]="current_path === '/home' || current_path === '/'"
+        (click)="current_main_path = '/home'"
+        [class.selected_nav]="
+          current_main_path === '/home' || current_main_path === '/'
+        "
       >
         {{ "NAV.HOME" | translate }}
       </a>
       <a
         routerLink="/recipes"
-        (click)="current_path = '/recipes'"
-        [class.selected_nav]="current_path === '/recipes'"
+        (click)="current_main_path = '/recipes'"
+        [class.selected_nav]="current_main_path.slice(0, 7) === '/recipe'"
       >
         {{ "NAV.RECIPES" | translate }}
       </a>
       <a
         routerLink="/fodmap-list"
-        (click)="current_path = '/fodmap-list'"
-        [class.selected_nav]="current_path === '/fodmap-list'"
+        (click)="current_main_path = '/fodmap-list'"
+        [class.selected_nav]="current_main_path === '/fodmap-list'"
       >
         {{ "NAV.FODMAP_LIST" | translate }}
       </a>
