@@ -10,7 +10,7 @@ export class AmountPipe implements PipeTransform {
   /** amount is always in ml */
   transform(amount: string, measurement: MEASUREMENT): string {
     if (this.translate.currentLang === 'sv') return amount;
-    
+
     switch (measurement) {
       case MEASUREMENT.DL:
         /** dl to cups */
@@ -41,6 +41,8 @@ export class AmountPipe implements PipeTransform {
             return '1';
           case '3':
             return '1 1/4';
+          case '3 1/2':
+            return '1 1/2';
           case '4':
             return '1 4/5';
           case '6':

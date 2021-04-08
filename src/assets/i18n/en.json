@@ -34,7 +34,7 @@
     "TEXT_ME_1": "The ME diet is a diet directed to people with ME/CFS. In short, this diet removes ingredients that are straining on the body (FODMAP somewhat aside). So this diet might be a good idea to try fully or incorporate more elements from for anyone (especially if you have food/stomach problems). The factors this diet considers are the inflammatory aspect, sugar, caffeine, gluten, milk protein (irritate immune system), antinutrients (natural substances that inhibit the body's nutritional absorption) and high in omega 6 (inflammatory). The foods that the ME diet includes are:",
     "TEXT_ME_2": "The excluded foods are:",
     "TEXT_ME_3": "A full list of how all the common ingredients fit the ME diet is shown below. The ingredients that are fully ME diet approved have two stars on the left (**). If the ingredient is a better option than similar ingredients or might be okay in smaller amounts they get one star (*). A filter below exist to only show ME approved ingredients.",
-    "TEXT_ME_4": "I got this diet from my ME center. Even though they have this diet as a treatment they also note that there has not yet been conclusive studies to neither confirm nor deny that this diet is effective for people with ME/CFS. Also, when creating this list some liberties were taken to fill in the gaps of foods not mentioned in the treatment plan.",
+    "TEXT_ME_4": "I got this diet from my ME center. Even though they have this diet as a treatment they also note that there has not yet been conclusive studies to neither confirm nor deny that this diet is effective for people with ME/CFS. Also, when creating this list some liberties were taken to fill in the gaps of foods not mentioned in the treatment plan. I also created the \"Semi ME diet\" on the recipe page which includes the recipes that does not fully follow the ME diet, but where the majority of the ingredients are ME or semi ME friendly and can have a smaller amount of not approved ingredients.",
     "TEXT_ME_5": "Once again, how the stomach reacts to foods is very individual (allergies, intolerances, IBS, etc) and therefore diets might be better to follow more as a guide than an absolute.",
     "TEXT_ME_6": "You can find sources at the bottom of this page.",
     "RATING": {
@@ -53,7 +53,7 @@
     "ALMOND_CREAM": "Almond cream",
     "ALMONDS": "Almonds",
     "AMARANTH": "Amaranth",
-    "ANIMAL_MILKS": "Animal Milks (cow, goat, sheep, etc)",
+    "ANIMAL_MILKS": "Animal milks (cow, goat, sheep, etc)",
     "ANIMAL_YOGHURTS": "Animal yoghurts",
     "APPLES": "Apples",
     "APRICOTS": "Apricots",
@@ -63,15 +63,15 @@
     "ASPARAGUS": "Asparagus",
     "AUBERGINES": "Aubergines",
     "AVOCADOS": "Avocados",
-    "BAKING_SODA": "Baking Soda",
-    "BAMBOO_SHOOTS": "Bamboo Shoots",
+    "BAKING_POWDER": "Baking powder",
+    "BAMBOO_SHOOTS": "Bamboo shoots",
     "BANANAS": "Bananas",
     "BARBARY_FIGS": "Barbary Figs",
     "BARLEY": "Barley",
     "BEER": "Beer",
     "BEETS": "Beets",
-    "BELL_PEPPERS": "Bell Peppers",
-    "BLACK_PEPPER": "Black Pepper",
+    "BELL_PEPPERS": "Bell peppers",
+    "BLACK_PEPPER": "Black pepper",
     "BLACK_TEA": "Black tea",
     "BLACKBERRIES": "Blackberries",
     "BLUEBERRIES_FROZEN": "Frozen blueberries",
@@ -126,9 +126,9 @@
     "FIRM_TOFU": "Firm tofu",
     "FISH": "Fish",
     "FLAX_SEEDS": "Flax seeds",
-    "FROZEN_BERRIES": "Frozen berries",
-    "FROZEN_CHIVES": "Frozen chives",
-    "FROZEN_SLICED_SPINAGE": "Frozen sliced spinage",
+    "BERRIES_FROZEN": "Frozen berries",
+    "CHIVES_FROZEN": "Frozen chives",
+    "SPINAGE_FROZEN_SLICED": "Frozen sliced spinage",
     "GARLIC_OLIVE_OIL": "Garlic infused olive oil",
     "GARLICS": "Garlics",
     "GIN": "Gin",
@@ -279,7 +279,7 @@
         "3": "If wanted, wait 15-30 min for a thicker consistency"
       }
     },
-    "1_2": {
+    "1_7": {
       "TITLE": "Strawberry chia pudding",
       "STEPS": {
         "1": "Put everything in a food processor or bowl",
@@ -287,7 +287,7 @@
         "3": "If wanted, wait 15-30 min for a thicker consistency"
       }
     },
-    "1_3": {
+    "1_8": {
       "TITLE": "Very berry chia pudding",
       "STEPS": {
         "1": "Put everything in a food processor or bowl",

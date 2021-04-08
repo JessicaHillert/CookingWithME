@@ -89,9 +89,11 @@ export class RecipesComponent implements OnInit {
             }
           }
         });
-        if (me_filters === 2) {
-          this.diets_occasions_both_me_filters = true;
-        }
+        this.diets_occasions_both_me_filters = me_filters === 2;
+        console.log(
+          'this.diets_occasions_both_me_filters: ',
+          this.diets_occasions_both_me_filters
+        );
         break;
       case MEAL_TYPE:
         Object.values(this.meal_type.value).some((tag) => tag === true)
@@ -135,16 +137,18 @@ export class RecipesComponent implements OnInit {
             // Go through all the recipe's tags and find each selected tag
             {
               const selected_tag_uppercase = selected_tag.toUpperCase();
-              if (
-                this.diets_occasions_both_me_filters &&
-                (selected_tag_uppercase === DIETS_OCCASIONS.ME_DIET ||
-                  selected_tag_uppercase === DIETS_OCCASIONS.SEMI_ME_DIET)
-              ) {
-                return true;
-              }
-              return recipe.tags.diets_occasions.find(
-                (recipe_tag) => recipe_tag === selected_tag_uppercase
-              );
+              return recipe.tags.diets_occasions.find((recipe_tag) => {
+                /** If both ME-filters are selected then only one of those tags are okay */
+                if (
+                  this.diets_occasions_both_me_filters &&
+                  (recipe_tag === DIETS_OCCASIONS.ME_DIET ||
+                    recipe_tag === DIETS_OCCASIONS.SEMI_ME_DIET)
+                ) {
+                  return true;
+                }
+                /** Otherwise, check if selected tag exist in recipe's tags */
+                return recipe_tag === selected_tag_uppercase;
+              });
             }
           )
         ) {

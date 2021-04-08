@@ -34,7 +34,7 @@
     "TEXT_ME_1": "ME-dieten riktar sig mot folk som har sjukdomen ME/CFS. I korthet tar denna diet bort mat som är ansträngande för kroppen (förutom FODMAP till viss del). Därför kan denna diet vara en bra idé att testa fullt eller delvis för alla  (speciellt om man har problem med mat eller mage). De faktorer som denna diet tar hänsyn till är inflammatorisk aspekt, socker, koffein, gluten, mjölkprotein (irriterar immunförsvaret), antinutrienter (hämmar näringsupptag) och hög nivå omega 6 (inflammatoriskt). Maten som ME-dieten inkluderar är:",
     "TEXT_ME_2": "Den exkluderade maten är:",
     "TEXT_ME_3": "En fullständig lista av vilka vanliga ingredienser som inkluderas i ME-dieten syns nedan. De ingredienser som helt inkluderas i dieten har två stjärnor till vänster (**). De ingredienser som är bättre än liknande alternativ eller är okej i små mängder ibland har en stjärna (*). Det finns ett filter nedan för att endast visa de ingredienser som godkänns av ME-dieten.",
-    "TEXT_ME_4": "Jag fick denna diet från mitt ME-center. Även då de rekommenderar denna diet som behandling så noterar de att det inte finns något samstämmigt vetenskapligt stöd för att den ska hjälpa vid ME/CFS än. När denna lista skapades togs även en del friheter hur alla ingredienser passar in i ME-dieten för att fylla i en del luckor.",
+    "TEXT_ME_4": "Jag fick denna diet från mitt ME-center. Även då de rekommenderar denna diet som behandling så noterar de att det inte finns något samstämmigt vetenskapligt stöd för att den ska hjälpa vid ME/CFS än. När denna lista skapades togs även en del friheter hur alla ingredienser passar in i ME-dieten för att fylla i en del luckor. Jag skapade även en \"Delvis ME-diet\" på receptsidan för de recept som inte helt följer ME-dieten men där majoriteten av ingredienserna är ME- eller semi-ME-vänliga och kan ha lite av icke godkända ingredienser om helheten väger upp det.",
     "TEXT_ME_5": "Åter igen, hur magen reagerar på mat är väldigt individuellt (allergier, intoleranser, IBS, etc) och därför kan det vara bättre att följa dieter mer som en guide än ett absolut.",
     "TEXT_ME_6": "Du kan hitta källor längst ner på denna sida.",
     "RATING": {
@@ -63,7 +63,7 @@
     "ASPARAGUS": "Sparris",
     "AUBERGINES": "Aubergine",
     "AVOCADOS": "Avokados",
-    "BAKING_SODA": "Bakpulver",
+    "BAKING_POWDER": "Bakpulver",
     "BAMBOO_SHOOTS": "Bambuskott",
     "BANANAS": "Bananer",
     "BARBARY_FIGS": "Fikonkaktus",
@@ -126,9 +126,9 @@
     "FIRM_TOFU": "Fast tofu",
     "FISH": "Fisk",
     "FLAX_SEEDS": "Finfrön",
-    "FROZEN_BERRIES": "Frysta bär",
-    "FROZEN_CHIVES": "Fryst gräslök",
-    "FROZEN_SLICED_SPINAGE": "Fryst hackad spenat",
+    "BERRIES_FROZEN": "Frysta bär",
+    "CHIVES_FROZEN": "Fryst gräslök",
+    "SPINAGE_FROZEN_SLICED": "Fryst hackad spenat",
     "GARLIC_OLIVE_OIL": "Vitlöksolivolja",
     "GARLICS": "Vitlök",
     "GIN": "Gin",
@@ -213,6 +213,7 @@
     "SALT": "Salt",
     "SAVOY_CABBAGES": "Savojkål",
     "SCALLIONS_WHITE_PARTS": "Salladslökar, vita delen",
+    "SCALLIONS_GREEN_PARTS": "Salladslökar, vita delen",
     "SEAWEEDS": "Sjögräs",
     "SESAME_SEEDS": "Sesamfrön",
     "SHALLOTS": "Schalottenlök",
@@ -271,7 +272,7 @@
     "RECIPES": "Recept"
   },
   "RECIPES": {
-    "1_1": {
+    "1_1_1": {
       "TITLE": "Chiapudding med hallon",
       "STEPS": {
         "1": "Lägg i allt i en matberedare eller skål",
@@ -279,7 +280,7 @@
         "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
       }
     },
-    "1_2": {
+    "1_1_2": {
       "TITLE": "Chiapudding med jordgubb",
       "STEPS": {
         "1": "Lägg i allt i en matberedare eller skål",
@@ -287,7 +288,7 @@
         "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
       }
     },
-    "1_3": {
+    "1_1_3": {
       "TITLE": "Chiapudding med bärblandning",
       "STEPS": {
         "1": "Lägg i allt i en matberedare eller skål",
@@ -295,10 +296,305 @@
         "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
       }
     },
+    "1_2": {
+      "TITLE": "Chiagröt med blåbär",
+      "STEPS": {
+        "1": "Blanda chiafrön, hirsflingor, psylliumhusk, blåbär och kokosmjölk i en kopp",
+        "2": "Ställ in i kylen i minst en kvart (håller i kylen i 4 dagar)",
+        "3": "Lägg i en halv banan, nötssmör och en nypa salt",
+        "4": "Ställ in i mikron i ca 1 min",
+        "5": "Mosa bananen (eller ta fram sirap) och blanda",
+        "6": "Pudra över kanel"
+      }
+    },
+    "1_3": {
+      "TITLE": "Bovetegröt",
+      "STEPS": {
+        "1": "Koka bovetet enligt anvisningen på boveteförpackningen",
+        "2": "Bovetet ska kokas tillsammans med resten av ingredienserna"
+      }
+    },
+    "1_4": {
+      "TITLE": "Knäckebröd med oliver och timjan",
+      "STEPS": {
+        "1": "Sätt på ugnen på 175°C",
+        "2": "Hacka oliverna",
+        "3": "Blanda alla ingredienser förutom vattnet i en bunke",
+        "4": "Häll i så mycket vatten så att det går att forma men så att det inte blir klibbigt (häll i mer mjöl i så fall)",
+        "5": "Lägg ut klumpen på en plåt med bakplåtspapper och tryck ut den",
+        "6": "Kavla ut degen tills den är ungefär 1/2 cm tjock på hela yta",
+        "7": "Skär i bitar",
+        "8": "Lägg in i mitten av ugnen i 15 - 22 minuter och om kanterna blir gyllenbruna ska de tas ut innan resten av knäckebrödet"
+      }
+    },
+    "1_5": {
+      "TITLE": "Chokladgranola",
+      "STEPS": {
+        "1": "Sätt ugnen på 120°C",
+        "2": "Blanda alla torra och blöta ingredienser separat och sedan rör ihop tills allt är jämnt fördelat",
+        "3": "Lägg blandningen på två plåtar med bakpapper",
+        "4": "Baka i ugn i 40 minuter och rör runt efter halva tiden eller baka i ugnen i 33 minuter utan omrörning",
+        "5": "Låt svalna och förvara sedan i rumstemperatur"
+      }
+    },
+    "1_6": {
+      "TITLE": "Syltrutor",
+      "STEPS": {
+        "1": "Sätt ugnen på 180°C",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
+        "3": "Lägg i alla ingredienser till sylten i en kastrul och koka i 15 minuter på låg till medel värme under omrörning, och ställ sedan undan",
+        "4": "Smält kokosoljan och blanda sedan ihop alla ingredienser till degen",
+        "5": ". Lägg undan 2 1/2 dl deg till toppingen och lägg ner resten av degen i en ugnform på cirka 20 cm i kvadrat med bakplåtspapper på",
+        "6": "Tryck ner degen så att den blir kompakt och lägg sedan på sylten, och sedan smula på resten av degen",
+        "7": "Baka i ugn i 25 till 30 minuter",
+        "8": "Förvara i kylen upp till 1 vecka eller i frysen upp till 6 veckor"
+      }
+    },
+    "2_1": {
+      "TITLE": "Thaisoppa med morot och kokosmjölk",
+      "STEPS": {
+        "1": "Skala morötterna och skär dem i små bitar",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "3": "Koka sedan på medelvärme ca 5 minuter",
+        "4": "RECIPES.COMMON_STEPS.DO_TAKE_OF_STOVE_AND_MIX",
+        "5": "RECIPES.COMMON_STEPS.DO_SALT_IF_NEEDED"
+      }
+    },
+    "2_2": {
+      "TITLE": "Soppa med morot, palsternacka och ingefära",
+      "STEPS": {
+        "1": "Skala morötter och palsternackor och skär dem sedan i små bitar",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "3": "Koka sedan på medelvärme ca 5 minuter",
+        "4": "RECIPES.COMMON_STEPS.DO_TAKE_OF_STOVE_AND_MIX"
+      }
+    },
+    "2_3": {
+      "TITLE": "Stekt sparris med balsamvinäger",
+      "STEPS": {
+        "1": "Skölj och skär bort den nedersta delen på sparrisstjälkarna",
+        "2": "Stek på medelvärme i olivolja tills det blivit gyllenbrunt och krydda med salt och peppar under tiden",
+        "3": "Blanda vinäger och olivolja",
+        "4": "Lägg sparrisen på fat och ringla dressingen över"
+      }
+    },
+    "2_4": {
+      "TITLE": "Crostini med tapenade",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.DO_APPLY_TOPPING_CROSTINI"
+      }
+    },
+    "2_5": {
+      "TITLE": "Crostini med soltorkade tomater",
+      "STEPS": {
+        "1": "Hacka soltorkade tomaterna och lägg dem på upplaggda crostinis",
+        "2": "Salta, peppra och läg sedan på 1-2 basilkablad på crostinisarna"
+      }
+    },
+    "2_6": {
+      "TITLE": "Crostini med tångkaviar",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.DO_APPLY_TOPPING_CROSTINI"
+      }
+    },
+    "3_1": {
+      "TITLE": "Kondenserad balsamvinäger",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "2": "Låt koka i 10-15 minuter tills bubblorna blivit mörka",
+        "3": "Servera till bland annat rostade grönsaker eller sallader"
+      }
+    },
+    "3_2": {
+      "TITLE": "Koriandersås",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_MIXER"
+      }
+    },
+    "3_3": {
+      "TITLE": "Gräslöksdipp",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL"
+      }
+    },
+    "4_1": {
+      "TITLE": "Kokosris",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "2": "Smält kokosoljan",
+        "3": "Blanda in kokosoljan i riset"
+      }
+    },
+    "4_2": {
+      "TITLE": "Kokosris",
+      "STEPS": {
+        "1": "Skölj och skala båda rotfrukterna till ungerfär lika stora bitar",
+        "2": "Koka med grönsaksbuljongen tills de är mjuka",
+        "3": "Mosa ihop rotfrukterna och blanda i övriga ingredienser"
+      }
+    },
+    "4_3": {
+      "TITLE": "Auberginebacon",
+      "STEPS": {
+        "1": "Sätt på ugnen på 150°C",
+        "2": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
+        "3": "Skär auberginen i bitar och lägg på en plåt med bakplåtspapper",
+        "4": "Pensla på marinaden på båda sidorna av auberginebitarna",
+        "5": "Baka i ugn i 40 - 50 minuter",
+        "6": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
+      }
+    },
+    "4_4": {
+      "TITLE": "Mandelbacon",
+      "STEPS": {
+        "1": "Sätt på ugnen på 120°C",
+        "2": "Baka i ugn i 20 - 30 minuter och rör runt efter ungerfär halva tiden",
+        "3": "Servera gärna till ris eller i en sallad"
+      }
+    },
+    "4_5": {
+      "TITLE": "Zucchini med citronsmak",
+      "STEPS": {
+        "1": "Sätt på ugnen på 200°C",
+        "2": "Blanda alla ingredienser förutom zucchini i en skål",
+        "3": "Skär zucchini i skivor och lägg på en plåt",
+        "4": "Lägg marinaden på zucciniskivorna och baka i ugn i cirka 35 minuter, eller grilla bitarna",
+        "5": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
+      }
+    },
+    "4_6": {
+      "TITLE": "Hummus",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
+        "2": "RECIPES.COMMON_STEPS.DO_SALT_IF_NEEDED"
+      }
+    },
+    "4_7": {
+      "TITLE": "Drakfruktsallad",
+      "STEPS": {
+        "1": "Ta fram en skål att lägga allt i och servera med",
+        "2": "Skär bort skalet och tärna både drakfrukten och kiwin",
+        "3": "Skala clementinen och ta även bort det inre skalet så att endast fruktköttet är kvar",
+        "4": "Skölj blåbären",
+        "5": "Pressa ut saften från limen",
+        "6": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "4_8": {
+      "TITLE": "Asiatisk sallad",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_DRESSING_IN_BOWL",
+        "2": "Skär upp grönsakerna och lägg i en stor skål",
+        "3": "Häll över dressingen och blanda"
+      }
+    },
+    "4_9": {
+      "TITLE": "Krispiga blomkålskroketter",
+      "STEPS": {
+        "1": "Värm ugnen till 225 grader och ta fram en plåt med bakplåtspapper",
+        "2": "Skölj och skär blomkålen i bitar",
+        "3": "Blanda övriga ingredienser till blomkålskroketterna i en skål",
+        "4": "Doppa blomkålsbitarna i såsen och lägg på plåten",
+        "5": "Värm i ugn i ungefär 20 minuter",
+        "6": "Lägg ingredienserna till såsen i en kastrull och koka i cirka 5 min",
+        "7": "Blanda lätt svalna kroketter med såsen (men spara ungefär 3 msk) och lägg in i ugn i cirka 20 min under uppsyn",
+        "8": "Servera eventuellt med ris och sallad, och häll på det sista av såsen"
+      }
+    },
+    "4_10": {
+      "TITLE": "Svampbruschetta",
+      "STEPS": {
+        "1": "Skär brödet i skivor",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_1",
+        "3": "Rosta brödet i olivolja i en stekpanna",
+        "4": "Stek svampen gyllengul i olivoljan och avsluta med löken",
+        "5": "Salta och peppra",
+        "6": "Fördela svampen på brödet och strö över den strimlade persiljan"
+      }
+    },
+    "4_12": {
+      "TITLE": "Kryddat blomkålsris",
+      "STEPS": {
+        "1": "Koka upp blomkålsriset enligt anvisningar",
+        "2": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
+      }
+    },
     "5_1": {
       "TITLE": "Ostig spenatsoppa",
       "STEPS": {
-        "1": "Tillsätt alla ingredienser i en kastrull och koka i 15 minuter"
+        "1": "Tillsätt alla ingredienser i en kastrull och koka i 10 minuter"
+      }
+    },
+    "6_1": {
+      "TITLE": "Pasta pesto",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
+        "2": "Skär zuccinin i bitar och stek på medelvärme med rapsoljan",
+        "3": "Blanda ihop resten av ingredienserna i stekpannan och stek tills pastan har fått färg"
+      }
+    },
+    "6_2": {
+      "TITLE": "Pasta med pesto av hampafrön och grönkål",
+      "STEPS": {
+        "1": "Skär zuccinin i bitar och baka i ugn på 200°C i cirka 30 minuter med lite rapsolja",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
+        "3": "Eventuellt rosta hampafröna i stekpanna och stek sedan grönkålen",
+        "4": "Lägg allt till peston i en matberedare och mixa slät"
+      }
+    },
+    "6_3": {
+      "TITLE": "Pasta med örtkokossås och svamp",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_1",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_2",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
+        "4": "Blanda vitlök, timjan, oregano, salt, peppar i en skål",
+        "5": "Blanda i hälften av kryddblandningen tillsammans med kokosoljan i stekpannan",
+        "6": "När svamparna har fått stekyta ska resten av ingredienserna i och kokas tills de har blivit varma och utblandade"
+      }
+    },
+    "6_4": {
+      "TITLE": "Solpasta",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
+        "2": "Lägg alla ingredienser förutom hälften av soltorkade tomaterna och hälten av vattnet i en matberedare och mixa slät",
+        "3": "Häll i resten av vattnet och mixa",
+        "4": "Hacka resten av soltorkade tomaterna till medelstora bitar eller lägg in i matberedararen och mixa några sekunder",
+        "5": "Lägg ihop pastan, såsen och soltorkade tomaterna"
+      }
+    },
+    "6_6": {
+      "TITLE": "Sallad med hampafrödressing",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_DRESSING_IN_MIXER",
+        "2": "Förbered resterande ingredienser"
+      }
+    },
+    "6_7": {
+      "TITLE": "Caesarsallad",
+      "STEPS": {
+        "1": "Tillaga mandelbacon",
+        "2": "Lägg i alla ingredienser för caesardressingen i en skål och mixa i några minuter tills den är helt slät, gärna lite mjölk i taget",
+        "3": "Eventuellt förbered resterande ingredienser"
+      }
+    },
+    "7_1": {
+      "TITLE": "Ris med pulled vegme och ärtor",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "2": "Koka ärtor",
+        "3": "Stek VegMe pulled original med cocos aminos eller sojan",
+        "4": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "7_3": {
+      "TITLE": "Ris med rostade frön och ugnsbakade rotsaker med timjan och rosmarin",
+      "STEPS": {
+        "1": "Sätt på ugnen på 225°C",
+        "2": "Skär rotfrukterna i bitar och lägg i en stor skål",
+        "3": "Häll i övriga ingredienser och rör runt tills det är blandat",
+        "4": "Lägg på bakplåtspapper och lägg in i ugnen i 30 minuter, och öppna ugnen ibland för att få bort fukt",
+        "5": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
       }
     },
     "7_4": {
@@ -308,6 +604,491 @@
         "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",
         "3": "Baka rotfrukterna i ugn i cirka 25 - 30 minuter",
         "4": "Lägg alla ingredienser till såsen i en skål och blanda slät"
+      }
+    },
+    "7_5": {
+      "TITLE": "Grönsaksteriyaki",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "2": "Skär grönsakerna i önskad storlek och stek i coconut aminos till de är milt mjuka",
+        "3": "Häll i alla ingredienser förutom rismjölet i en kastrull och koka upp",
+        "4": "Häll i mjölet under omrörning och låt sedan sjuda i cirka 5 minuter",
+        "5": "Låt svalna och om inte såsen är karamellkonsistens ska den sjuda i några minuter till"
+      }
+    },
+    "9_1": {
+      "TITLE": "Pizza med pesto, spenat och soltorkade tomater",
+      "STEPS": {
+        "1": "Blanda jästen med ljummet vatten i en bunke",
+        "2": "Blanda i resten av ingredienserna förutom mjölet och blanda väl",
+        "3": "Blanda sakta i mjöl tills degen inte längre är kletig",
+        "4": "Låt jäsa i en halvtimme",
+        "5": "Blanda ingredienserna till tomatsåsen i en kastrull och koka i 10 min på medelvärme",
+        "6": "Hacka soltorkade tomaterna i medelstora bitar",
+        "7": "Kavla ut pizzabotten, häll på tomatsåsen och lägg sedan på soltorkade tomater, pesto och babyspenat",
+        "8": "Baka i ugnen i ca 10-15 min",
+        "9": "Häll på näringsjäst"
+      }
+    },
+    "10_1": {
+      "TITLE": "Sushiris",
+      "STEPS": {
+        "1": "Skölj riset tills vattnet är helt klart och lägg det sedan i en sil i 30 till 60 minuter för vattnet att rinna av",
+        "2": "Lägg riset i en stor kastrull där 2 tredjedelar av kastrullen är tom",
+        "3": "Lägg på lock och koka upp på medelvärme",
+        "4": "Koka i cirka 5 minuter",
+        "5": "Sänk till lägsta värmen och rör igenom riset med en träspatel",
+        "6": "Lägg åter på lock och låt sjuda sakta i cirka 10 minuter eller tills vattnet är absorberat",
+        "7": "Rör igenom riset igen",
+        "8": "Lägg åt sidan och låt stå under lock i 10 minuter",
+        "9": "Gör vinägerdressingen genom att blanda resterande ingredienser i en skål",
+        "10": "Lägg över riset i en skål som inte är gjord av metall",
+        "11": "Droppa vinägerdressingen över riset och hugg försiktigt med träspateln på samma ställe",
+        "12": "Låt svalna",
+        "13": "Häll upp en skål med vatten att doppa fingrarna i så att det är enklare att handskas med riset"
+      }
+    },
+    "10_2": {
+      "TITLE": "Stark sushisås",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL"
+      }
+    },
+    "10_3": {
+      "TITLE": "Japansk tonfiskröra",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL"
+      }
+    },
+    "10_4": {
+      "TITLE": "Grön maki",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.MAKI.1",
+        "2": "RECIPES.COMMON_STEPS.MAKI.2",
+        "3": "RECIPES.COMMON_STEPS.MAKI.3",
+        "4": "RECIPES.COMMON_STEPS.MAKI.4",
+        "5": "RECIPES.COMMON_STEPS.MAKI.5"
+      }
+    },
+    "10_5": {
+      "TITLE": "Solmaki",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.MAKI.1",
+        "2": "RECIPES.COMMON_STEPS.MAKI.2",
+        "3": "RECIPES.COMMON_STEPS.MAKI.3",
+        "4": "RECIPES.COMMON_STEPS.MAKI.4",
+        "5": "RECIPES.COMMON_STEPS.MAKI.5"
+      }
+    },
+    "10_6": {
+      "TITLE": "Svampmaki",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_1",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_2",
+        "3": "Stek med smör och soja tills svampen är gyllenbrun",
+        "4": "RECIPES.COMMON_STEPS.MAKI.1",
+        "5": "RECIPES.COMMON_STEPS.MAKI.2",
+        "6": "RECIPES.COMMON_STEPS.MAKI.3",
+        "7": "RECIPES.COMMON_STEPS.MAKI.4",
+        "8": "RECIPES.COMMON_STEPS.MAKI.5"
+      }
+    },
+    "10_8": {
+      "TITLE": "Tonfiskmaki",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.MAKI.1",
+        "2": "RECIPES.COMMON_STEPS.MAKI.2",
+        "3": "RECIPES.COMMON_STEPS.MAKI.3",
+        "4": "RECIPES.COMMON_STEPS.MAKI.4",
+        "5": "RECIPES.COMMON_STEPS.MAKI.5"
+      }
+    },
+    "10_9": {
+      "TITLE": "Sjögräsnigiri",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.NIGIRI.1",
+        "2": "RECIPES.COMMON_STEPS.NIGIRI.NORI_AROUND"
+      }
+    },
+    "10_10": {
+      "TITLE": "Avokadonigiri",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.NIGIRI.1",
+        "2": "RECIPES.COMMON_STEPS.NIGIRI.NORI_TOP"
+      }
+    },
+    "11_1": {
+      "TITLE": "Bovetekex med tonfisk och senap",
+      "STEPS": {
+        "1": "Eventuellt förbered pålägget och lägg allt sedan på kakorna!"
+      }
+    },
+    "11_2": {
+      "TITLE": "Tonfiskröra",
+      "STEPS": {
+        "1": "Skär ättisksgurkan i små bitar",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
+        "3": "Servera exempelvis som dipp eller på gurkbitar"
+      }
+    },
+    "11_3": {
+      "TITLE": "Tonfiskfilé med marinad av apelsin och oregano",
+      "STEPS": {
+        "1": "Tina tonfiskfiléerna om de är frysta",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "3": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
+        "4": "Lägg tonfiskfiléerna i en påse och häll dressingen över och blanda",
+        "5": "Låt stå 30 min",
+        "6": "Hetta upp en stekpanna med rapsolja i och lägg i tonfiskfiléerna",
+        "7": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE"
+      }
+    },
+    "11_4": {
+      "TITLE": "Tonfiskfilé med asiatisk marinad",
+      "STEPS": {
+        "1": "Tina tonfiskfiléerna om de är frysta",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "3": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
+        "4": "Lägg tonfiskfiléerna i en påse och häll dressingen över och blanda",
+        "5": "Låt stå 30 min",
+        "6": "Hetta upp en stekpanna med rapsolja i och lägg i tonfiskfiléerna",
+        "7": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE"
+      }
+    },
+    "11_5": {
+      "TITLE": "Wasabisås",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
+        "2": "Servera gärna med ris och tonfiskfiléer"
+      }
+    },
+    "11_9": {
+      "TITLE": "Torsk med kokos och lime",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "2": "Blötlägg kokosflingorna i 10 min",
+        "3": "Hacka salladslöken, riv zesten och stek på medel eller hög värme tills allt blir lite gyllenbrunt",
+        "4": "Lägg i kokosflingorna och stek i några minuter",
+        "5": "Lägg undan kokosblandningen och stek fisken tills klar",
+        "6": "Lägg på kokosblandningen på fisken och servera med riset"
+      }
+    },
+    "11_10": {
+      "TITLE": "Torsksoppa med tomat",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES",
+        "2": "Låt puttra på låg värme 10 minuter",
+        "3": "Hacka grönsakerna och lägg i dem och koka i 5 minuter eller tills allt är klart"
+      }
+    },
+    "11_12": {
+      "TITLE": "Tonfiskgryta med röd currysås",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE_NOODLES",
+        "2": "Lägg i allt annat i en kastrull och koka i 5 minuter",
+        "3": "Lägg i risnudlarna och rör om"
+      }
+    },
+    "11_13": {
+      "TITLE": "Krämig torskgryta",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES",
+        "2": "Hacka morot och zucchini",
+        "3": "Lägg i nudlar och grönsaker och koka i några minuter (enligt anvisning på paket)"
+      }
+    },
+    "11_14": {
+      "TITLE": "Fiskcurry",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "3": "Koka i cirka 10 minuter eller tills fisken är klar"
+      }
+    },
+    "12_1": {
+      "TITLE": "Currylinssoppa",
+      "STEPS": {
+        "1": "Skala och hacka morötterna",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_1",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_2",
+        "4": "RECIPES.COMMON_STEPS.DO_SALT_PEPPER_IF_NEEDED"
+      }
+    },
+    "12_2": {
+      "TITLE": "Linscurrygryta med kokosmjölk och lime",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
+        "2": "Skölj linserna och lägg sedan allt förutom tomaterna i en kastrull",
+        "3": "Koka upp under omrörning och sjud ca 20 minuter under lock",
+        "4": "Skär tomaterna i halvor och lägg i dem i kastrullen",
+        "5": "Koka i ytterliggare några minuter tills tomaterna är mjuka"
+      }
+    },
+    "12_3": {
+      "TITLE": "Krämig kokoslinssoppa",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_1",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_2",
+        "3": "Ta kastrullen från värmen och mixa soppan slät med stavmixer"
+      }
+    },
+    "12_4": {
+      "TITLE": "Tomatlinssoppa",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_1",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_2",
+        "3": "Smaka av med vinäger, kryddor och salt"
+      }
+    },
+    "12_5": {
+      "TITLE": "Ärtsoppa",
+      "STEPS": {
+        "1": "Lägg ärtorna i blöt i 6 timmar eller över natten övertäckta i en stor kastrull",
+        "2": "Häll av vid tillagning och tillsätt nytt vatten",
+        "3": "Lägg i övriga ingredienser och koka upp",
+        "4": "Koka ärtsoppan under lock i 1 1/2 timme på medelvärme och rör om då och då (förslagsvis efter 30 min -> 30 min -> 15 min -> då den är klar)",
+        "5": "Blir ärtsoppan för tjock tillsätter man mer vatten"
+      }
+    },
+    "12_6": {
+      "TITLE": "Bönsallad",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
+        "2": "Skär grönsakerna i valfri storlek",
+        "3": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "12_7": {
+      "TITLE": "Belugabiffar",
+      "STEPS": {
+        "1": "Koka belugalinserna tillsammans med grönsaksbuljong i 2 dl vatten i ca 25 min",
+        "2": "Koka potatisen och riset",
+        "3": "Häll av vattnet när linserna är mjuka, de ska inte koka sönder",
+        "4": "Låt linserna svalna och mosa dem sedan lite slarvigt med en gaffel",
+        "5": "Riv moroten fint, finhacka lök och vitlök samt soltorkade tomaterna",
+        "6": "Fräs tillsammans med rapsoljan och låt svalna",
+        "7": "Mosa den kokta potatisen och blanda ihop med linserna och grönsaksfräset",
+        "8": "Smaksätt med dijonnsenap, salt, svart- och vitpeppar",
+        "9": "Stek på medelvärme i ett par minuter på varje sida"
+      }
+    },
+    "12_8": {
+      "TITLE": "Korianderbönor",
+      "STEPS": {
+        "1": "Skölj bönorna",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER",
+        "3": "Servera gärna till tacos"
+      }
+    },
+    "12_9": {
+      "TITLE": "Tacos med frasiga tahinibönbollar",
+      "STEPS": {
+        "1": "Hacka den gula löken och vitlöksklyftan fint",
+        "2": "Fräs lökhacket i lite olivolja tills det mjuknar",
+        "3": "Häll av spadet från bönorna och skölj dem i vatten",
+        "4": "Blanda ner bönorna bland löken tillsammans med tahini, majsstärkelse, spiskummin, persilja, salt och svartpeppar",
+        "5": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_MIXER",
+        "6": "Forma smeten till bollar och rulla dem i pankoströbröd eller vanligt ströbröd",
+        "7": "Stek dem gyllenbruna i rapsolja",
+        "8": "Smaksätt med dijonnsenap, salt, svart- och vitpeppar",
+        "9": "Mixa ihop samtliga ingredienser till tahinidressingen i en blender eller med hjälp av en stavmixer"
+      }
+    },
+    "13_1": {
+      "TITLE": "Kanelstekt ananas",
+      "STEPS": {
+        "1": "Skär bort toppen, botten och alla andra kanter",
+        "2": "Skiva ananasen i önskade bitar, och skär bort den hårda stammen från bitarna",
+        "3": "Stek ananasen med smör, sirap och kanel tills den blir mjuk (några minuter)",
+        "4": "Servera som den är eller med glass"
+      }
+    },
+    "13_3": {
+      "TITLE": "Blåbärsmuffin",
+      "STEPS": {
+        "1": "Sätt på ugnen på 175°C",
+        "2": "Om blåbären är frysta ska de värmas innan",
+        "3": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
+        "4": "Lägg smeten i muffinsformar på en plåt",
+        "5": "Lägg in plåten i mitten av ugnen i 15-20 min, eller tills de har en gyllene färg och inte är mjuka i mitten på toppen"
+      }
+    },
+    "13_4": {
+      "TITLE": "Chokladsmuffin",
+      "STEPS": {
+        "1": "Sätt på ugnen på 200°C",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
+        "3": "Smält smöret",
+        "4": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
+        "5": "Lägg smeten i muffinsformar på en plåt",
+        "6": "Lägg in plåten i mitten av ugnen i cirka 10 min"
+      }
+    },
+    "13_5": {
+      "TITLE": "Chokladkokossås",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "2": "Låt koka på medelvärme tills såsens volym har halverats",
+        "3": "Servera varm eller kyl ner för en fudgig konsistens",
+        "4": "Servera gärna till bär, frukt och/eller glass"
+      }
+    },
+    "13_7": {
+      "TITLE": "Chokladbollar",
+      "STEPS": {
+        "1": "Blanda smör, socker, vaniljsocker och kakao i en bunke",
+        "2": "Blanda i havregryn",
+        "3": "Rulla i kokosflingor eller pärlsocker"
+      }
+    },
+    "13_8": {
+      "TITLE": "Körsbärscheesecake",
+      "STEPS": {
+        "1": "Kör kexen i matberedare tills de är smuliga",
+        "2": "Lägg i smöret och kör tills det blandats",
+        "3": "Pressa ut blandningen i en form med löstagbar kant ca 24 cm i diameter",
+        "4": "Vispa färskost, florsocker, vaniljsocker och citronjuice slätt",
+        "5": "Vispa grädden fast och vänd ner den i ostsmeten",
+        "6": "Häll upp smeten i formen och släta ut den",
+        "7": "Ställ kakan i kylskåpet i 3 timmar eller över natten",
+        "8": "Ta ut kakan ur formen och bre på körsbärsmarmelad"
+      }
+    },
+    "13_9": {
+      "TITLE": "Kärleksmums",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
+        "2": "Smält smöret till kakan",
+        "3": "Blanda ihop alla ingredienser till kakan",
+        "4": "Häll smeten i en långpanna med bakplåtspapper, 30 x 40 cm",
+        "5": "Grädda kakan i nedre delen av ugnen i cirka 15 min",
+        "6": "Värm smöret till glasyren lite i mikron så den blir mjuk",
+        "7": "Tillsätt de övriga ingredienserna",
+        "8": "Bred glasyren på den svalna kakan och sedan strö över kokos",
+        "9": "Skär i fyrkantiga bitar och servera"
+      }
+    },
+    "14_1": {
+      "TITLE": "Lavendellemonad",
+      "STEPS": {
+        "1": "Häll i 2 1/2 dl vatten och strösocker i en kastrull och koka upp",
+        "2": "Lägg undan kastrullen när allt socker har lösts upp och lägg i lavendel och sirap, och låt stå i 2 timmar",
+        "3": "Häll över vätskan till en behållare genom en sil",
+        "4": "Lägg i övriga ingredienser",
+        "5": "Servera saftblandningen med valfi mängd extra vatten (eventuellt ration 1 : 2 1/2) och med is"
+      }
+    },
+    "14_2": {
+      "TITLE": "Ingefäralemonad",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "14_5": {
+      "TITLE": "Mojito",
+      "STEPS": {
+        "1": "Koka upp sockerlagen och rör om tills allt socker lösts upp",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "14_6": {
+      "TITLE": "Kokosmojito",
+      "STEPS": {
+        "1": "Lägg i limesaft, mynta och socker i en behållare och pressa blandningen tills myntabladen har krossats lite",
+        "2": "Lägg i alkoholen med kokosmjölk i en mixer/matberedare och mixa tills blandningen är slät",
+        "3": "Lägg i mixade blandningen i behållaren och blanda",
+        "4": "Häll upp i glas och lägg på granatäpplekärnor"
+      }
+    },
+    "14_7": {
+      "TITLE": "Oreomilkshake",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.DO_CRUSH_COOKIES",
+        "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "14_8": {
+      "TITLE": "Varm choklad",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_MILK",
+        "2": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
+      }
+    },
+    "14_9": {
+      "TITLE": "Kanelmjölk",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_MILK",
+        "2": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
+      }
+    },
+    "14_10": {
+      "TITLE": "Lavendelmjölk",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_MILK",
+        "2": "Lägg lavendeln i en tesil och låt stå i 10 minuter",
+        "3": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
+      }
+    },
+    "15_1": {
+      "TITLE": "Tomtegröt",
+      "STEPS": {
+        "1": "Blanda ris, vatten, smör och salt i en kastrull",
+        "2": "Koka på svag värme i cirka 10 min eller tills gröten tjocknat",
+        "3": "Tillsätt mjölk och kanelstång",
+        "4": "Låt gröten koka på svag under omrörning i 30 till 40 minuter",
+        "5": "Späd ut gröten med mer mjölk för önskad tjocklek",
+        "6": "Smaksätt med socker"
+      }
+    },
+    "15_2": {
+      "TITLE": "Tomtegröt", //TODO
+      "STEPS": {
+        "1": "Blanda ris, vatten, smör och salt i en kastrull",
+        "2": "Koka på svag värme i cirka 10 min eller tills gröten tjocknat",
+        "3": "Tillsätt mjölk och kanelstång",
+        "4": "Låt gröten koka på svag under omrörning i 30 till 40 minuter",
+        "5": "Späd ut gröten med mer mjölk för önskad tjocklek",
+        "6": "Smaksätt med socker"
+      }
+    },
+    "COMMON_STEPS": {
+      "DO_APPLY_TOPPING_CROSTINI": "Lägg pålägget på upplagda crostini och servera",
+      "DO_MIX_WITH_REST": "Lägg i övriga ingredienser och blanda",
+      "DO_SALT_IF_NEEDED": "Smaka av med salt",
+      "DO_SALT_PEPPER_IF_NEEDED": "Smaka av med salt och peppar",
+      "DO_SERVE_WITH_RICE": "Servera med ris",
+      "DO_CRUSH_COOKIES": "Krossa alla kakor för hand eller i en matberedare",
+      "DO_SERVE_WITH_RICE_SEEDS": "Servera gärna till ris och rostade frön",
+      "DO_TAKE_OF_STOVE_AND_MIX": "Ta av kastrullen från spisen och mixa soppan slät med stavmixer",
+      "DO_USE_MIXER_OR_HAND_BLENDER": "Mixa alla ingredienserna i matberedare eller med stavmixer",
+      "PREPARE_BUCKWHEAT_PASTA": "Koka upp pastan enligt anvisningarna på förpackningen",
+      "PREPARE_CHIA_EGG": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
+      "PREPARE_LENTILS_1": "Skölj linserna och lägg sedan allt i en kastrull",
+      "PREPARE_LENTILS_2": "Koka i cirka 10 minuter eller tills linserna är mjuka",
+      "PREPARE_MILK": "Värm mjölken till önskad temperatur i mikro eller kastrull",
+      "PREPARE_MUSHROOMS_1": "Skölj svampen och hacka dem sedan i valfi storlek",
+      "PREPARE_MUSHROOMS_2": "Häll i svampen med cirka en halv deciliter vatten i en stekpanna och stek på full värme tills nästan allt vatten är borta",
+      "PREPARE_RICE": "Koka riset enligt bruksanvisning",
+      "PREPARE_RICE_NOODLES": "Koka risnudlarna enligt bruksanvisning",
+      "PUT_DRESSING_IN_BOWL": "Blanda ihop dressingen i en skål",
+      "PUT_DRESSING_IN_MIXER": "Lägg i alla ingredienser till dressingen i en matberedare och mixa",
+      "PUT_EVERYTHING_IN_BOWL": "Lägg i alla ingredienser i en skål och blanda",
+      "PUT_EVERYTHING_IN_MIXER": "Lägg i alla ingredienser i en matberedare och mixa",
+      "PUT_EVERYTHING_TOGETHER": "Blanda ihop allt",
+      "PUT_EVERYTHING_IN_POT_AND_BOIL": "Lägg allt i en kastrull och koka upp",
+      "PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES": "Lägg allt i en kastrull förutom grönsakerna och koka upp",
+      "PUT_MARINADE_IN_BOWL": "Blanda ihop marinaden i en skål",
+      "MAKI": {
+        "1": "Lägg sushiriset på en nori eller i en sushibozoka",
+        "2": "Lägg på innehållet",
+        "3": "Rulla ihop innehållet eller använd sushibazokan för att få ut en rund form och sedan rulla ihop den",
+        "4": "Skär makin i valfri storlek",
+        "5": "Toppa eventuellt med sesamfrön och/eller sås"
+      },
+      "NIGIRI": {
+        "1": "Rulla ihop riset med blöta händer i ovala bollar",
+        "NORI_TOP": "Lägg på ingredienserna och slut ihop allt med en noribit",
+        "NORI_AROUND": "Lägg nori runt om riset och lägg i ingredienserna på toppen"
       }
     },
     "MEASURMENT": {

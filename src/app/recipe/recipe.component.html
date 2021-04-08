@@ -71,7 +71,7 @@
     <h3>{{ "RECIPES.INSTRUCTIONS" | translate }}</h3>
     <span *ngFor="let step of [].constructor(recipe.steps); let i = index">
       {{ i + 1 + ". " }}
-      {{ "RECIPES." + recipe.id + ".STEPS." + (i + 1) | translate }}
+      {{ "RECIPES." + recipe.id + ".STEPS." + (i + 1) | translate | translate }}
     </span>
   </div>
 </div>
