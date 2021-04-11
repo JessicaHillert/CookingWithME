@@ -29,8 +29,8 @@
         mat-icon-button
         id="lang_button"
         class="image_button"
-        [matMenuTriggerFor]="lang_menu"
         aria-label="Change language"
+        (click)="toggleLang()"
       >
         <img
           class="flag"
@@ -44,13 +44,3 @@
     </ul>
   </nav>
 </div>
-
-<mat-menu #lang_menu="matMenu">
-  <button
-    *ngFor="let lang of translate.getLangs()"
-    mat-menu-item
-    (click)="selectLang(lang)"
-  >
-    <span>{{ "LANGUAGE." + lang | uppercase | translate }}</span>
-  </button>
-</mat-menu>

@@ -1,12 +1,36 @@
 <div id="recipe_header" class="box_wrapper">
   <div id="info_container">
     <h2>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h2>
+    <!-- Time -->
     <span>
-      {{ ("RECIPES.TIME" | translate) + ": " }} {{ recipe.time | time }}
+      {{ ("RECIPES.TIME" | translate) + ": " + (recipe.time | time) }}
     </span>
+
+    <!-- Portions -->
     <span>
-      {{ ("RECIPES.PORTIONS" | translate) + ": " }} {{ recipe.portions }}
+      {{ ("RECIPES.PORTIONS" | translate) + ": " + recipe.portions }}
     </span>
+
+    <!-- Source -->
+    <span>
+      {{ "RECIPES.SOURCE.LABEL" | translate }}
+      {{ "RECIPES.SOURCE." + recipe.source.amount | translate }}
+
+      <ng-container *ngIf="recipe.source.type">
+        {{ "RECIPES.SOURCE." + recipe.source.type | translate }}
+
+        <ng-container *ngIf="recipe.source.link; else noSourceLink">
+          <a *ngIf="recipe.source.link" [href]="recipe.source.link">
+            {{ recipe.source.name }}
+          </a>
+        </ng-container>
+        <ng-template #noSourceLink>
+          {{ recipe.source.name }}
+        </ng-template>
+      </ng-container>
+    </span>
+
+    <!-- Tags -->
     <span>
       <ng-container *ngFor="let tag of getTags(recipe.tags); let last = last">
         {{ (tag | translate) + (!last ? " - " : "") }}

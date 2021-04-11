@@ -518,7 +518,8 @@
     "5_1": {
       "TITLE": "Ostig spenatsoppa",
       "STEPS": {
-        "1": "Tillsätt alla ingredienser i en kastrull och koka i 10 minuter"
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "2": "Koka i 10 minuter"
       }
     },
     "6_1": {
@@ -556,7 +557,7 @@
         "2": "Lägg alla ingredienser förutom hälften av soltorkade tomaterna och hälten av vattnet i en matberedare och mixa slät",
         "3": "Häll i resten av vattnet och mixa",
         "4": "Hacka resten av soltorkade tomaterna till medelstora bitar eller lägg in i matberedararen och mixa några sekunder",
-        "5": "Lägg ihop pastan, såsen och soltorkade tomaterna"
+        "5": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
     "6_6": {
@@ -571,15 +572,15 @@
       "STEPS": {
         "1": "Tillaga mandelbacon",
         "2": "Lägg i alla ingredienser för caesardressingen i en skål och mixa i några minuter tills den är helt slät, gärna lite mjölk i taget",
-        "3": "Eventuellt förbered resterande ingredienser"
+        "3": "Förbered resterande ingredienser"
       }
     },
     "7_1": {
-      "TITLE": "Ris med pulled vegme och ärtor",
+      "TITLE": "Ris med pulled VegMe och ärtor",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
-        "2": "Koka ärtor",
-        "3": "Stek VegMe pulled original med cocos aminos eller sojan",
+        "2": "Koka ärtor enligt bruksamvisning",
+        "3": "Stek VegMe pulled original med coconut aminos",
         "4": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
@@ -1199,6 +1200,17 @@
       "SAUCE": "Sås",
       "TO_SERVE": "Servera med"
     },
+    "SOURCE": {
+      "BOOK": "boken ",
+      "FAMILY_RECIPE": "Detta är ett familjerecept",
+      "INSPIRED_FROM": "Detta recept är inspirerat av ",
+      "LABEL": "Receptkälla: ",
+      "ORIGINAL_FROM": "Orginalreceptet kommer från ",
+      "ORIGINAL": "Detta är ett orginalrecept",
+      "RESTAURANT": "restaurangen ",
+      "SOURCE_LOST": "Receptkällan är tyvärr försvunnen",
+      "WEBSITE": "webbsidan "
+    },
     "TIME": "Tid"
   },
   "TAGS": {
@@ -1212,12 +1224,12 @@
     "MAIN_COURSES": "Huvudrätter",
     "SAUCES": "Såser",
     "STARTERS": "Förrätter",
-    "SIDEDISHES": "Sidorätter",
+    "SIDE_DISHES": "Sidorätter",
     "LEGUMES": "Baljväxter",
     "PASTAS": "Pastarätter",
     "PIZZA": "Pizza",
     "RICE": "Risrätter",
-    "SALLADS": "Sallader",
+    "SALADS": "Sallader",
     "SEAFOOD": "Fisk och skaldjur",
     "SOUPS": "Soppor",
     "STEWS": "Grytor",

@@ -12,7 +12,7 @@ export enum MEAL_TYPE {
   MAIN_COURSES = 'MAIN_COURSES',
   SAUCES = 'SAUCES',
   STARTERS = 'STARTERS',
-  SIDEDISHES = 'SIDEDISHES',
+  SIDE_DISHES = 'SIDE_DISHES',
 }
 
 export enum MAIN_COURSE_TYPE {
@@ -20,7 +20,7 @@ export enum MAIN_COURSE_TYPE {
   PASTAS = 'PASTAS',
   PIZZA = 'PIZZA',
   RICE = 'RICE',
-  SALLADS = 'SALLADS',
+  SALADS = 'SALADS',
   SEAFOOD = 'SEAFOOD',
   SOUPS = 'SOUPS',
   STEWS = 'STEWS',
@@ -121,10 +121,8 @@ export function getRecipe(id: string): Recipe {
  */
 const raspberry_chia_pudding: Recipe = {
   id: '1_1_1',
-  image_big:
-    '/assets/images/raspberry_chia_pudding_big.jpg',
-  image_small:
-    '/assets/images/raspberry_chia_pudding_small.jpg',
+  image_big: '/assets/images/raspberry_chia_pudding_big.jpg',
+  image_small: '/assets/images/raspberry_chia_pudding_small.jpg',
   time: 10,
   portions: 1,
   ingredients: {
@@ -151,10 +149,8 @@ const raspberry_chia_pudding: Recipe = {
 
 const strawberry_chia_pudding: Recipe = {
   id: '1_1_2',
-  image_big:
-    '/assets/images/strawberry_chia_pudding_big.jpg',
-  image_small:
-    '/assets/images/strawberry_chia_pudding_small.jpg',
+  image_big: '/assets/images/strawberry_chia_pudding_big.jpg',
+  image_small: '/assets/images/strawberry_chia_pudding_small.jpg',
   time: 10,
   portions: 1,
   ingredients: {
@@ -207,19 +203,24 @@ const very_berry_chia_pudding: Recipe = {
   },
 };
 
-const chia_porrige_with_blueberries: Recipe = {
+const chia_porridge_with_blueberries: Recipe = {
   id: '1_2',
   time: 20,
   portions: 1,
   ingredients: {
     base: [
       toIngredient([INGREDIENT.CHIA_SEEDS], '1', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.MILLET_FLAKES, INGREDIENT.BUCKWHEAT_FLAKES], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.BUCKWHEAT_FLAKES], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.PSYLLIUM_HUSK], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.COCONUT_MILK], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.SALT], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.BLUEBERRIES], '1/4', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP], '1/2', MEASUREMENT.MSK, true),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1/2',
+        MEASUREMENT.MSK,
+        true
+      ),
       toIngredient([INGREDIENT.CINNAMON], '1', MEASUREMENT.KRM, true),
     ],
   },
@@ -241,7 +242,7 @@ const chia_porrige_with_blueberries: Recipe = {
   },
 };
 
-const buckwheat_porrige: Recipe = {
+const buckwheat_porridge: Recipe = {
   id: '1_3',
   time: 15,
   portions: 2,
@@ -332,7 +333,11 @@ const chocolate_granola: Recipe = {
       toIngredient([INGREDIENT.COCONUT_SHREDDED], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CACAO], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WHITE_SUGAR], '1/2', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1/2', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1/2',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.VANILLA_EXTRACT], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.CANOLA_OIL], '3/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.SALT], '1', MEASUREMENT.KRM),
@@ -359,7 +364,11 @@ const berry_squares: Recipe = {
   ingredients: {
     jam: [
       toIngredient([INGREDIENT.BERRIES_FROZEN], '350', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1', MEASUREMENT.MSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1',
+        MEASUREMENT.MSK
+      ),
       toIngredient([INGREDIENT.CHIA_SEEDS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.VANILLA_EXTRACT], '1/2', MEASUREMENT.TSK),
     ],
@@ -367,7 +376,11 @@ const berry_squares: Recipe = {
       toIngredient([INGREDIENT.CHIA_SEEDS], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.WATER], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.COCONUT_OIL], '4/5', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '4/5', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '4/5',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.VANILLA_EXTRACT], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.BUCKWHEAT_FLOUR], '70', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.BUCKWHEAT_FLAKES], '250', MEASUREMENT.GRAM),
@@ -478,7 +491,6 @@ const fried_asparagus_with_balsamic_vinegar: Recipe = {
     diets_occasions: [
       DIETS_OCCASIONS.QUICK_EASY,
       DIETS_OCCASIONS.VEGAN,
-      DIETS_OCCASIONS.FODMAP,
       DIETS_OCCASIONS.ME_DIET,
     ],
   },
@@ -544,10 +556,8 @@ const crostini_with_sundried_tomatoes: Recipe = {
 
 const crostini_with_seaweed_caviar: Recipe = {
   id: '2_6',
-  image_big:
-    '/assets/images/crostini_with_seaweed_caviar_big.jpg',
-  image_small:
-    '/assets/images/crostini_with_seaweed_caviar_small.jpg',
+  image_big: '/assets/images/crostini_with_seaweed_caviar_big.jpg',
+  image_small: '/assets/images/crostini_with_seaweed_caviar_small.jpg',
   time: 10,
   ingredients: {
     base: [
@@ -578,7 +588,11 @@ const condensed_balsamic_vinegar: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.BALSAMIC_VINEGAR], '1/2', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.MAPLE_SYRUP], '1/4', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1/4',
+        MEASUREMENT.DL
+      ),
     ],
   },
   steps: 3,
@@ -605,7 +619,11 @@ const coriander_sauce: Recipe = {
       toIngredient([INGREDIENT.LIME_JUICE], '1/2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CARAWAY], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.CHILI_POWDER], '1', MEASUREMENT.KRM),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1', MEASUREMENT.TSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1',
+        MEASUREMENT.TSK
+      ),
       toIngredient(
         [INGREDIENT.CORIANDER, INGREDIENT.CORIANDER_FROZEN],
         '25',
@@ -669,7 +687,7 @@ const coconut_rice: Recipe = {
   },
   steps: 3,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -697,7 +715,7 @@ const root_vegetables_mush: Recipe = {
   },
   steps: 3,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -723,14 +741,18 @@ const aubergine_bacon: Recipe = {
       toIngredient([INGREDIENT.COCONUT_AMINOS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.RED_PEPPER_POWDER], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.LIQUID_SMOKE], '1', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.MAPLE_SYRUP], '2', MEASUREMENT.TSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '2',
+        MEASUREMENT.TSK
+      ),
       toIngredient([INGREDIENT.SALT]),
       toIngredient([INGREDIENT.BLACK_PEPPER]),
     ],
   },
   steps: 6,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -755,14 +777,18 @@ const almond_bacon: Recipe = {
       toIngredient([INGREDIENT.TOMATO_PASTE], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CANOLA_OIL], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.LIQUID_SMOKE], '1', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1 1/2', MEASUREMENT.MSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1 1/2',
+        MEASUREMENT.MSK
+      ),
       toIngredient([INGREDIENT.COCONUT_AMINOS], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.ALMOND_FLAKES], '150', MEASUREMENT.GRAM),
     ],
   },
   steps: 3,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
   },
   source: {
@@ -791,8 +817,12 @@ const lemon_zuccini: Recipe = {
   },
   steps: 5,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
-    diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
+    meal_type: MEAL_TYPE.SIDE_DISHES,
+    diets_occasions: [
+      DIETS_OCCASIONS.VEGAN,
+      DIETS_OCCASIONS.FODMAP,
+      DIETS_OCCASIONS.SEMI_ME_DIET,
+    ],
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL_FROM,
@@ -819,7 +849,7 @@ const lemon_zuccini: Recipe = {
   },
   steps: 2,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
   },
 };*/
@@ -840,7 +870,7 @@ const dragon_fruit_salad: Recipe = {
   },
   steps: 2,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -867,18 +897,19 @@ const asian_salad: Recipe = {
       toIngredient([INGREDIENT.LETTUCE]),
     ],
     dressing: [
-      toIngredient([INGREDIENT.SESAME_OIL]),
+      toIngredient([INGREDIENT.CANOLA_OIL]),
       toIngredient([INGREDIENT.COCONUT_AMINOS]),
       toIngredient([INGREDIENT.SALT]),
     ],
   },
   steps: 3,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.QUICK_EASY,
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
+      DIETS_OCCASIONS.SEMI_ME_DIET,
     ],
   },
   source: {
@@ -906,7 +937,11 @@ const crispy_sesame_cauliflower: Recipe = {
     ],
     sauce: [
       toIngredient([INGREDIENT.COCONUT_AMINOS], '1 1/4', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '3/5', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '3/5',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.SESAME_SEEDS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.GARLIC_POWDER], '1/2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.SESAME_OIL], '2', MEASUREMENT.MSK),
@@ -918,12 +953,8 @@ const crispy_sesame_cauliflower: Recipe = {
   },
   steps: 8,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
-    diets_occasions: [
-      DIETS_OCCASIONS.QUICK_EASY,
-      DIETS_OCCASIONS.VEGAN,
-      DIETS_OCCASIONS.FODMAP,
-    ],
+    meal_type: MEAL_TYPE.SIDE_DISHES,
+    diets_occasions: [DIETS_OCCASIONS.QUICK_EASY, DIETS_OCCASIONS.VEGAN],
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL_FROM,
@@ -951,7 +982,7 @@ const mushroom_bruschetta: Recipe = {
   },
   steps: 6,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [DIETS_OCCASIONS.VEGAN],
   },
   source: {
@@ -975,11 +1006,10 @@ const italian_cauliflower_rice: Recipe = {
   },
   steps: 2,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.QUICK_EASY,
       DIETS_OCCASIONS.VEGAN,
-      DIETS_OCCASIONS.FODMAP,
       DIETS_OCCASIONS.ME_DIET,
     ],
   },
@@ -988,7 +1018,7 @@ const italian_cauliflower_rice: Recipe = {
   },
 };
 
-const oven_baked_root_vegetagles_with_coriander_sauce: Recipe = {
+const oven_baked_root_vegetables_with_coriander_sauce: Recipe = {
   id: '4_13',
   time: 40,
   portions: 4,
@@ -1006,7 +1036,7 @@ const oven_baked_root_vegetagles_with_coriander_sauce: Recipe = {
   },
   steps: 5,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -1025,10 +1055,8 @@ const oven_baked_root_vegetagles_with_coriander_sauce: Recipe = {
 /** 5. Soups */
 const cheesy_spinage_soup: Recipe = {
   id: '5_1',
-  image_big:
-    '/assets/images/cheesy_spinage_soup_big.jpg',
-  image_small:
-    '/assets/images/cheesy_spinage_soup_small.jpg',
+  image_big: '/assets/images/cheesy_spinage_soup_big.jpg',
+  image_small: '/assets/images/cheesy_spinage_soup_small.jpg',
   time: 25,
   portions: 4,
   ingredients: {
@@ -1044,7 +1072,7 @@ const cheesy_spinage_soup: Recipe = {
       toIngredient([INGREDIENT.BLACK_PEPPER], '1', MEASUREMENT.KRM),
     ],
   },
-  steps: 1,
+  steps: 2,
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
     main_course_type: MAIN_COURSE_TYPE.SOUPS,
@@ -1063,7 +1091,7 @@ const cheesy_spinage_soup: Recipe = {
   },
 };
 
-/**  6. Pasta dishes and sallads */
+/**  6. Pasta dishes and salads */
 const simple_pasta_pesto: Recipe = {
   id: '6_1',
   time: 25,
@@ -1085,6 +1113,7 @@ const simple_pasta_pesto: Recipe = {
       DIETS_OCCASIONS.QUICK_EASY,
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
+      DIETS_OCCASIONS.SEMI_ME_DIET,
     ],
   },
   source: {
@@ -1162,7 +1191,7 @@ const pasta_with_herb_sauce_and_mushrooms: Recipe = {
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
     main_course_type: MAIN_COURSE_TYPE.PASTAS,
-    diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
+    diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.SEMI_ME_DIET],
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL_FROM,
@@ -1179,12 +1208,6 @@ const sun_pasta: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      {
-        ingredientAlternatives: [INGREDIENT.BUCKWHEAT_PASTA],
-        amount: '400',
-        measurement: MEASUREMENT.GRAM,
-        link: 'TODO: Buckwheat link',
-      },
       {
         ingredientAlternatives: [INGREDIENT.BUCKWHEAT_PASTA],
         amount: '400',
@@ -1262,7 +1285,7 @@ const salad_with_hemp_seed_sauce: Recipe = {
   steps: 2,
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
-    main_course_type: MAIN_COURSE_TYPE.PASTAS,
+    main_course_type: MAIN_COURSE_TYPE.SALADS,
     diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
   },
   source: {
@@ -1301,7 +1324,11 @@ const caesar_salad: Recipe = {
       toIngredient([INGREDIENT.LEMON_JUICE], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.THYME], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.OLIVE_OIL], '1', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1/2', MEASUREMENT.TSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1/2',
+        MEASUREMENT.TSK
+      ),
       toIngredient([INGREDIENT.MUSTARD], '1 1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.CAPERS], '2', MEASUREMENT.ST),
       toIngredient([INGREDIENT.VEGAN_MILK], '4/5', MEASUREMENT.ST),
@@ -1312,7 +1339,7 @@ const caesar_salad: Recipe = {
   steps: 3,
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
-    main_course_type: MAIN_COURSE_TYPE.PASTAS,
+    main_course_type: MAIN_COURSE_TYPE.SALADS,
     diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
   },
   source: {
@@ -1360,12 +1387,12 @@ const rice_with_pulled_vegme_and_green_peas: Recipe = {
   },
 };
 
-const oven_baked_root_vegetagles_with_tahini_sauce: Recipe = {
+const oven_baked_root_vegetables_with_tahini_sauce: Recipe = {
   id: '7_4',
   image_big:
-    '/assets/images/oven_baked_root_vegetagles_with_tahini_sauce_big.jpg',
+    '/assets/images/oven_baked_root_vegetables_with_tahini_sauce_big.jpg',
   image_small:
-    '/assets/images/oven_baked_root_vegetagles_with_tahini_sauce_small.jpg',
+    '/assets/images/oven_baked_root_vegetables_with_tahini_sauce_small.jpg',
   time: 50,
   portions: 4,
   ingredients: {
@@ -1393,11 +1420,7 @@ const oven_baked_root_vegetagles_with_tahini_sauce: Recipe = {
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
     main_course_type: MAIN_COURSE_TYPE.RICE,
-    diets_occasions: [
-      DIETS_OCCASIONS.VEGAN,
-      DIETS_OCCASIONS.FODMAP,
-      DIETS_OCCASIONS.SEMI_ME_DIET,
-    ],
+    diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL_FROM,
@@ -1421,7 +1444,11 @@ const vegetable_teriyaki: Recipe = {
     ],
     sauce: [
       toIngredient([INGREDIENT.COCONUT_AMINOS], '1 4/5', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.MAPLE_SYRUP], '3/5', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '3/5',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.WATER], '3/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.GINGER_POWDER], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.CHIVES_FROZEN], '1', MEASUREMENT.MSK),
@@ -1434,11 +1461,7 @@ const vegetable_teriyaki: Recipe = {
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
     main_course_type: MAIN_COURSE_TYPE.RICE,
-    diets_occasions: [
-      DIETS_OCCASIONS.VEGAN,
-      DIETS_OCCASIONS.FODMAP,
-      DIETS_OCCASIONS.SEMI_ME_DIET,
-    ],
+    diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.SEMI_ME_DIET],
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL_FROM,
@@ -1504,7 +1527,6 @@ const sushi_rice: Recipe = {
       toIngredient([INGREDIENT.WHITE_WINE_VINEGAR], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.WHITE_SUGAR], '2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT], '1/2', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.SESAME_SEEDS], undefined, undefined, true),
     ],
   },
   steps: 13,
@@ -1616,10 +1638,8 @@ const green_maki: Recipe = {
 
 const sun_maki: Recipe = {
   id: '10_5',
-  image_big:
-    '/assets/images/sun_maki_big.jpg',
-  image_small:
-    '/assets/images/sun_maki_small.jpg',
+  image_big: '/assets/images/sun_maki_big.jpg',
+  image_small: '/assets/images/sun_maki_small.jpg',
   time: 100,
   ingredients: {
     base: [
@@ -1657,10 +1677,8 @@ const sun_maki: Recipe = {
 
 const mushroom_maki: Recipe = {
   id: '10_6',
-  image_big:
-    '/assets/images/mushroom_maki_big.jpg',
-  image_small:
-    '/assets/images/mushroom_maki_small.jpg',
+  image_big: '/assets/images/mushroom_maki_big.jpg',
+  image_small: '/assets/images/mushroom_maki_small.jpg',
   time: 100,
   ingredients: {
     base: [
@@ -1724,7 +1742,7 @@ const japanese_tuna_stuffing_maki: Recipe = {
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
     main_course_type: MAIN_COURSE_TYPE.SUSHI,
-    diets_occasions: [DIETS_OCCASIONS.FODMAP, DIETS_OCCASIONS.SEMI_ME_DIET],
+    diets_occasions: [DIETS_OCCASIONS.FODMAP],
   },
   source: {
     amount: SOURCE_AMOUNT.SOURCE_LOST,
@@ -1768,10 +1786,8 @@ const seaweed_nigiri: Recipe = {
 
 const avocado_nigiri: Recipe = {
   id: '10_10',
-  image_big:
-    '/assets/images/avocado_nigiri_big.jpg',
-  image_small:
-    '/assets/images/avocado_nigiri_small.jpg',
+  image_big: '/assets/images/avocado_nigiri_big.jpg',
+  image_small: '/assets/images/avocado_nigiri_small.jpg',
   time: 100,
   ingredients: {
     base: [
@@ -1851,7 +1867,7 @@ const tuna_mush: Recipe = {
   },
   steps: 3,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [DIETS_OCCASIONS.QUICK_EASY, DIETS_OCCASIONS.FODMAP],
   },
   source: {
@@ -1933,7 +1949,11 @@ const wasabi_sauce: Recipe = {
       ),
       toIngredient([INGREDIENT.RICE_WINE_VINEGAR], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.WHITE_SUGAR], '2', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1', MEASUREMENT.MSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1',
+        MEASUREMENT.MSK
+      ),
       toIngredient([INGREDIENT.WASABI], '2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.GINGER_POWDER], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT], '1/2', MEASUREMENT.TSK),
@@ -1955,10 +1975,8 @@ const wasabi_sauce: Recipe = {
 
 const cod_with_coconut_and_lime: Recipe = {
   id: '11_9',
-  image_big:
-    '/assets/images/cod_with_coconut_and_lime_big.jpg',
-  image_small:
-    '/assets/images/cod_with_coconut_and_lime_small.jpg',
+  image_big: '/assets/images/cod_with_coconut_and_lime_big.jpg',
+  image_small: '/assets/images/cod_with_coconut_and_lime_small.jpg',
   time: 40,
   portions: 4,
   ingredients: {
@@ -2048,7 +2066,7 @@ const tuna_noodle_stew: Recipe = {
   },
 };
 
-const creamy_coconut_cod_soup: Recipe = {
+const creamy_coconut_cod_stew: Recipe = {
   id: '11_13',
   time: 25,
   portions: 4,
@@ -2090,7 +2108,7 @@ const curry_soup_with_cod: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS, true),
       toIngredient([INGREDIENT.COD], '600', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.COCONUT_MILK], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.SAMBAL_OELEK], '1', MEASUREMENT.TSK),
@@ -2434,7 +2452,7 @@ const coriander_beans: Recipe = {
   },
   steps: 3,
   tags: {
-    meal_type: MEAL_TYPE.SIDEDISHES,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [DIETS_OCCASIONS.QUICK_EASY, DIETS_OCCASIONS.VEGAN],
   },
   source: {
@@ -2499,7 +2517,11 @@ const fried_pineapple: Recipe = {
     base: [
       toIngredient([INGREDIENT.PINEAPPLE], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.MAPLE_SYRUP], '2', MEASUREMENT.MSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '2',
+        MEASUREMENT.MSK
+      ),
       toIngredient([INGREDIENT.CINNAMON], '1', MEASUREMENT.TSK),
     ],
   },
@@ -2531,7 +2553,11 @@ const blueberry_cupcakes: Recipe = {
       toIngredient([INGREDIENT.PSYLLIUM_HUSK], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.BAKING_POWDER], '2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT], '1/2', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.VANILLA_POWDER], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.ALMOND_MILK], '4/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.BLUEBERRIES], '1 1/2', MEASUREMENT.DL),
@@ -2563,9 +2589,9 @@ const chocolate_cupcakes: Recipe = {
       toIngredient([INGREDIENT.CHIA_SEEDS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.WATER], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.BUCKWHEAT_FLOUR], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.ALMOND_FLOUR], '1', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.ALMOND_FLOUR, INGREDIENT.COCONUT_FLOUR],
+        [INGREDIENT.COCONUT_FLOUR, INGREDIENT.BUCKWHEAT_FLOUR],
         '1',
         MEASUREMENT.DL
       ),
@@ -2653,10 +2679,8 @@ const swedish_chocolate_balls: Recipe = {
 
 const cherry_cheese_cake: Recipe = {
   id: '13_8',
-  image_big:
-    '/assets/images/cherry_cheese_cake_big.jpg',
-  image_small:
-    '/assets/images/cherry_cheese_cake_small.jpg',
+  image_big: '/assets/images/cherry_cheese_cake_big.jpg',
+  image_small: '/assets/images/cherry_cheese_cake_small.jpg',
   time: 210,
   portions: 10,
   ingredients: {
@@ -2697,7 +2721,11 @@ const choco_coco_squares: Recipe = {
       toIngredient([INGREDIENT.WHITE_SUGAR], '2 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CACAO], '2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.WHEAT_FLOUR], '1 1/2', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.WHEAT_FLOUR, INGREDIENT.ALMOND_FLOUR],
+        '1 1/2',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.BUCKWHEAT_FLOUR], '1 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.COCONUT_FLOUR], '1 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.BAKING_POWDER], '2', MEASUREMENT.MSK),
@@ -2976,7 +3004,7 @@ const lavender_latte: Recipe = {
 /**
  * 15. Christmas
  */
-const christmas_porrige: Recipe = {
+const christmas_porridge: Recipe = {
   id: '15_1',
   time: 70,
   portions: 6,
@@ -3031,7 +3059,7 @@ const christmas_salad: Recipe = {
   steps: 5,
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
-    main_course_type: MAIN_COURSE_TYPE.SALLADS,
+    main_course_type: MAIN_COURSE_TYPE.SALADS,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -3047,7 +3075,7 @@ const christmas_salad: Recipe = {
   },
 };
 
-const orange_sallad_with_pomegranate_and_cinnamon: Recipe = {
+const orange_salad_with_pomegranate_and_cinnamon: Recipe = {
   id: '15_3',
   time: 10,
   portions: 2,
@@ -3066,12 +3094,12 @@ const orange_sallad_with_pomegranate_and_cinnamon: Recipe = {
   steps: 4,
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
-    main_course_type: MAIN_COURSE_TYPE.SALLADS,
+    main_course_type: MAIN_COURSE_TYPE.SALADS,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
       DIETS_OCCASIONS.CHRISTMAS,
-      DIETS_OCCASIONS.ME_DIET,
+      DIETS_OCCASIONS.SEMI_ME_DIET,
     ],
   },
   source: {
@@ -3121,7 +3149,11 @@ const christmas_butterscotch: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.WHITE_SUGAR], '2', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '2', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '2',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.ALMOND_MILK], '2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.SWEET_ALMONDS_UNSHELLED], '2', MEASUREMENT.DL),
@@ -3150,7 +3182,11 @@ const saffron_caramels: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.WHITE_SUGAR], '3', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1 1/2', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1 1/2',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.COCONUT_MILK], '3', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '50', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.SAFFRON], '1', MEASUREMENT.GRAM),
@@ -3182,7 +3218,11 @@ const saffron_biscuits: Recipe = {
       toIngredient([INGREDIENT.VEGAN_BUTTER], '100', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '1', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '2', MEASUREMENT.MSK),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '2',
+        MEASUREMENT.MSK
+      ),
       toIngredient([INGREDIENT.COCONUT_FLOUR], '1 1/2', MEASUREMENT.DL),
       toIngredient(
         [INGREDIENT.ALMOND_FLOUR, INGREDIENT.BUCKWHEAT_FLOUR],
@@ -3222,7 +3262,11 @@ const gingerbread_cake_with_lingonberry_frosting: Recipe = {
       toIngredient([INGREDIENT.VEGAN_BUTTER], '100', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.OAT_CREAM], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.OAT_MILK], '1', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '1/2', MEASUREMENT.DL),
+      toIngredient(
+        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        '1/2',
+        MEASUREMENT.DL
+      ),
       toIngredient([INGREDIENT.LINGONBERRY_JAM], '2', MEASUREMENT.MSK),
     ],
     frosting: [
@@ -3276,8 +3320,8 @@ export const recipes: Array<Recipe> = [
   raspberry_chia_pudding,
   strawberry_chia_pudding,
   very_berry_chia_pudding,
-  chia_porrige_with_blueberries,
-  buckwheat_porrige,
+  chia_porridge_with_blueberries,
+  buckwheat_porridge,
   crackers_with_olives_and_thyme,
   chocolate_granola,
   berry_squares,
@@ -3321,7 +3365,7 @@ export const recipes: Array<Recipe> = [
 
   /** 7. Rice dishes */
   rice_with_pulled_vegme_and_green_peas,
-  oven_baked_root_vegetagles_with_tahini_sauce,
+  oven_baked_root_vegetables_with_tahini_sauce,
   vegetable_teriyaki,
 
   /**
@@ -3352,7 +3396,7 @@ export const recipes: Array<Recipe> = [
   cod_with_coconut_and_lime,
   tomato_cod_soup,
   tuna_noodle_stew,
-  creamy_coconut_cod_soup,
+  creamy_coconut_cod_stew,
   curry_soup_with_cod,
   //shrimp_pasta_with_lemon_and_chili,
   //mussels_tomato_pasta,
@@ -3388,9 +3432,9 @@ export const recipes: Array<Recipe> = [
   lavender_latte,
 
   /** 15. Christmas */
-  christmas_porrige,
+  christmas_porridge,
   christmas_salad,
-  orange_sallad_with_pomegranate_and_cinnamon,
+  orange_salad_with_pomegranate_and_cinnamon,
   chocolate_dipped_clementines,
   christmas_butterscotch,
   saffron_caramels,

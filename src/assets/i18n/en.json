@@ -429,31 +429,31 @@
       }
     },
     "4_3": {
-      "TITLE": "Auberginebacon",
+      "TITLE": "Aubergine bacon",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_150",
         "2": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
-        "3": "Skär auberginen i bitar och lägg på en plåt med bakplåtspapper",
-        "4": "Pensla på marinaden på båda sidorna av auberginebitarna",
-        "5": "Baka i ugn i 40 - 50 minuter",
+        "3": "Slice the aubergine into thin pieces and put them on a pan with parchment paper",
+        "4": "Put the marinade on both sides of the aubergine pieces' sides",
+        "5": "Bake in oven for 40 - 50 minutes",
         "6": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
       }
     },
     "4_4": {
-      "TITLE": "Mandelbacon",
+      "TITLE": "Almond bacon",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_125",
-        "2": "Baka i ugn i 20 - 30 minuter och rör runt efter ungerfär halva tiden",
-        "3": "Servera gärna till ris eller i en sallad"
+        "2": "Bake in oven for 20 - 30 minutes and stir after half the time",
+        "3": "Serve as is or with for example rice or in a salad"
       }
     },
     "4_5": {
-      "TITLE": "Zucchini med citronsmak",
+      "TITLE": "Lemon italian herbed zucchini",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_200",
-        "2": "Blanda alla ingredienser förutom zucchini i en skål",
-        "3": "Skär zucchini i skivor och lägg på en plåt",
-        "4": "Lägg marinaden på zucciniskivorna och baka i ugn i cirka 35 minuter, eller grilla bitarna",
+        "2": "Mix all ingredients except for the zucchini in a bowl",
+        "3": "Slice the zucchini into piece and put them on a pan with parchment paper",
+        "4": "Put the marinade on the zucchini and bake for about 35 minutes",
         "5": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
       }
     },
@@ -465,121 +465,132 @@
       }
     },
     "4_7": {
-      "TITLE": "Drakfruktsallad",
+      "TITLE": "Dragon fruit salad",
       "STEPS": {
-        "1": "Ta fram en skål att lägga allt i och servera med",
-        "2": "Skär bort skalet och tärna både drakfrukten och kiwin",
-        "3": "Skala clementinen och ta även bort det inre skalet så att endast fruktköttet är kvar",
-        "4": "Skölj blåbären",
-        "5": "Pressa ut saften från limen",
+        "1": "Take out a bowl to add all the ingredients in",
+        "2": "Peel the dragon fruit and kiwi, and dice them into cubes",
+        "3": "Peel and segment mandarin orange so no skin is left",
+        "4": "Wash blueberries",
+        "5": "Squeeze lime juice",
         "6": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
     "4_8": {
-      "TITLE": "Asiatisk sallad",
+      "TITLE": "Asian salad",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_DRESSING_IN_BOWL",
-        "2": "Skär upp grönsakerna och lägg i en stor skål",
-        "3": "Häll över dressingen och blanda"
+        "2": "Slice the vegetables and put in a bowl",
+        "3": "Pour the dressing over"
       }
     },
     "4_9": {
-      "TITLE": "Krispiga blomkålskroketter",
+      "TITLE": "Sticky and crispy sesame cauliflower",
       "STEPS": {
-        "1": "Värm ugnen till 225 grader och ta fram en plåt med bakplåtspapper",
-        "2": "Skölj och skär blomkålen i bitar",
-        "3": "Blanda övriga ingredienser till blomkålskroketterna i en skål",
-        "4": "Doppa blomkålsbitarna i såsen och lägg på plåten",
-        "5": "Värm i ugn i ungefär 20 minuter",
-        "6": "Lägg ingredienserna till såsen i en kastrull och koka i cirka 5 min",
-        "7": "Blanda lätt svalna kroketter med såsen (men spara ungefär 3 msk) och lägg in i ugn i cirka 20 min under uppsyn",
-        "8": "Servera eventuellt med ris och sallad, och häll på det sista av såsen"
+        "1": "Preheat the oven to 450°F/225°C and line a baking sheet with parchment paper",
+        "2": "Rinse cauliflower and cut into small florets",
+        "3": "Mix all other ingredients to the cauliflower in a bowl",
+        "4": "Drop the cauliflower florets into the batter and put on the parchment paper",
+        "5": "Bake the battered cauliflower for 20 minutes",
+        "6": "In a small saucepan combine the ingredients for the sauce and boil for around 5 minutes",
+        "7": "Cover the cooled cauliflower with all but 1/4 cup of the sesame sauce and bake the cauliflower for another 15-20 minutes or until the edges are starting to darken",
+        "8": "Serve with for example rive and salad, and pur on the last of the sauce"
       }
     },
     "4_10": {
-      "TITLE": "Svampbruschetta",
+      "TITLE": "Mushroom bruschetta",
       "STEPS": {
-        "1": "Skär brödet i skivor",
+        "1": "Slice bread into pieces",
         "2": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_1",
-        "3": "Rosta brödet i olivolja i en stekpanna",
-        "4": "Stek svampen gyllengul i olivoljan och avsluta med löken",
-        "5": "Salta och peppra",
-        "6": "Fördela svampen på brödet och strö över den strimlade persiljan"
+        "3": "Roast the bread in a pan with olive oil",
+        "4": "Fry the mushrooms golden in olive oil and add the onion lastly",
+        "5": "Salt and pepper",
+        "6": "Put mushroom mix on the bread and add parsley"
       }
     },
     "4_12": {
-      "TITLE": "Kryddat blomkålsris",
+      "TITLE": "Italian cauliflower rice",
       "STEPS": {
-        "1": "Koka upp blomkålsriset enligt anvisningar",
+        "1": "Cook the cauliflower rice according to its instructions",
         "2": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
       }
     },
     "5_1": {
       "TITLE": "Ostig spenatsoppa",
       "STEPS": {
-        "1": "Tillsätt alla ingredienser i en kastrull och koka i 10 minuter"
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
+        "2": "Boil for 10 minutes"
       }
     },
     "6_1": {
       "TITLE": "Pasta pesto",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
-        "2": "Skär zuccinin i bitar och stek på medelvärme med rapsoljan",
-        "3": "Blanda ihop resten av ingredienserna i stekpannan och stek tills pastan har fått färg"
+        "2": "Cut zucchini in pieces and fry in medium heat with canola oil",
+        "3": "Add the rest of the ingredients to the pan and fry until the pasta has gotten a golden touch"
       }
     },
     "6_2": {
-      "TITLE": "Pasta med pesto av hampafrön och grönkål",
+      "TITLE": "Pasta with homemade pesto",
       "STEPS": {
-        "1": "Skär zuccinin i bitar och baka i ugn på 200°C i cirka 30 minuter med lite rapsolja",
+        "1": "Cut zucchini in pieces och bake in oven with a bit of canola oil in 400°F for about 30 minutes",
         "2": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
-        "3": "Eventuellt rosta hampafröna i stekpanna och stek sedan grönkålen",
-        "4": "Lägg allt till peston i en matberedare och mixa slät"
+        "3": "If wanted, roast hemp seeds and kale in a pan",
+        "4": "Put all the ingredients for the pesto in a mixer and mix"
       }
     },
     "6_3": {
-      "TITLE": "Pasta med örtkokossås och svamp",
+      "TITLE": "Creamy coconut garlic mushrooms",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_1",
         "2": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_2",
         "3": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
-        "4": "Blanda vitlök, timjan, oregano, salt, peppar i en skål",
-        "5": "Blanda i hälften av kryddblandningen tillsammans med kokosoljan i stekpannan",
-        "6": "När svamparna har fått stekyta ska resten av ingredienserna i och kokas tills de har blivit varma och utblandade"
+        "4": "Mix garlic, thyme, oregano, salt and pepper in a bowl",
+        "5": "Add half of the spice mix with the coconut oil into the frying pan",
+        "6": "Add the rest of the ingredients when the mushrooms have gotten a golden touch, and heat everything up"
       }
     },
     "6_4": {
-      "TITLE": "Solpasta",
+      "TITLE": "Sun pasta",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
-        "2": "Lägg alla ingredienser förutom hälften av soltorkade tomaterna och hälten av vattnet i en matberedare och mixa slät",
-        "3": "Häll i resten av vattnet och mixa",
-        "4": "Hacka resten av soltorkade tomaterna till medelstora bitar eller lägg in i matberedararen och mixa några sekunder",
-        "5": "Lägg ihop pastan, såsen och soltorkade tomaterna"
+        "2": "Put all ingredients except for half of the sundried tomatoes and half of the water in a food processor and mix",
+        "3": "Pour in the rest of the water and mix",
+        "4": "Chop the rest of the sundried tomatoes into medium size pieces or mix them in the food processor a few seconds",
+        "5": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
     "6_6": {
-      "TITLE": "Sallad med hampafrödressing",
+      "TITLE": "Salad with hemp seed dressing",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_DRESSING_IN_MIXER",
-        "2": "Förbered resterande ingredienser"
+        "2": "Prepare the other ingredients"
       }
     },
     "6_7": {
-      "TITLE": "Caesarsallad",
+      "TITLE": "Caesar salad",
       "STEPS": {
-        "1": "Tillaga mandelbacon",
-        "2": "Lägg i alla ingredienser för caesardressingen i en skål och mixa i några minuter tills den är helt slät, gärna lite mjölk i taget",
-        "3": "Eventuellt förbered resterande ingredienser"
+        "1": "Make the almond bacon",
+        "2": "Put all ingredients for the dressing in a food processor and mix until completely smooth, preferably with a little more milk at the time",
+        "3": "Prepare other ingredients"
       }
     },
     "7_1": {
-      "TITLE": "Ris med pulled vegme och ärtor",
+      "TITLE": "Rice with pulled VegMe and green peas",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
-        "2": "Koka ärtor",
-        "3": "Stek VegMe pulled original med cocos aminos eller sojan",
+        "2": "Boil peas according to their instructions",
+        "3": "Fry VegMe pulled original with coconut aminos",
         "4": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
+      }
+    },
+    "7_3": {
+      "TITLE": "Ris med rostade frön och ugnsbakade rotsaker med timjan och rosmarin",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.OVEN_225",
+        "2": "Skär rotfrukterna i bitar och lägg i en stor skål",
+        "3": "Häll i övriga ingredienser och rör runt tills det är blandat",
+        "4": "Lägg på bakplåtspapper och lägg in i ugnen i 30 minuter, och öppna ugnen ibland för att få bort fukt",
+        "5": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
       }
     },
     "7_3": {
@@ -1144,11 +1155,11 @@
         "NORI_AROUND": "Lägg nori runt om riset och lägg i ingredienserna på toppen"
       },
       "OVEN_120": "Preheat the oven to 250°F/120°C",
-      "OVEN_150": "Preheat the oven to 150°C",
-      "OVEN_175": "Preheat the oven to 175°C",
+      "OVEN_150": "Preheat the oven to 300°F/150°C",
+      "OVEN_175": "Preheat the oven to 350°F/175°C",
       "OVEN_180": "Preheat the oven to 350°F/180°C",
-      "OVEN_200": "Preheat the oven to 200°C",
-      "OVEN_225": "Preheat the oven to 225°C",
+      "OVEN_200": "Preheat the oven to 400°F/200°C",
+      "OVEN_225": "Preheat the oven to 440°F/225°C",
       "PREPARE_BUCKWHEAT_PASTA": "Koka upp pastan enligt anvisningarna på förpackningen",
       "PREPARE_BUTTER": "Smält smöret",
       "PREPARE_CARAMEL_1": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
@@ -1198,6 +1209,17 @@
       "SAUCE": "Sauce",
       "TO_SERVE": "To serve with"
     },
+    "SOURCE": {
+      "BOOK": "the book ",
+      "FAMILY_RECIPE": "Detta är ett familjerecept",
+      "INSPIRED_FROM": "Detta recept är inspirerat av ",
+      "LABEL": "Recipe source: ",
+      "ORIGINAL_FROM": "Orginalreceptet kommer från ",
+      "ORIGINAL": "Detta är ett orginalrecept",
+      "RESTAURANT": "the restaurant ",
+      "SOURCE_LOST": "Receptkällan är tyvärr försvunnen",
+      "WEBSITE": "the website "
+    },
     "TIME": "Time"
   },
   "TAGS": {
@@ -1211,12 +1233,12 @@
     "MAIN_COURSES": "Main courses",
     "SAUCES": "Sauces",
     "STARTERS": "Starters",
-    "SIDEDISHES": "Side dishes",
+    "SIDE_DISHES": "Side dishes",
     "LEGUMES": "Legumes",
     "PASTAS": "Pasta dishes",
     "PIZZA": "Pizza",
     "RICE": "Rice dishes",
-    "SALLADS": "Sallads",
+    "SALADS": "Salads",
     "SEAFOOD": "Seafood",
     "SOUPS": "Soups",
     "STEWS": "Stews",

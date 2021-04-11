@@ -33,13 +33,16 @@ span {
   #recipes_container {
     flex-grow: 1;
     margin-left: 40px;
+    h3{
+      margin-left: 16px;
+    }
     #recipes_sub_container {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
       a {
         width: 160px;
-        margin-right: 16px;
+        margin-left: 16px;
         margin-bottom: 16px;
       }
     }

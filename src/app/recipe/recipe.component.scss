@@ -6,6 +6,10 @@
   #info_container {
     display: flex;
     flex-direction: column;
+    a {
+      font-weight: bold;
+      text-decoration-line: underline;
+    }
   }
 
   #image {

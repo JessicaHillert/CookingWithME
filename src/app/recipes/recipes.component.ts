@@ -31,7 +31,8 @@ export class RecipesComponent implements OnInit {
     drinks: new FormControl(false),
     main_courses: new FormControl(false),
     sauces: new FormControl(false),
-    starters_sidedishes: new FormControl(false),
+    side_dishes: new FormControl(false),
+    starters: new FormControl(false),
   });
 
   main_course_type = new FormGroup({
@@ -39,7 +40,7 @@ export class RecipesComponent implements OnInit {
     pastas: new FormControl(false),
     pizza: new FormControl(false),
     rice: new FormControl(false),
-    sallads: new FormControl(false),
+    salads: new FormControl(false),
     seafood: new FormControl(false),
     soups: new FormControl(false),
     stews: new FormControl(false),
@@ -90,10 +91,6 @@ export class RecipesComponent implements OnInit {
           }
         });
         this.diets_occasions_both_me_filters = me_filters === 2;
-        console.log(
-          'this.diets_occasions_both_me_filters: ',
-          this.diets_occasions_both_me_filters
-        );
         break;
       case MEAL_TYPE:
         Object.values(this.meal_type.value).some((tag) => tag === true)
@@ -141,6 +138,8 @@ export class RecipesComponent implements OnInit {
                 /** If both ME-filters are selected then only one of those tags are okay */
                 if (
                   this.diets_occasions_both_me_filters &&
+                  (selected_tag_uppercase === DIETS_OCCASIONS.ME_DIET ||
+                    selected_tag_uppercase === DIETS_OCCASIONS.SEMI_ME_DIET) &&
                   (recipe_tag === DIETS_OCCASIONS.ME_DIET ||
                     recipe_tag === DIETS_OCCASIONS.SEMI_ME_DIET)
                 ) {
