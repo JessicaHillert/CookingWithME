@@ -129,7 +129,7 @@
         />
         <h4>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h4>
         <span *ngFor="let tag of getTags(recipe.tags); let last = last">
-          {{ (tag | translate) + (!last ? ", " : " ") }}
+          {{ (tag | translate) + (!last ? " - " : " ") }}
         </span>
       </a>
     </div>

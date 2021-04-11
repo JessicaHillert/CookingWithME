@@ -20,11 +20,11 @@ body,
 
 main {
   width: 100%;
-  min-height: calc(100% - 90px); // Full page minus header
+  min-height: calc(100% - 10vh); // Full page minus header
 }
 main > div {
   min-width: 600px;
-  width: 80%;
+  width: 70%;
   padding-top: 16px;
   padding-bottom: 16px;
   margin: auto;

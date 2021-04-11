@@ -44,7 +44,7 @@
     }
   },
   "HEADERS": {
-    "TITLE": "Cooking With Me"
+    "TITLE": "Cooking With ME"
   },
   "INGREDIENT": {
     "ACAI": "Acai",
@@ -275,36 +275,32 @@
     "1_1_1": {
       "TITLE": "Chiapudding med hallon",
       "STEPS": {
-        "1": "Lägg i allt i en matberedare eller skål",
-        "2": "Mixa i matberedaren eller med stavmixer",
-        "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
+        "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
       }
     },
     "1_1_2": {
       "TITLE": "Chiapudding med jordgubb",
       "STEPS": {
-        "1": "Lägg i allt i en matberedare eller skål",
-        "2": "Mixa i matberedaren eller med stavmixer",
-        "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
+        "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
       }
     },
     "1_1_3": {
       "TITLE": "Chiapudding med bärblandning",
       "STEPS": {
-        "1": "Lägg i allt i en matberedare eller skål",
-        "2": "Mixa i matberedaren eller med stavmixer",
-        "3": "Eventuellt vänta 15-30 min för att få en tjockare konsistens"
+        "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
       }
     },
     "1_2": {
       "TITLE": "Chiagröt med blåbär",
       "STEPS": {
-        "1": "Blanda chiafrön, hirsflingor, psylliumhusk, blåbär och kokosmjölk i en kopp",
+        "1": "Blanda chiafrön, flingor, psylliumhusk, blåbär och kokosmjölk i en kopp",
         "2": "Ställ in i kylen i minst en kvart (håller i kylen i 4 dagar)",
-        "3": "Lägg i en halv banan, nötssmör och en nypa salt",
+        "3": "Blanda i sirap och salt",
         "4": "Ställ in i mikron i ca 1 min",
-        "5": "Mosa bananen (eller ta fram sirap) och blanda",
-        "6": "Pudra över kanel"
+        "5": "Pudra över kanel"
       }
     },
     "1_3": {
@@ -317,7 +313,7 @@
     "1_4": {
       "TITLE": "Knäckebröd med oliver och timjan",
       "STEPS": {
-        "1": "Sätt på ugnen på 175°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_175",
         "2": "Hacka oliverna",
         "3": "Blanda alla ingredienser förutom vattnet i en bunke",
         "4": "Häll i så mycket vatten så att det går att forma men så att det inte blir klibbigt (häll i mer mjöl i så fall)",
@@ -330,7 +326,7 @@
     "1_5": {
       "TITLE": "Chokladgranola",
       "STEPS": {
-        "1": "Sätt ugnen på 120°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_120",
         "2": "Blanda alla torra och blöta ingredienser separat och sedan rör ihop tills allt är jämnt fördelat",
         "3": "Lägg blandningen på två plåtar med bakpapper",
         "4": "Baka i ugn i 40 minuter och rör runt efter halva tiden eller baka i ugnen i 33 minuter utan omrörning",
@@ -340,11 +336,11 @@
     "1_6": {
       "TITLE": "Syltrutor",
       "STEPS": {
-        "1": "Sätt ugnen på 180°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_180",
         "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
         "3": "Lägg i alla ingredienser till sylten i en kastrul och koka i 15 minuter på låg till medel värme under omrörning, och ställ sedan undan",
         "4": "Smält kokosoljan och blanda sedan ihop alla ingredienser till degen",
-        "5": ". Lägg undan 2 1/2 dl deg till toppingen och lägg ner resten av degen i en ugnform på cirka 20 cm i kvadrat med bakplåtspapper på",
+        "5": "Lägg undan 2 1/2 dl deg till toppingen och lägg ner resten av degen i en ugnform på cirka 20 cm i kvadrat med bakplåtspapper på",
         "6": "Tryck ner degen så att den blir kompakt och lägg sedan på sylten, och sedan smula på resten av degen",
         "7": "Baka i ugn i 25 till 30 minuter",
         "8": "Förvara i kylen upp till 1 vecka eller i frysen upp till 6 veckor"
@@ -426,7 +422,7 @@
       }
     },
     "4_2": {
-      "TITLE": "Kokosris",
+      "TITLE": "Rotmos",
       "STEPS": {
         "1": "Skölj och skala båda rotfrukterna till ungerfär lika stora bitar",
         "2": "Koka med grönsaksbuljongen tills de är mjuka",
@@ -436,7 +432,7 @@
     "4_3": {
       "TITLE": "Auberginebacon",
       "STEPS": {
-        "1": "Sätt på ugnen på 150°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_150",
         "2": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
         "3": "Skär auberginen i bitar och lägg på en plåt med bakplåtspapper",
         "4": "Pensla på marinaden på båda sidorna av auberginebitarna",
@@ -447,7 +443,7 @@
     "4_4": {
       "TITLE": "Mandelbacon",
       "STEPS": {
-        "1": "Sätt på ugnen på 120°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_125",
         "2": "Baka i ugn i 20 - 30 minuter och rör runt efter ungerfär halva tiden",
         "3": "Servera gärna till ris eller i en sallad"
       }
@@ -455,7 +451,7 @@
     "4_5": {
       "TITLE": "Zucchini med citronsmak",
       "STEPS": {
-        "1": "Sätt på ugnen på 200°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_200",
         "2": "Blanda alla ingredienser förutom zucchini i en skål",
         "3": "Skär zucchini i skivor och lägg på en plåt",
         "4": "Lägg marinaden på zucciniskivorna och baka i ugn i cirka 35 minuter, eller grilla bitarna",
@@ -590,7 +586,7 @@
     "7_3": {
       "TITLE": "Ris med rostade frön och ugnsbakade rotsaker med timjan och rosmarin",
       "STEPS": {
-        "1": "Sätt på ugnen på 225°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_225",
         "2": "Skär rotfrukterna i bitar och lägg i en stor skål",
         "3": "Häll i övriga ingredienser och rör runt tills det är blandat",
         "4": "Lägg på bakplåtspapper och lägg in i ugnen i 30 minuter, och öppna ugnen ibland för att få bort fukt",
@@ -600,7 +596,7 @@
     "7_4": {
       "TITLE": "Ugnsbakade rotsaker med tahinisås",
       "STEPS": {
-        "1": "Sätt ugnen på 200°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_200",
         "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",
         "3": "Baka rotfrukterna i ugn i cirka 25 - 30 minuter",
         "4": "Lägg alla ingredienser till såsen i en skål och blanda slät"
@@ -906,7 +902,7 @@
     "13_3": {
       "TITLE": "Blåbärsmuffin",
       "STEPS": {
-        "1": "Sätt på ugnen på 175°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_175",
         "2": "Om blåbären är frysta ska de värmas innan",
         "3": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
         "4": "Lägg smeten i muffinsformar på en plåt",
@@ -916,9 +912,9 @@
     "13_4": {
       "TITLE": "Chokladsmuffin",
       "STEPS": {
-        "1": "Sätt på ugnen på 200°C",
+        "1": "RECIPES.COMMON_STEPS.OVEN_200",
         "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
-        "3": "Smält smöret",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_BUTTER",
         "4": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
         "5": "Lägg smeten i muffinsformar på en plåt",
         "6": "Lägg in plåten i mitten av ugnen i cirka 10 min"
@@ -1041,43 +1037,101 @@
       }
     },
     "15_2": {
-      "TITLE": "Tomtegröt", //TODO
+      "TITLE": "Grönkålsallad med granatäpple",
       "STEPS": {
-        "1": "Blanda ris, vatten, smör och salt i en kastrull",
-        "2": "Koka på svag värme i cirka 10 min eller tills gröten tjocknat",
-        "3": "Tillsätt mjölk och kanelstång",
-        "4": "Låt gröten koka på svag under omrörning i 30 till 40 minuter",
-        "5": "Späd ut gröten med mer mjölk för önskad tjocklek",
-        "6": "Smaksätt med socker"
+        "1": "Ta fram granatäpplekärnorna och låt tina ett tag",
+        "2": "Lägg grönkål, torkade tranbär och eventuellt pumpafrön i en bunk",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_ORANGES",
+        "4": "Blanda citronjuice, olja, salt och peppar i en skål",
+        "5": "Häll dressingen över kålen och blanda väl"
+      }
+    },
+    "15_3": {
+      "TITLE": "Apelsinsallad med granatäpple, sirap och kanel",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_ORANGES",
+        "2": "Skär i skivor och lägg upp på tallrikar eller ett stort fat",
+        "3": "Strö över granatäppelkärnor och ringla över sirapen",
+        "4": "Pudra på kanel och servera"
+      }
+    },
+    "15_4": {
+      "TITLE": "Chokladdoppade clementiner",
+      "STEPS": {
+        "1": "Skala clementinerna och bryt isär klyftorna",
+        "2": "Bryt chokladen i bitar och lägg den i en skål, smält i vattenbad eller i mikrovågsugn",
+        "3": "Doppa klyftorna i chokladen och lägg dem på ett bakplåtspapper",
+        "4": "Strö över tillbehöret och låt chokladen stelna"
+      }
+    },
+    "15_5": {
+      "TITLE": "Knäck",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_1",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_2",
+        "3": "Hacka mandeln",
+        "4": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_3",
+        "5": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_4",
+        "6": "Ta grytan åt sidan och blanda i mandel",
+        "7": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_5",
+        "8": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_6"
+      }
+    },
+    "15_6": {
+      "TITLE": "Saffranskola",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_1",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_2",
+        "3": "Rosta den rivna kokosen i en stekpanna tills den är gyllenbrun",
+        "4": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_3",
+        "5": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_4",
+        "6": "Ta grytan åt sidan och blanda i kokosen och saffran",
+        "7": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_5",
+        "8": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_6"
+      }
+    },
+    "15_7": {
+      "TITLE": "Saffranssnittar",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.OVEN_175",
+        "2": "Rör smör, socker, vaniljsocker, saffran och sirap smidigt",
+        "3": "Blanda mjöl och bakpulver och rör ner i smeten och arbeta ihop till en deg",
+        "4": " Dela degen i 2 delar (för 20 st) och rulla ut till längder, ca 40 cm långa",
+        "5": "Lägg dem på en plåt med bakplåtspapper och platta till dem",
+        "6": "Grädda mitt i ugnen ca 12 minuter",
+        "7": "Låt kakorna svalna ca 5 minuter och skär dem sedan på snedden"
+      }
+    },
+    "15_8": {
+      "TITLE": "Mjuk pepparkaka med lingonglasyr",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.OVEN_175",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_BUTTER",
+        "3": "Blanda alla ingredienserna till kakan i en skål och lägg sen i en avlång brödform på ungefär 1 1/2 liter",
+        "4": "Grädda pepparkakan i nedre delen av ugnen i 45 minuter och låt svalna",
+        "5": "Vispa färskosten med florsockret luftig",
+        "6": "Tillsätt citronjuice och lingon",
+        "7": "Bred frostningen på pepparkakan vid servering"
+      }
+    },
+    "15_9": {
+      "TITLE": "Pepparkaksmilkshake",
+      "STEPS": {
+        "1": "Krossa alla pepparkakor för hand eller med stavmixer och en del av mjölken",
+        "2": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
+        "3": "Häll upp i glas och eventuellt sprinkla på lite pepparkakssmulor på toppen"
       }
     },
     "COMMON_STEPS": {
       "DO_APPLY_TOPPING_CROSTINI": "Lägg pålägget på upplagda crostini och servera",
+      "DO_CRUSH_COOKIES": "Krossa alla kakor för hand eller i en matberedare",
       "DO_MIX_WITH_REST": "Lägg i övriga ingredienser och blanda",
       "DO_SALT_IF_NEEDED": "Smaka av med salt",
       "DO_SALT_PEPPER_IF_NEEDED": "Smaka av med salt och peppar",
-      "DO_SERVE_WITH_RICE": "Servera med ris",
-      "DO_CRUSH_COOKIES": "Krossa alla kakor för hand eller i en matberedare",
       "DO_SERVE_WITH_RICE_SEEDS": "Servera gärna till ris och rostade frön",
+      "DO_SERVE_WITH_RICE": "Servera med ris",
       "DO_TAKE_OF_STOVE_AND_MIX": "Ta av kastrullen från spisen och mixa soppan slät med stavmixer",
-      "DO_USE_MIXER_OR_HAND_BLENDER": "Mixa alla ingredienserna i matberedare eller med stavmixer",
-      "PREPARE_BUCKWHEAT_PASTA": "Koka upp pastan enligt anvisningarna på förpackningen",
-      "PREPARE_CHIA_EGG": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
-      "PREPARE_LENTILS_1": "Skölj linserna och lägg sedan allt i en kastrull",
-      "PREPARE_LENTILS_2": "Koka i cirka 10 minuter eller tills linserna är mjuka",
-      "PREPARE_MILK": "Värm mjölken till önskad temperatur i mikro eller kastrull",
-      "PREPARE_MUSHROOMS_1": "Skölj svampen och hacka dem sedan i valfi storlek",
-      "PREPARE_MUSHROOMS_2": "Häll i svampen med cirka en halv deciliter vatten i en stekpanna och stek på full värme tills nästan allt vatten är borta",
-      "PREPARE_RICE": "Koka riset enligt bruksanvisning",
-      "PREPARE_RICE_NOODLES": "Koka risnudlarna enligt bruksanvisning",
-      "PUT_DRESSING_IN_BOWL": "Blanda ihop dressingen i en skål",
-      "PUT_DRESSING_IN_MIXER": "Lägg i alla ingredienser till dressingen i en matberedare och mixa",
-      "PUT_EVERYTHING_IN_BOWL": "Lägg i alla ingredienser i en skål och blanda",
-      "PUT_EVERYTHING_IN_MIXER": "Lägg i alla ingredienser i en matberedare och mixa",
-      "PUT_EVERYTHING_TOGETHER": "Blanda ihop allt",
-      "PUT_EVERYTHING_IN_POT_AND_BOIL": "Lägg allt i en kastrull och koka upp",
-      "PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES": "Lägg allt i en kastrull förutom grönsakerna och koka upp",
-      "PUT_MARINADE_IN_BOWL": "Blanda ihop marinaden i en skål",
+      "DO_USE_MIXER_OR_HAND_BLENDER": "Mixa alla ingredienserna i matberedare eller med stavmixer i en skål",
       "MAKI": {
         "1": "Lägg sushiriset på en nori eller i en sushibozoka",
         "2": "Lägg på innehållet",
@@ -1089,7 +1143,39 @@
         "1": "Rulla ihop riset med blöta händer i ovala bollar",
         "NORI_TOP": "Lägg på ingredienserna och slut ihop allt med en noribit",
         "NORI_AROUND": "Lägg nori runt om riset och lägg i ingredienserna på toppen"
-      }
+      },
+      "OVEN_120": "Värm ugnen till 120°C",
+      "OVEN_150": "Värm ugnen till 150°C",
+      "OVEN_175": "Värm ugnen till 175°C",
+      "OVEN_180": "Värm ugnen till 180°C",
+      "OVEN_200": "Värm ugnen till 200°C",
+      "OVEN_225": "Värm ugnen till 225°C",
+      "PREPARE_BUCKWHEAT_PASTA": "Koka upp pastan enligt anvisningarna på förpackningen",
+      "PREPARE_BUTTER": "Smält smöret",
+      "PREPARE_CARAMEL_1": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
+      "PREPARE_CARAMEL_2": "Koka häftigt 15-30 min",
+      "PREPARE_CARAMEL_3": "Häll lite av den heta smeten i en kopp med kallt vatten och går smeten att forma till en rund kula är den färdig, annars får smeten koka några min till",
+      "PREPARE_CARAMEL_4": "Ifall kolan är för hård i kulproven kan mer vatten läggas i så blir den mjukare",
+      "PREPARE_CARAMEL_5": "Häll upp smeten i små knäckformar ställda på en plåt",
+      "PREPARE_CARAMEL_6": "Låt den svalna",
+      "PREPARE_CHIA_EGG": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
+      "PREPARE_CHIA_PUDDING": "Eventuellt vänta 15-30 min för att få en tjockare konsistens",
+      "PREPARE_LENTILS_1": "Skölj linserna och lägg sedan allt i en kastrull",
+      "PREPARE_LENTILS_2": "Koka i cirka 10 minuter eller tills linserna är mjuka",
+      "PREPARE_MILK": "Värm mjölken till önskad temperatur i mikro eller kastrull",
+      "PREPARE_MUSHROOMS_1": "Skölj svampen och hacka dem sedan i valfi storlek",
+      "PREPARE_MUSHROOMS_2": "Häll i svampen med cirka en halv deciliter vatten i en stekpanna och stek på full värme tills nästan allt vatten är borta",
+      "PREPARE_ORANGES": "Skär apelsinerna i bitar och skär bort allt det vita + hinnan",
+      "PREPARE_RICE_NOODLES": "Koka risnudlarna enligt bruksanvisning",
+      "PREPARE_RICE": "Koka riset enligt bruksanvisning",
+      "PUT_DRESSING_IN_BOWL": "Blanda ihop dressingen i en skål",
+      "PUT_DRESSING_IN_MIXER": "Lägg i alla ingredienser till dressingen i en matberedare och mixa",
+      "PUT_EVERYTHING_IN_BOWL": "Lägg i alla ingredienser i en skål och blanda",
+      "PUT_EVERYTHING_IN_MIXER": "Lägg i alla ingredienser i en matberedare och mixa",
+      "PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES": "Lägg allt i en kastrull förutom grönsakerna och koka upp",
+      "PUT_EVERYTHING_IN_POT_AND_BOIL": "Lägg allt i en kastrull och koka upp",
+      "PUT_EVERYTHING_TOGETHER": "Blanda ihop allt",
+      "PUT_MARINADE_IN_BOWL": "Blanda ihop marinaden i en skål"
     },
     "MEASURMENT": {
       "DL": "dl",
@@ -1125,7 +1211,8 @@
     "DRINKS": "Drycker",
     "MAIN_COURSES": "Huvudrätter",
     "SAUCES": "Såser",
-    "STARTERS_SIDEDISHES": "Förrätter",
+    "STARTERS": "Förrätter",
+    "SIDEDISHES": "Sidorätter",
     "LEGUMES": "Baljväxter",
     "PASTAS": "Pastarätter",
     "PIZZA": "Pizza",

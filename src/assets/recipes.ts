@@ -74,8 +74,8 @@ export interface Recipe {
     to_serve?: Array<Ingredient>;
   };
   steps: number;
-  image_big?: any; // Any size
-  image_small?: any; // Ratio 2:1 (w:h), ex. 200x100
+  image_big?: any; // Any size, preferably ratio 1:1 (w:h)
+  image_small?: any; // Ratio 2:1 (w:h), ex. 400x200 jpg
   tags: Tags;
   source: Source;
 }
@@ -121,6 +121,10 @@ export function getRecipe(id: string): Recipe {
  */
 const raspberry_chia_pudding: Recipe = {
   id: '1_1_1',
+  image_big:
+    '/assets/images/raspberry_chia_pudding_big.jpg',
+  image_small:
+    '/assets/images/raspberry_chia_pudding_small.jpg',
   time: 10,
   portions: 1,
   ingredients: {
@@ -130,7 +134,7 @@ const raspberry_chia_pudding: Recipe = {
       toIngredient([INGREDIENT.CHIA_SEEDS], '1', MEASUREMENT.MSK),
     ],
   },
-  steps: 3,
+  steps: 2,
   tags: {
     meal_type: MEAL_TYPE.BREAKFASTS_SNACKS,
     diets_occasions: [
@@ -147,6 +151,10 @@ const raspberry_chia_pudding: Recipe = {
 
 const strawberry_chia_pudding: Recipe = {
   id: '1_1_2',
+  image_big:
+    '/assets/images/strawberry_chia_pudding_big.jpg',
+  image_small:
+    '/assets/images/strawberry_chia_pudding_small.jpg',
   time: 10,
   portions: 1,
   ingredients: {
@@ -156,7 +164,7 @@ const strawberry_chia_pudding: Recipe = {
       toIngredient([INGREDIENT.CHIA_SEEDS], '1', MEASUREMENT.MSK),
     ],
   },
-  steps: 3,
+  steps: 2,
   tags: {
     meal_type: MEAL_TYPE.BREAKFASTS_SNACKS,
     diets_occasions: [
@@ -184,7 +192,7 @@ const very_berry_chia_pudding: Recipe = {
       toIngredient([INGREDIENT.CHIA_SEEDS], '2', MEASUREMENT.MSK),
     ],
   },
-  steps: 3,
+  steps: 2,
   tags: {
     meal_type: MEAL_TYPE.BREAKFASTS_SNACKS,
     diets_occasions: [
@@ -206,18 +214,16 @@ const chia_porrige_with_blueberries: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.CHIA_SEEDS], '1', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.BUCKWHEAT_FLAKES], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.MILLET_FLAKES, INGREDIENT.BUCKWHEAT_FLAKES], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.PSYLLIUM_HUSK], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.COCONUT_MILK], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.SALT], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.BLUEBERRIES], '1/4', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.BANANA_RIPE], '1/2', MEASUREMENT.ST, true),
-      toIngredient([INGREDIENT.MAPLE_SYRUP], '1/2', MEASUREMENT.MSK, true),
-      toIngredient([INGREDIENT.PEANUT_BUTTER], '1', MEASUREMENT.MSK, true),
+      toIngredient([INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP], '1/2', MEASUREMENT.MSK, true),
       toIngredient([INGREDIENT.CINNAMON], '1', MEASUREMENT.KRM, true),
     ],
   },
-  steps: 6,
+  steps: 5,
   tags: {
     meal_type: MEAL_TYPE.BREAKFASTS_SNACKS,
     diets_occasions: [
@@ -538,6 +544,10 @@ const crostini_with_sundried_tomatoes: Recipe = {
 
 const crostini_with_seaweed_caviar: Recipe = {
   id: '2_6',
+  image_big:
+    '/assets/images/crostini_with_seaweed_caviar_big.jpg',
+  image_small:
+    '/assets/images/crostini_with_seaweed_caviar_small.jpg',
   time: 10,
   ingredients: {
     base: [
@@ -1015,6 +1025,10 @@ const oven_baked_root_vegetagles_with_coriander_sauce: Recipe = {
 /** 5. Soups */
 const cheesy_spinage_soup: Recipe = {
   id: '5_1',
+  image_big:
+    '/assets/images/cheesy_spinage_soup_big.jpg',
+  image_small:
+    '/assets/images/cheesy_spinage_soup_small.jpg',
   time: 25,
   portions: 4,
   ingredients: {
@@ -1602,6 +1616,10 @@ const green_maki: Recipe = {
 
 const sun_maki: Recipe = {
   id: '10_5',
+  image_big:
+    '/assets/images/sun_maki_big.jpg',
+  image_small:
+    '/assets/images/sun_maki_small.jpg',
   time: 100,
   ingredients: {
     base: [
@@ -1615,7 +1633,7 @@ const sun_maki: Recipe = {
       ),
       toIngredient([INGREDIENT.SUNDRIED_TOMATOES]),
       toIngredient([INGREDIENT.CUCUMBERS]),
-      toIngredient([INGREDIENT.SEAWEED_SALAD]),
+      toIngredient([INGREDIENT.SEAWEED_SALAD, INGREDIENT.AVOCADOS]),
       toIngredient([INGREDIENT.NORI]),
     ],
   },
@@ -1639,6 +1657,10 @@ const sun_maki: Recipe = {
 
 const mushroom_maki: Recipe = {
   id: '10_6',
+  image_big:
+    '/assets/images/mushroom_maki_big.jpg',
+  image_small:
+    '/assets/images/mushroom_maki_small.jpg',
   time: 100,
   ingredients: {
     base: [
@@ -1746,6 +1768,10 @@ const seaweed_nigiri: Recipe = {
 
 const avocado_nigiri: Recipe = {
   id: '10_10',
+  image_big:
+    '/assets/images/avocado_nigiri_big.jpg',
+  image_small:
+    '/assets/images/avocado_nigiri_small.jpg',
   time: 100,
   ingredients: {
     base: [
@@ -1929,6 +1955,10 @@ const wasabi_sauce: Recipe = {
 
 const cod_with_coconut_and_lime: Recipe = {
   id: '11_9',
+  image_big:
+    '/assets/images/cod_with_coconut_and_lime_big.jpg',
+  image_small:
+    '/assets/images/cod_with_coconut_and_lime_small.jpg',
   time: 40,
   portions: 4,
   ingredients: {
@@ -1946,7 +1976,7 @@ const cod_with_coconut_and_lime: Recipe = {
   tags: {
     meal_type: MEAL_TYPE.MAIN_COURSES,
     main_course_type: MAIN_COURSE_TYPE.SEAFOOD,
-    diets_occasions: [DIETS_OCCASIONS.FODMAP, DIETS_OCCASIONS.ME_DIET],
+    diets_occasions: [DIETS_OCCASIONS.FODMAP, DIETS_OCCASIONS.SEMI_ME_DIET],
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL_FROM,
@@ -2623,6 +2653,10 @@ const swedish_chocolate_balls: Recipe = {
 
 const cherry_cheese_cake: Recipe = {
   id: '13_8',
+  image_big:
+    '/assets/images/cherry_cheese_cake_big.jpg',
+  image_small:
+    '/assets/images/cherry_cheese_cake_small.jpg',
   time: 210,
   portions: 10,
   ingredients: {
@@ -3063,7 +3097,7 @@ const chocolate_dipped_clementines: Recipe = {
       toIngredient([INGREDIENT.CLEMENTINES], '3', MEASUREMENT.ST),
     ],
   },
-  steps: 5,
+  steps: 4,
   tags: {
     meal_type: MEAL_TYPE.DESERTS,
     diets_occasions: [
@@ -3093,7 +3127,7 @@ const christmas_butterscotch: Recipe = {
       toIngredient([INGREDIENT.SWEET_ALMONDS_UNSHELLED], '2', MEASUREMENT.DL),
     ],
   },
-  steps: 7,
+  steps: 8,
   tags: {
     meal_type: MEAL_TYPE.DESERTS,
     diets_occasions: [

@@ -1,31 +1,17 @@
 #recipe_header {
   margin-bottom: 20px;
-
-  #img_container {
-    margin: 0px -20px;
-    width: calc(100% + 40px);
-    text-align: center;
-    #image {
-      max-height: 50vh;
-      max-width: 100%;
-    }
-  }
+  display: flex;
+  justify-content: space-between;
 
   #info_container {
     display: flex;
-    justify-content: space-between;
-    margin-top: 8px;
-    span {
-      margin-bottom: 0px;
-    }
-    #time,
-    #portions {
-      flex-basis: 15%;
-    }
-    #tags {
-      flex-basis: 70%;
-      text-align: end;
-    }
+    flex-direction: column;
+  }
+
+  #image {
+    max-height: 50vh;
+    max-width: 75%;
+    margin: -20px -20px -20px 20px;
   }
 }
 

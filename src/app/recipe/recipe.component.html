@@ -1,26 +1,24 @@
 <div id="recipe_header" class="box_wrapper">
-  <h2>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h2>
-  <div id="img_container">
-    <img
-      *ngIf="recipe.image_big"
-      id="image"
-      [src]="recipe.image_big"
-      [alt]="'COMMON.ALT.PICTURE_FOOD' | translate"
-    />
-  </div>
   <div id="info_container">
-    <span id="time">
+    <h2>{{ "RECIPES." + recipe.id + ".TITLE" | translate }}</h2>
+    <span>
       {{ ("RECIPES.TIME" | translate) + ": " }} {{ recipe.time | time }}
     </span>
-    <span id="portions">
+    <span>
       {{ ("RECIPES.PORTIONS" | translate) + ": " }} {{ recipe.portions }}
     </span>
-    <span id="tags">
-      <ng-container *ngFor="let tag of getTags(recipe.tags); let last = last">{{
-        (tag | translate) + (!last ? ", " : "")
-      }}</ng-container>
+    <span>
+      <ng-container *ngFor="let tag of getTags(recipe.tags); let last = last">
+        {{ (tag | translate) + (!last ? " - " : "") }}
+      </ng-container>
     </span>
   </div>
+  <img
+    *ngIf="recipe.image_big"
+    id="image"
+    [src]="recipe.image_big"
+    [alt]="'COMMON.ALT.PICTURE_FOOD' | translate"
+  />
 </div>
 
 <div id="instructions_container">
