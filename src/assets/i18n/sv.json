@@ -731,11 +731,11 @@
     "11_3": {
       "TITLE": "Tonfiskfilé med marinad av apelsin och oregano",
       "STEPS": {
-        "1": "Tina tonfiskfiléerna om de är frysta",
+        "1": "RECIPES.COMMON_STEPS.THAW_FISH",
         "2": "RECIPES.COMMON_STEPS.PREPARE_RICE",
         "3": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
         "4": "Lägg tonfiskfiléerna i en påse och häll dressingen över och blanda",
-        "5": "Låt stå 30 min",
+        "5": "COMMON_STEPS.LET_SET_30",
         "6": "Hetta upp en stekpanna med rapsolja i och lägg i tonfiskfiléerna",
         "7": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE"
       }
@@ -743,11 +743,11 @@
     "11_4": {
       "TITLE": "Tonfiskfilé med asiatisk marinad",
       "STEPS": {
-        "1": "Tina tonfiskfiléerna om de är frysta",
+        "1": "RECIPES.COMMON_STEPS.THAW_FISH",
         "2": "RECIPES.COMMON_STEPS.PREPARE_RICE",
         "3": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
         "4": "Lägg tonfiskfiléerna i en påse och häll dressingen över och blanda",
-        "5": "Låt stå 30 min",
+        "5": "COMMON_STEPS.LET_SET_30",
         "6": "Hetta upp en stekpanna med rapsolja i och lägg i tonfiskfiléerna",
         "7": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE"
       }
@@ -866,7 +866,7 @@
         "6": "Fräs tillsammans med rapsoljan och låt svalna",
         "7": "Mosa den kokta potatisen och blanda ihop med linserna och grönsaksfräset",
         "8": "Smaksätt med dijonnsenap, salt, svart- och vitpeppar",
-        "9": "Stek på medelvärme i ett par minuter på varje sida"
+        "9": "Forma biffar och stek på medelvärme i ett par minuter på varje sida"
       }
     },
     "12_8": {
@@ -935,7 +935,8 @@
       "STEPS": {
         "1": "Blanda smör, socker, vaniljsocker och kakao i en bunke",
         "2": "Blanda i havregryn",
-        "3": "Rulla i kokosflingor eller pärlsocker"
+        "3": "Rulla i kokosflingor eller pärlsocker",
+        "4": "Kyl i kylskåpet"
       }
     },
     "13_8": {
@@ -1097,7 +1098,7 @@
         "1": "RECIPES.COMMON_STEPS.OVEN_175",
         "2": "Rör smör, socker, vaniljsocker, saffran och sirap smidigt",
         "3": "Blanda mjöl och bakpulver och rör ner i smeten och arbeta ihop till en deg",
-        "4": " Dela degen i 2 delar (för 20 st) och rulla ut till längder, ca 40 cm långa",
+        "4": "Dela degen i 2 delar (för 20 st) och rulla ut till längder, ca 40 cm långa",
         "5": "Lägg dem på en plåt med bakplåtspapper och platta till dem",
         "6": "Grädda mitt i ugnen ca 12 minuter",
         "7": "Låt kakorna svalna ca 5 minuter och skär dem sedan på snedden"
@@ -1133,6 +1134,7 @@
       "DO_SERVE_WITH_RICE": "Servera med ris",
       "DO_TAKE_OF_STOVE_AND_MIX": "Ta av kastrullen från spisen och mixa soppan slät med stavmixer",
       "DO_USE_MIXER_OR_HAND_BLENDER": "Mixa alla ingredienserna i matberedare eller med stavmixer i en skål",
+      "LET_SET_30": "Låt stå i 30 minuter",
       "MAKI": {
         "1": "Lägg sushiriset på en nori eller i en sushibozoka",
         "2": "Lägg på innehållet",
@@ -1145,15 +1147,15 @@
         "NORI_TOP": "Lägg på ingredienserna och slut ihop allt med en noribit",
         "NORI_AROUND": "Lägg nori runt om riset och lägg i ingredienserna på toppen"
       },
-      "OVEN_120": "Värm ugnen till 120°C",
-      "OVEN_150": "Värm ugnen till 150°C",
-      "OVEN_175": "Värm ugnen till 175°C",
-      "OVEN_180": "Värm ugnen till 180°C",
-      "OVEN_200": "Värm ugnen till 200°C",
-      "OVEN_225": "Värm ugnen till 225°C",
+      "OVEN_120": "Värm ugnen till 120°C/250°F",
+      "OVEN_150": "Värm ugnen till 150°C/300°F",
+      "OVEN_175": "Värm ugnen till 175°C/350°F",
+      "OVEN_180": "Värm ugnen till 180°C/350°F",
+      "OVEN_200": "Värm ugnen till 200°C/400°F",
+      "OVEN_225": "Värm ugnen till 225°C/440°F",
       "PREPARE_BUCKWHEAT_PASTA": "Koka upp pastan enligt anvisningarna på förpackningen",
       "PREPARE_BUTTER": "Smält smöret",
-      "PREPARE_CARAMEL_1": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
+      "PREPARE_CARAMEL_1": "Blanda socker, sirap, kokosmjölk och smör i en kastrull",
       "PREPARE_CARAMEL_2": "Koka häftigt 15-30 min",
       "PREPARE_CARAMEL_3": "Häll lite av den heta smeten i en kopp med kallt vatten och går smeten att forma till en rund kula är den färdig, annars får smeten koka några min till",
       "PREPARE_CARAMEL_4": "Ifall kolan är för hård i kulproven kan mer vatten läggas i så blir den mjukare",
@@ -1176,7 +1178,8 @@
       "PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES": "Lägg allt i en kastrull förutom grönsakerna och koka upp",
       "PUT_EVERYTHING_IN_POT_AND_BOIL": "Lägg allt i en kastrull och koka upp",
       "PUT_EVERYTHING_TOGETHER": "Blanda ihop allt",
-      "PUT_MARINADE_IN_BOWL": "Blanda ihop marinaden i en skål"
+      "PUT_MARINADE_IN_BOWL": "Blanda ihop marinaden i en skål",
+      "THAW_FISH": "Tina fisken om den är fryst"
     },
     "MEASURMENT": {
       "DL": "dl",

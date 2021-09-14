@@ -328,7 +328,7 @@
         "1": "RECIPES.COMMON_STEPS.OVEN_120",
         "2": "Mix dry and wet ingredients separately och then mix them together",
         "3": "Evenly spread the granola mixture over two baking trays lined with baking paper",
-        "4": "Bake in the oven for 40 minutes and stir the granola after half the time or bake for 33 minutes without stiring",
+        "4": "Bake in the oven for 40 minutes and stir the granola after half the time or bake for 33 minutes without stirring",
         "5": "Let the granola cool for 1 to 2 hours and then store in air tight jars or containers"
       }
     },
@@ -515,7 +515,7 @@
       }
     },
     "5_1": {
-      "TITLE": "Ostig spenatsoppa",
+      "TITLE": "Spinage soup",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
         "2": "Boil for 10 minutes"
@@ -584,90 +584,80 @@
       }
     },
     "7_3": {
-      "TITLE": "Ris med rostade frön och ugnsbakade rotsaker med timjan och rosmarin",
+      "TITLE": "Oven baked root vegetables with thyme and rosemary",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_225",
-        "2": "Skär rotfrukterna i bitar och lägg i en stor skål",
-        "3": "Häll i övriga ingredienser och rör runt tills det är blandat",
-        "4": "Lägg på bakplåtspapper och lägg in i ugnen i 30 minuter, och öppna ugnen ibland för att få bort fukt",
-        "5": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
-      }
-    },
-    "7_3": {
-      "TITLE": "Ris med rostade frön och ugnsbakade rotsaker med timjan och rosmarin",
-      "STEPS": {
-        "1": "RECIPES.COMMON_STEPS.OVEN_225",
-        "2": "Skär rotfrukterna i bitar och lägg i en stor skål",
-        "3": "Häll i övriga ingredienser och rör runt tills det är blandat",
-        "4": "Lägg på bakplåtspapper och lägg in i ugnen i 30 minuter, och öppna ugnen ibland för att få bort fukt",
+        "2": "Cut the root vegetables and put in a large bowl",
+        "3": "Add the other ingredients and mix well",
+        "4": "Add the vegetables on a parchment paper on a pan and bake for 30 minutes, and open sometimes to let moisture out",
         "5": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE_SEEDS"
       }
     },
     "7_4": {
-      "TITLE": "Ugnsbakade rotsaker med tahinisås",
+      "TITLE": "Oven baked root vegetables with tahini sauce",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_200",
-        "2": "Skär rotfrukterna i lika storlek och blanda med olja, salt och peppar",
-        "3": "Baka rotfrukterna i ugn i cirka 25 - 30 minuter",
-        "4": "Lägg alla ingredienser till såsen i en skål och blanda slät"
+        "2": "Cut the root vegetables and mix with oil, salt and pepper",
+        "3": "Bake in oven for 25 - 30 minutes",
+        "4": "Put all ingredients for the sauce in a bowl and mix well"
       }
     },
     "7_5": {
-      "TITLE": "Grönsaksteriyaki",
+      "TITLE": "Vegetable teriyaki",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
-        "2": "Skär grönsakerna i önskad storlek och stek i coconut aminos till de är milt mjuka",
-        "3": "Häll i alla ingredienser förutom rismjölet i en kastrull och koka upp",
-        "4": "Häll i mjölet under omrörning och låt sedan sjuda i cirka 5 minuter",
-        "5": "Låt svalna och om inte såsen är karamellkonsistens ska den sjuda i några minuter till"
+        "2": "Cut vegetables and fry in coconut aminos until soften",
+        "3": "Add all ingredients except for the rice flour into a pot and make it boil",
+        "4": "Pour in the rice flour while stirring and let it cook for cirka 5 minutes",
+        "5": "Let the sauce cool and if it is not yet a little sticky then cook it for a few minutes more"
       }
     },
     "9_1": {
-      "TITLE": "Pizza med pesto, spenat och soltorkade tomater",
+      "TITLE": "Pizza with pesto, spinage and sundried tomatoes",
       "STEPS": {
-        "1": "Blanda jästen med ljummet vatten i en bunke",
-        "2": "Blanda i resten av ingredienserna förutom mjölet och blanda väl",
-        "3": "Blanda sakta i mjöl tills degen inte längre är kletig",
-        "4": "Låt jäsa i en halvtimme",
-        "5": "Blanda ingredienserna till tomatsåsen i en kastrull och koka i 10 min på medelvärme",
-        "6": "Hacka soltorkade tomaterna i medelstora bitar",
-        "7": "Kavla ut pizzabotten, häll på tomatsåsen och lägg sedan på soltorkade tomater, pesto och babyspenat",
-        "8": "Baka i ugnen i ca 10-15 min",
-        "9": "Häll på näringsjäst"
+        "1": "Mix the yeast with room temperature water in a bowl",
+        "2": "Add the rest of the ingredients for the dough except for the flour and mix",
+        "3": "Slowly add the flour while mixing until the dough is not sticky",
+        "4": "Let the dough set for a half hour",
+        "5": "Mix the ingredients for the tomato sauce in a pot and boil for 10 minutes",
+        "6": "Chop the sundried tomatoes in half of thirds",
+        "7": "Roll out the dough, add the tomato sauce and add the sundried tomatoes, pesto and baby spinage",
+        "8": "Bake in the oven for cirka 10 to 15 minutes",
+        "9": "Top with nutritional yeast"
       }
     },
     "10_1": {
-      "TITLE": "Sushiris",
+      "TITLE": "Sushi rice",
       "STEPS": {
-        "1": "Skölj riset tills vattnet är helt klart och lägg det sedan i en sil i 30 till 60 minuter för vattnet att rinna av",
-        "2": "Lägg riset i en stor kastrull där 2 tredjedelar av kastrullen är tom",
-        "3": "Lägg på lock och koka upp på medelvärme",
-        "4": "Koka i cirka 5 minuter",
-        "5": "Sänk till lägsta värmen och rör igenom riset med en träspatel",
-        "6": "Lägg åter på lock och låt sjuda sakta i cirka 10 minuter eller tills vattnet är absorberat",
-        "7": "Rör igenom riset igen",
-        "8": "Lägg åt sidan och låt stå under lock i 10 minuter",
-        "9": "Gör vinägerdressingen genom att blanda resterande ingredienser i en skål",
-        "10": "Lägg över riset i en skål som inte är gjord av metall",
-        "11": "Droppa vinägerdressingen över riset och hugg försiktigt med träspateln på samma ställe",
-        "12": "Låt svalna",
-        "13": "Häll upp en skål med vatten att doppa fingrarna i så att det är enklare att handskas med riset"
+        "1": "Rinse the rice until the water is clear and then put it in a strainer for 30 to 60 minutes",
+        "2": "Put the rice in a pot big enough to have 2/3 of the pot empty",
+        "3": "Add the lid and boil to a medium heat",
+        "4": "Boil for 5 minutes",
+        "5": "Set the heat to the lowest possible and stir with a wooden spatula",
+        "6": "Add the lid again and let the rice simmer for cirka 10 minutes or until all the water is absorbed",
+        "7": "Stir again",
+        "8": "Put the pot aside with the lid for 10 minutes",
+        "9": "Make the vinegar dressing by mixing them into a small bowl",
+        "10": "Add the rice into a bowl that is not made out of metal",
+        "11": "Slowly pour the dressing over the rice and stab the rice gently with the wooden spatula where you just poured",
+        "12": "Let cool",
+        "13": "Get a bowl of water to wip your fingers in before dealing the the rice so the rice sticks less to your fingers"
       }
     },
     "10_2": {
-      "TITLE": "Stark sushisås",
+      "TITLE": "Spicy sushi sauce",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL"
       }
     },
     "10_3": {
-      "TITLE": "Japansk tonfiskröra",
+      "TITLE": "Japanese tuna stuffing",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL"
       }
     },
     "10_4": {
-      "TITLE": "Grön maki",
+      "TITLE": "Green maki",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.MAKI.1",
         "2": "RECIPES.COMMON_STEPS.MAKI.2",
@@ -677,7 +667,7 @@
       }
     },
     "10_5": {
-      "TITLE": "Solmaki",
+      "TITLE": "Sun maki",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.MAKI.1",
         "2": "RECIPES.COMMON_STEPS.MAKI.2",
@@ -687,11 +677,11 @@
       }
     },
     "10_6": {
-      "TITLE": "Svampmaki",
+      "TITLE": "Mushroom maki",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_1",
         "2": "RECIPES.COMMON_STEPS.PREPARE_MUSHROOMS_2",
-        "3": "Stek med smör och soja tills svampen är gyllenbrun",
+        "3": "Fry with butter and soy until the mushroom is golden brown",
         "4": "RECIPES.COMMON_STEPS.MAKI.1",
         "5": "RECIPES.COMMON_STEPS.MAKI.2",
         "6": "RECIPES.COMMON_STEPS.MAKI.3",
@@ -700,7 +690,7 @@
       }
     },
     "10_8": {
-      "TITLE": "Tonfiskmaki",
+      "TITLE": "Tuna maki",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.MAKI.1",
         "2": "RECIPES.COMMON_STEPS.MAKI.2",
@@ -710,184 +700,184 @@
       }
     },
     "10_9": {
-      "TITLE": "Sjögräsnigiri",
+      "TITLE": "Seaweed nigiri",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.NIGIRI.1",
         "2": "RECIPES.COMMON_STEPS.NIGIRI.NORI_AROUND"
       }
     },
     "10_10": {
-      "TITLE": "Avokadonigiri",
+      "TITLE": "Avocado nigiri",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.NIGIRI.1",
         "2": "RECIPES.COMMON_STEPS.NIGIRI.NORI_TOP"
       }
     },
     "11_1": {
-      "TITLE": "Bovetekex med tonfisk och senap",
+      "TITLE": "Snack with tuna and mustard",
       "STEPS": {
-        "1": "Eventuellt förbered pålägget och lägg allt sedan på kakorna!"
+        "1": "Prepare any ingredients if needed and put it on the crackers"
       }
     },
     "11_2": {
-      "TITLE": "Tonfiskröra",
+      "TITLE": "Tuna mush",
       "STEPS": {
-        "1": "Skär ättisksgurkan i små bitar",
+        "1": "Cut the pickles in small pieces",
         "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
-        "3": "Servera exempelvis som dipp eller på gurkbitar"
+        "3": "Use as a dip or on cucumber pieces"
       }
     },
     "11_3": {
-      "TITLE": "Tonfiskfilé med marinad av apelsin och oregano",
+      "TITLE": "Orange and oregano marinated tuna",
       "STEPS": {
-        "1": "Tina tonfiskfiléerna om de är frysta",
+        "1": "RECIPES.COMMON_STEPS.THAW_FISH",
         "2": "RECIPES.COMMON_STEPS.PREPARE_RICE",
         "3": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
-        "4": "Lägg tonfiskfiléerna i en påse och häll dressingen över och blanda",
-        "5": "Låt stå 30 min",
-        "6": "Hetta upp en stekpanna med rapsolja i och lägg i tonfiskfiléerna",
+        "4": "Put the tuna in a bag with the dressing",
+        "5": "COMMON_STEPS.LET_SET_30",
+        "6": "Heat up a frying pan with oil and add the tuna",
         "7": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE"
       }
     },
     "11_4": {
-      "TITLE": "Tonfiskfilé med asiatisk marinad",
+      "TITLE": "Asian marinated tuna",
       "STEPS": {
-        "1": "Tina tonfiskfiléerna om de är frysta",
+        "1": "RECIPES.COMMON_STEPS.THAW_FISH",
         "2": "RECIPES.COMMON_STEPS.PREPARE_RICE",
         "3": "RECIPES.COMMON_STEPS.PUT_MARINADE_IN_BOWL",
-        "4": "Lägg tonfiskfiléerna i en påse och häll dressingen över och blanda",
-        "5": "Låt stå 30 min",
-        "6": "Hetta upp en stekpanna med rapsolja i och lägg i tonfiskfiléerna",
+        "4": "Put the tuna in a bag with the dressing",
+        "5": "COMMON_STEPS.LET_SET_30",
+        "6": "Heat up a frying pan with oil and add the tuna",
         "7": "RECIPES.COMMON_STEPS.DO_SERVE_WITH_RICE"
       }
     },
     "11_5": {
-      "TITLE": "Wasabisås",
+      "TITLE": "Wasabi sauce",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
-        "2": "Servera gärna med ris och tonfiskfiléer"
+        "2": "Can be used as a sauce with tuna fillets"
       }
     },
     "11_9": {
-      "TITLE": "Torsk med kokos och lime",
+      "TITLE": "Cod with coconut and lime",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
-        "2": "Blötlägg kokosflingorna i 10 min",
-        "3": "Hacka salladslöken, riv zesten och stek på medel eller hög värme tills allt blir lite gyllenbrunt",
-        "4": "Lägg i kokosflingorna och stek i några minuter",
-        "5": "Lägg undan kokosblandningen och stek fisken tills klar",
-        "6": "Lägg på kokosblandningen på fisken och servera med riset"
+        "2": "Soak the shredded coconut for 10 minutes",
+        "3": "Chop the green part of the spring onion, zest the lime and fry on medium heat until it is a golden brown color",
+        "4": "Add the shredded coconut and fry for a few minutes",
+        "5": "Put away the coconut mix and fry the fish",
+        "6": "Serve the fish with the coconut mixture on top with the rice"
       }
     },
     "11_10": {
-      "TITLE": "Torsksoppa med tomat",
+      "TITLE": "Tomato cod soup",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES",
-        "2": "Låt puttra på låg värme 10 minuter",
-        "3": "Hacka grönsakerna och lägg i dem och koka i 5 minuter eller tills allt är klart"
+        "2": "Let simmer on low heat for 10 minutes",
+        "3": "Chop the vegetables, put them in the pot and simmer for 5 more minutes"
       }
     },
     "11_12": {
-      "TITLE": "Tonfiskgryta med röd currysås",
+      "TITLE": "Tuna noodle stew",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE_NOODLES",
-        "2": "Lägg i allt annat i en kastrull och koka i 5 minuter",
-        "3": "Lägg i risnudlarna och rör om"
+        "2": "Put everything in a pot and boil for 5 minutes",
+        "3": "Add the rice noodles and mix"
       }
     },
     "11_13": {
-      "TITLE": "Krämig torskgryta",
+      "TITLE": "Creamy coconut cod stew",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES",
-        "2": "Hacka morot och zucchini",
-        "3": "Lägg i nudlar och grönsaker och koka i några minuter (enligt anvisning på paket)"
+        "2": "Chop carrot and zucchini",
+        "3": "Add noodles and vegetables and cook for a few minutes (according to the instructions of the rice noodles)"
       }
     },
     "11_14": {
-      "TITLE": "Fiskcurry",
+      "TITLE": "Indian fish curry",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
         "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
-        "3": "Koka i cirka 10 minuter eller tills fisken är klar"
+        "3": "Coo  for 10 minutes or until the fish is done"
       }
     },
     "12_1": {
-      "TITLE": "Currylinssoppa",
+      "TITLE": "Curry lentil soup",
       "STEPS": {
-        "1": "Skala och hacka morötterna",
+        "1": "Peel and chop the carrots",
         "2": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_1",
         "3": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_2",
         "4": "RECIPES.COMMON_STEPS.DO_SALT_PEPPER_IF_NEEDED"
       }
     },
     "12_2": {
-      "TITLE": "Linscurrygryta med kokosmjölk och lime",
+      "TITLE": "Curry lentils stew with coconut and lime",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_RICE",
-        "2": "Skölj linserna och lägg sedan allt förutom tomaterna i en kastrull",
-        "3": "Koka upp under omrörning och sjud ca 20 minuter under lock",
-        "4": "Skär tomaterna i halvor och lägg i dem i kastrullen",
-        "5": "Koka i ytterliggare några minuter tills tomaterna är mjuka"
+        "2": "Rinse the lentils and put everything except for the tomatoes in a pot",
+        "3": "Boil for 20 minutes under a lid",
+        "4": "Cut the tomatoes in halves and add them to the stew",
+        "5": "Cook for another minutes until the tomatoes has soften"
       }
     },
     "12_3": {
-      "TITLE": "Krämig kokoslinssoppa",
+      "TITLE": "Creamy coconut lentils soup",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_1",
         "2": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_2",
-        "3": "Ta kastrullen från värmen och mixa soppan slät med stavmixer"
+        "3": "Let the soup cool for a few minutes and mix with a hand mixer"
       }
     },
     "12_4": {
-      "TITLE": "Tomatlinssoppa",
+      "TITLE": "Tomato lentils soup",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_1",
         "2": "RECIPES.COMMON_STEPS.PREPARE_LENTILS_2",
-        "3": "Smaka av med vinäger, kryddor och salt"
+        "3": "Add vinegar, spices and salt after taste"
       }
     },
     "12_5": {
-      "TITLE": "Ärtsoppa",
+      "TITLE": "Swedish pea soup",
       "STEPS": {
-        "1": "Lägg ärtorna i blöt i 6 timmar eller över natten övertäckta i en stor kastrull",
-        "2": "Häll av vid tillagning och tillsätt nytt vatten",
-        "3": "Lägg i övriga ingredienser och koka upp",
-        "4": "Koka ärtsoppan under lock i 1 1/2 timme på medelvärme och rör om då och då (förslagsvis efter 30 min -> 30 min -> 15 min -> då den är klar)",
-        "5": "Blir ärtsoppan för tjock tillsätter man mer vatten"
+        "1": "Put the peas in a pot of water for at least 6 hours",
+        "2": "Rinse the peas and add new water",
+        "3": "Add all the other ingredients and put the pot to a boil",
+        "4": "Boil the soup under a lid for 1 1/2 hour on middle heat and stir sometimes (for example after 30 min -> 30 min -> 15 min -> finished)",
+        "5": "Add more water if the soup gets too thick"
       }
     },
     "12_6": {
-      "TITLE": "Bönsallad",
+      "TITLE": "Black bean salad",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_BUCKWHEAT_PASTA",
-        "2": "Skär grönsakerna i valfri storlek",
+        "2": "Cut the vegetables in optional sizes",
         "3": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
     "12_7": {
-      "TITLE": "Belugabiffar",
+      "TITLE": "Beluga patties",
       "STEPS": {
-        "1": "Koka belugalinserna tillsammans med grönsaksbuljong i 2 dl vatten i ca 25 min",
-        "2": "Koka potatisen och riset",
-        "3": "Häll av vattnet när linserna är mjuka, de ska inte koka sönder",
-        "4": "Låt linserna svalna och mosa dem sedan lite slarvigt med en gaffel",
-        "5": "Riv moroten fint, finhacka lök och vitlök samt soltorkade tomaterna",
-        "6": "Fräs tillsammans med rapsoljan och låt svalna",
-        "7": "Mosa den kokta potatisen och blanda ihop med linserna och grönsaksfräset",
-        "8": "Smaksätt med dijonnsenap, salt, svart- och vitpeppar",
-        "9": "Stek på medelvärme i ett par minuter på varje sida"
+        "1": "Cook the beluga lentils together with the vegetable stock in 2 dl water for 25 minutes",
+        "2": "Cook the potato and rice",
+        "3": "Remove the water from the beluga lentils when they are softened",
+        "4": "Let the beluga lentils cool and then mush them with a fork while leaving a few whole ones",
+        "5": "Grate the carrot and chop the onion, garlic and sundried tomatoes",
+        "6": "Fry them together with the canola oil and let cool",
+        "7": "Mush the cooked potato and mix with the lentils and vegetables",
+        "8": "Add dijon, salt and pepper",
+        "9": "Make patties and fry both sides on medium heat for a few minutes"
       }
     },
     "12_8": {
-      "TITLE": "Korianderbönor",
+      "TITLE": "Coriander beans",
       "STEPS": {
-        "1": "Skölj bönorna",
+        "1": "Rinse the beans",
         "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER",
-        "3": "Servera gärna till tacos"
+        "3": "Can be served as a taco side dish"
       }
     },
     "12_9": {
-      "TITLE": "Tacos med frasiga tahinibönbollar",
+      "TITLE": "TODO: Tacos with crispy tahini balls",
       "STEPS": {
         "1": "Hacka den gula löken och vitlöksklyftan fint",
         "2": "Fräs lökhacket i lite olivolja tills det mjuknar",
@@ -901,16 +891,16 @@
       }
     },
     "13_1": {
-      "TITLE": "Kanelstekt ananas",
+      "TITLE": "Cinnamon fried pineapple",
       "STEPS": {
-        "1": "Skär bort toppen, botten och alla andra kanter",
-        "2": "Skiva ananasen i önskade bitar, och skär bort den hårda stammen från bitarna",
-        "3": "Stek ananasen med smör, sirap och kanel tills den blir mjuk (några minuter)",
-        "4": "Servera som den är eller med glass"
+        "1": "Remove the top, bottom and all edges of the pineapple",
+        "2": "Slice the pineapple in pieces and avoid the hard stem in the middle",
+        "3": "Fry the pieces with butter, syrup and cinnamon until it gets soft",
+        "4": "Serve as is or with for example ice cream"
       }
     },
     "13_3": {
-      "TITLE": "Blåbärsmuffin",
+      "TITLE": "TODO: Blåbärsmuffin",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_175",
         "2": "Om blåbären är frysta ska de värmas innan",
@@ -920,18 +910,18 @@
       }
     },
     "13_4": {
-      "TITLE": "Chokladsmuffin",
+      "TITLE": "Chocolate muffin",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_200",
         "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
         "3": "RECIPES.COMMON_STEPS.PREPARE_BUTTER",
         "4": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
-        "5": "Lägg smeten i muffinsformar på en plåt",
-        "6": "Lägg in plåten i mitten av ugnen i cirka 10 min"
+        "5": "Put the dough in muffin wrappers on an oven plate",
+        "6": "Put it in the oven for about 10 minutes"
       }
     },
     "13_5": {
-      "TITLE": "Chokladkokossås",
+      "TITLE": "TODO: Chokladkokossås",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_POT_AND_BOIL",
         "2": "Låt koka på medelvärme tills såsens volym har halverats",
@@ -940,15 +930,16 @@
       }
     },
     "13_7": {
-      "TITLE": "Chokladbollar",
+      "TITLE": "Swedish chocolate balls",
       "STEPS": {
-        "1": "Blanda smör, socker, vaniljsocker och kakao i en bunke",
-        "2": "Blanda i havregryn",
-        "3": "Rulla i kokosflingor eller pärlsocker"
+        "1": "Mix butter, sugar, vanilla and cacao in a bowl",
+        "2": "Mix in the oats",
+        "3": "Roll into balls and the roll in either pearl sugar or shredded coconut",
+        "4": "Cool in the refrigerator"
       }
     },
     "13_8": {
-      "TITLE": "Körsbärscheesecake",
+      "TITLE": "TODO: Körsbärscheesecake",
       "STEPS": {
         "1": "Kör kexen i matberedare tills de är smuliga",
         "2": "Lägg i smöret och kör tills det blandats",
@@ -961,7 +952,7 @@
       }
     },
     "13_9": {
-      "TITLE": "Kärleksmums",
+      "TITLE": "TODO: Kärleksmums",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_CHIA_EGG",
         "2": "Smält smöret till kakan",
@@ -975,7 +966,7 @@
       }
     },
     "14_1": {
-      "TITLE": "Lavendellemonad",
+      "TITLE": "TODO: Lavendellemonad",
       "STEPS": {
         "1": "Häll i 2 1/2 dl vatten och strösocker i en kastrull och koka upp",
         "2": "Lägg undan kastrullen när allt socker har lösts upp och lägg i lavendel och sirap, och låt stå i 2 timmar",
@@ -985,7 +976,7 @@
       }
     },
     "14_2": {
-      "TITLE": "Ingefäralemonad",
+      "TITLE": "Ginger lemonade",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
@@ -993,12 +984,12 @@
     "14_5": {
       "TITLE": "Mojito",
       "STEPS": {
-        "1": "Koka upp sockerlagen och rör om tills allt socker lösts upp",
+        "1": "Boil the sugar water mixture until no solid sugar is visible",
         "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
     "14_6": {
-      "TITLE": "Kokosmojito",
+      "TITLE": "TODO: Kokosmojito",
       "STEPS": {
         "1": "Lägg i limesaft, mynta och socker i en behållare och pressa blandningen tills myntabladen har krossats lite",
         "2": "Lägg i alkoholen med kokosmjölk i en mixer/matberedare och mixa tills blandningen är slät",
@@ -1007,36 +998,36 @@
       }
     },
     "14_7": {
-      "TITLE": "Oreomilkshake",
+      "TITLE": "Oreo milkshake",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_CRUSH_COOKIES",
         "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER"
       }
     },
     "14_8": {
-      "TITLE": "Varm choklad",
+      "TITLE": "Hot chocolate",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_MILK",
         "2": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
       }
     },
     "14_9": {
-      "TITLE": "Kanelmjölk",
+      "TITLE": "Cinnamon latte",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_MILK",
         "2": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
       }
     },
     "14_10": {
-      "TITLE": "Lavendelmjölk",
+      "TITLE": "Lavender latte",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_MILK",
-        "2": "Lägg lavendeln i en tesil och låt stå i 10 minuter",
+        "2": "Add the lavender in a tea strainer and let sit for 10 minutes",
         "3": "RECIPES.COMMON_STEPS.DO_MIX_WITH_REST"
       }
     },
     "15_1": {
-      "TITLE": "Tomtegröt",
+      "TITLE": "TODO: Tomtegröt",
       "STEPS": {
         "1": "Blanda ris, vatten, smör och salt i en kastrull",
         "2": "Koka på svag värme i cirka 10 min eller tills gröten tjocknat",
@@ -1047,7 +1038,7 @@
       }
     },
     "15_2": {
-      "TITLE": "Grönkålsallad med granatäpple",
+      "TITLE": "TODO: Grönkålsallad med granatäpple",
       "STEPS": {
         "1": "Ta fram granatäpplekärnorna och låt tina ett tag",
         "2": "Lägg grönkål, torkade tranbär och eventuellt pumpafrön i en bunk",
@@ -1057,7 +1048,7 @@
       }
     },
     "15_3": {
-      "TITLE": "Apelsinsallad med granatäpple, sirap och kanel",
+      "TITLE": "TODO: Apelsinsallad med granatäpple, sirap och kanel",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_ORANGES",
         "2": "Skär i skivor och lägg upp på tallrikar eller ett stort fat",
@@ -1066,7 +1057,7 @@
       }
     },
     "15_4": {
-      "TITLE": "Chokladdoppade clementiner",
+      "TITLE": "TODO: Chokladdoppade clementiner",
       "STEPS": {
         "1": "Skala clementinerna och bryt isär klyftorna",
         "2": "Bryt chokladen i bitar och lägg den i en skål, smält i vattenbad eller i mikrovågsugn",
@@ -1075,33 +1066,33 @@
       }
     },
     "15_5": {
-      "TITLE": "Knäck",
+      "TITLE": "Christmas butterscotch",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_1",
         "2": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_2",
-        "3": "Hacka mandeln",
+        "3": "Chop the almonds",
         "4": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_3",
         "5": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_4",
-        "6": "Ta grytan åt sidan och blanda i mandel",
+        "6": "Set the pot away from the stove and add the almonds",
         "7": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_5",
         "8": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_6"
       }
     },
     "15_6": {
-      "TITLE": "Saffranskola",
+      "TITLE": "Saffron caramels",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_1",
         "2": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_2",
-        "3": "Rosta den rivna kokosen i en stekpanna tills den är gyllenbrun",
+        "3": "Roast the shredded coconut in a frying pan until it is golden",
         "4": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_3",
         "5": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_4",
-        "6": "Ta grytan åt sidan och blanda i kokosen och saffran",
+        "6": "Set the pot away from the stove and add the coconut and saffron",
         "7": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_5",
         "8": "RECIPES.COMMON_STEPS.PREPARE_CARAMEL_6"
       }
     },
     "15_7": {
-      "TITLE": "Saffranssnittar",
+      "TITLE": "TODO: Saffranssnittar",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_175",
         "2": "Rör smör, socker, vaniljsocker, saffran och sirap smidigt",
@@ -1113,7 +1104,7 @@
       }
     },
     "15_8": {
-      "TITLE": "Mjuk pepparkaka med lingonglasyr",
+      "TITLE": "TODO: Mjuk pepparkaka med lingonglasyr",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.OVEN_175",
         "2": "RECIPES.COMMON_STEPS.PREPARE_BUTTER",
@@ -1125,7 +1116,7 @@
       }
     },
     "15_9": {
-      "TITLE": "Pepparkaksmilkshake",
+      "TITLE": "TODO: Pepparkaksmilkshake",
       "STEPS": {
         "1": "Krossa alla pepparkakor för hand eller med stavmixer och en del av mjölken",
         "2": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_IN_BOWL",
@@ -1133,59 +1124,62 @@
       }
     },
     "COMMON_STEPS": {
-      "DO_APPLY_TOPPING_CROSTINI": "Lägg pålägget på upplagda crostini och servera",
-      "DO_CRUSH_COOKIES": "Krossa alla kakor för hand eller i en matberedare",
-      "DO_MIX_WITH_REST": "Lägg i övriga ingredienser och blanda",
-      "DO_SALT_IF_NEEDED": "Smaka av med salt",
-      "DO_SALT_PEPPER_IF_NEEDED": "Smaka av med salt och peppar",
-      "DO_SERVE_WITH_RICE_SEEDS": "Servera gärna till ris och rostade frön",
-      "DO_SERVE_WITH_RICE": "Servera med ris",
-      "DO_TAKE_OF_STOVE_AND_MIX": "Ta av kastrullen från spisen och mixa soppan slät med stavmixer",
-      "DO_USE_MIXER_OR_HAND_BLENDER": "Mixa alla ingredienserna i matberedare eller med stavmixer",
+      "DO_APPLY_TOPPING_CROSTINI": "Add everything on top of the crostini and serve",
+      "DO_CRUSH_COOKIES": "Crush all the coockies by hand in with a mixer",
+      "DO_MIX_WITH_REST": "Add all the other ingredients and mix",
+      "DO_SALT_IF_NEEDED": "Add more salt after taste",
+      "DO_SALT_PEPPER_IF_NEEDED": "Add more salt and pepper after taste",
+      "DO_SERVE_WITH_RICE_SEEDS": "Can be served with rice and roasted seeds",
+      "DO_SERVE_WITH_RICE": "Serve with rice",
+      "DO_TAKE_OF_STOVE_AND_MIX": "Remove the pot from the stove and mix the soup with a hand mixer",
+      "DO_USE_MIXER_OR_HAND_BLENDER": "Mix all ingredients in a mixer or with a hand mixer",
+      "LET_SET_30": "Let set for 30 minutes",
       "MAKI": {
-        "1": "Lägg sushiriset på en nori eller i en sushibozoka",
-        "2": "Lägg på innehållet",
-        "3": "Rulla ihop innehållet eller använd sushibazokan för att få ut en rund form och sedan rulla ihop den",
-        "4": "Skär makin i valfri storlek",
-        "5": "Toppa eventuellt med sesamfrön och/eller sås"
+        "1": "Put the sushi rice on a nori or in a sushi bazooka",
+        "2": "Add the stuffing on top",
+        "3": "Roll the nori or use the sushi bazooka",
+        "4": "Cut the maki in optional size",
+        "5": "If wanted, top the maki with sesame seeds or sauce"
       },
       "NIGIRI": {
-        "1": "Rulla ihop riset med blöta händer i ovala bollar",
-        "NORI_TOP": "Lägg på ingredienserna och slut ihop allt med en noribit",
-        "NORI_AROUND": "Lägg nori runt om riset och lägg i ingredienserna på toppen"
+        "1": "With wet hands, roll the sushi rice into balls",
+        "NORI_TOP": "Add the topping and put a wet nori piece around to seal the sushi",
+        "NORI_AROUND": "Add a nori around the ball and add the topping inside the nori"
       },
-      "OVEN_120": "Preheat the oven to 250°F/120°C",
-      "OVEN_150": "Preheat the oven to 300°F/150°C",
-      "OVEN_175": "Preheat the oven to 350°F/175°C",
-      "OVEN_180": "Preheat the oven to 350°F/180°C",
-      "OVEN_200": "Preheat the oven to 400°F/200°C",
-      "OVEN_225": "Preheat the oven to 440°F/225°C",
-      "PREPARE_BUCKWHEAT_PASTA": "Koka upp pastan enligt anvisningarna på förpackningen",
-      "PREPARE_BUTTER": "Smält smöret",
-      "PREPARE_CARAMEL_1": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
-      "PREPARE_CARAMEL_2": "Koka häftigt 15-30 min",
-      "PREPARE_CARAMEL_3": "Häll lite av den heta smeten i en kopp med kallt vatten och går smeten att forma till en rund kula är den färdig, annars får smeten koka några min till",
-      "PREPARE_CARAMEL_4": "Ifall kolan är för hård i kulproven kan mer vatten läggas i så blir den mjukare",
-      "PREPARE_CARAMEL_5": "Häll upp smeten i små knäckformar ställda på en plåt",
-      "PREPARE_CARAMEL_6": "Låt den svalna",
-      "PREPARE_CHIA_EGG": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
+      "OVEN_120": "Preheat the oven to 120°C/250°F",
+      "OVEN_150": "Preheat the oven to 150°C/300°F",
+      "OVEN_175": "Preheat the oven to 175°C/350°F",
+      "OVEN_180": "Preheat the oven to 180°C/350°F",
+      "OVEN_200": "Preheat the oven to 200°C/400°F",
+      "OVEN_225": "Preheat the oven to 225°C/440°F",
+
+      "PREPARE_BUCKWHEAT_PASTA": "Boil the pasta according to its instructions",
+      "PREPARE_BUTTER": "Melt the butter",
+      "PREPARE_CARAMEL_1": "Add sugar, syrup, coconut milk and butter in a pot",
+      "PREPARE_CARAMEL_2": "Boil on high heat for 15-30 minutes",
+      "PREPARE_CARAMEL_3": "Take a little of the hot caramell into a glass of cold water and see if you can form a soft ball which means it is done, otherwise cook a little longer",
+      "PREPARE_CARAMEL_4": "In case the caramell is too hard, you can add more water to the pot",
+      "PREPARE_CARAMEL_5": "Pour the caramell into small holders placed on a baking sheet",
+      "PREPARE_CARAMEL_6": "Let cool",
+      "PREPARE_CHIA_EGG": "Mix the chia seed egg and let it sit for 10 minutes",
       "PREPARE_CHIA_PUDDING": "If wanted, wait 15-30 min for a thicker consistency",
-      "PREPARE_LENTILS_1": "Skölj linserna och lägg sedan allt i en kastrull",
-      "PREPARE_LENTILS_2": "Koka i cirka 10 minuter eller tills linserna är mjuka",
-      "PREPARE_MILK": "Värm mjölken till önskad temperatur i mikro eller kastrull",
-      "PREPARE_MUSHROOMS_1": "Skölj svampen och hacka dem sedan i valfi storlek",
-      "PREPARE_MUSHROOMS_2": "Häll i svampen med cirka en halv deciliter vatten i en stekpanna och stek på full värme tills nästan allt vatten är borta",
-      "PREPARE_ORANGES": "Skär apelsinerna i bitar och skär bort allt det vita + hinnan",
-      "PREPARE_RICE_NOODLES": "Koka risnudlarna enligt bruksanvisning",
-      "PREPARE_RICE": "Koka riset enligt bruksanvisning",
-      "PUT_DRESSING_IN_BOWL": "Blanda ihop dressingen i en skål",
-      "PUT_DRESSING_IN_MIXER": "Lägg i alla ingredienser till dressingen i en matberedare och mixa",
-      "PUT_EVERYTHING_IN_BOWL": "Lägg i alla ingredienser i en skål och blanda",
-      "PUT_EVERYTHING_IN_MIXER": "Lägg i alla ingredienser i en matberedare och mixa",
-      "PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES": "Lägg allt i en kastrull förutom grönsakerna och koka upp",
-      "PUT_EVERYTHING_IN_POT_AND_BOIL": "Lägg allt i en kastrull och koka upp",
-      "PUT_EVERYTHING_TOGETHER": "Blanda ihop allt",
-      "PUT_MARINADE_IN_BOWL": "Blanda ihop marinaden i en skål"
+      "PREPARE_LENTILS_1": "Rinse the lentils and add everything into a pot",
+      "PREPARE_LENTILS_2": "Boilfor 10 minutes or until the lentils are soft",
+      "PREPARE_MILK": "Heat the milk to the desired temperature",
+      "PREPARE_MUSHROOMS_1": "Rinse the mushrooms and chop it into an optional sizes",
+      "PREPARE_MUSHROOMS_2": "Add the mushrooms with a bit of water into a frying pan and fry them on high heat until almost all water is gone",
+      "PREPARE_ORANGES": "Cut the oranges in pieces and cut away everything white",
+      "PREPARE_RICE_NOODLES": "Boil the rice noodles according to its instructions",
+      "PREPARE_RICE": "Boil the rice according to its instructions",
+      "PUT_DRESSING_IN_BOWL": "Mix the ingredients for the dressing in a bowl",
+      "PUT_DRESSING_IN_MIXER": "Put all the ingredients for the dressing in a mixer and mix",
+      "PUT_EVERYTHING_IN_BOWL": "Put all the ingredients in a bowl and mix",
+      "PUT_EVERYTHING_IN_MIXER": "Put all the ingredients in a mixer and mix",
+      "PUT_EVERYTHING_IN_POT_AND_BOIL_EXCEPT_VEGGIES": "Put all the ingredients except for the vegetables in a pot and make it boil",
+      "PUT_EVERYTHING_IN_POT_AND_BOIL": "Put all the ingredients in a pot and make it boil",
+      "PUT_EVERYTHING_TOGETHER": "Mix everything",
+      "PUT_MARINADE_IN_BOWL": "Mix the ingredients for the marinade in a bowl",
+      "THAW_FISH": "Thaw the fish if it is frozen"
     },
     "MEASURMENT": {
       "DL": "cups",
@@ -1211,13 +1205,13 @@
     },
     "SOURCE": {
       "BOOK": "the book ",
-      "FAMILY_RECIPE": "Detta är ett familjerecept",
-      "INSPIRED_FROM": "Detta recept är inspirerat av ",
+      "FAMILY_RECIPE": "This recipe has been passed down in the family",
+      "INSPIRED_FROM": "This recipe is inspired by ",
       "LABEL": "Recipe source: ",
-      "ORIGINAL_FROM": "Orginalreceptet kommer från ",
-      "ORIGINAL": "Detta är ett orginalrecept",
+      "ORIGINAL_FROM": "The original recpie is from ",
+      "ORIGINAL": "This recipe does not have a source",
       "RESTAURANT": "the restaurant ",
-      "SOURCE_LOST": "Receptkällan är tyvärr försvunnen",
+      "SOURCE_LOST": "The source of this recipe has been lost",
       "WEBSITE": "the website "
     },
     "TIME": "Time"
@@ -1228,7 +1222,7 @@
     "MAIN_COURSE_TYPE": "Main course type",
     "DIETS_OCCASIONS": "Diet and occasion",
     "BREAKFASTS_SNACKS": "Breakfasts and snacks",
-    "DESERTS": "Deserts",
+    "DESERTS": "Desserts",
     "DRINKS": "Drinks",
     "MAIN_COURSES": "Main courses",
     "SAUCES": "Sauces",

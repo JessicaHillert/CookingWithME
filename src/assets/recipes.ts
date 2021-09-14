@@ -1018,40 +1018,6 @@ const italian_cauliflower_rice: Recipe = {
   },
 };
 
-const oven_baked_root_vegetables_with_coriander_sauce: Recipe = {
-  id: '4_13',
-  time: 40,
-  portions: 4,
-  ingredients: {
-    base: [
-      toIngredient([INGREDIENT.CARROTS], '400', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.PARSNIPS], '400', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.ZUCCHINI], '200', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.OLIVE_OIL]),
-      toIngredient([INGREDIENT.THYME_DRIED]),
-      toIngredient([INGREDIENT.ROSEMARY_DRIED]),
-      toIngredient([INGREDIENT.SALT]),
-      toIngredient([INGREDIENT.BLACK_PEPPER]),
-    ],
-  },
-  steps: 5,
-  tags: {
-    meal_type: MEAL_TYPE.SIDE_DISHES,
-    diets_occasions: [
-      DIETS_OCCASIONS.VEGAN,
-      DIETS_OCCASIONS.FODMAP,
-      DIETS_OCCASIONS.ME_DIET,
-    ],
-  },
-  source: {
-    amount: SOURCE_AMOUNT.ORIGINAL_FROM,
-    type: SOURCE_TYPE.WEBSITE,
-    name: 'Lazy Cat Kitchen',
-    link:
-      'https://www.lazycatkitchen.com/vegan-roasted-vegetables-coriander-cream',
-  },
-};
-
 /** 5. Soups */
 const cheesy_spinage_soup: Recipe = {
   id: '5_1',
@@ -1384,6 +1350,35 @@ const rice_with_pulled_vegme_and_green_peas: Recipe = {
   },
   source: {
     amount: SOURCE_AMOUNT.ORIGINAL,
+  },
+};
+
+const oven_baked_root_vegetables_with_thyme_and_rosemary: Recipe = {
+  id: '7_3',
+  time: 40,
+  ingredients: {
+    base: [
+      toIngredient([INGREDIENT.CARROTS], '400', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.PARSNIPS], '400', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.ZUCCHINI], '200', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.CANOLA_OIL], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.THYME_DRIED]),
+      toIngredient([INGREDIENT.ROSEMARY_DRIED]),
+      toIngredient([INGREDIENT.SALT]),
+      toIngredient([INGREDIENT.BLACK_PEPPER]),
+    ],
+  },
+  steps: 5,
+  tags: {
+    meal_type: MEAL_TYPE.SIDE_DISHES,
+    diets_occasions: [
+      DIETS_OCCASIONS.VEGAN,
+      DIETS_OCCASIONS.FODMAP,
+      DIETS_OCCASIONS.SEMI_ME_DIET,
+    ],
+  },
+  source: {
+    amount: SOURCE_AMOUNT.SOURCE_LOST,
   },
 };
 
@@ -2665,7 +2660,7 @@ const swedish_chocolate_balls: Recipe = {
       toIngredient([INGREDIENT.PEARL_SUGAR, INGREDIENT.COCONUT_SHREDDED]),
     ],
   },
-  steps: 3,
+  steps: 4,
   tags: {
     meal_type: MEAL_TYPE.DESERTS,
     diets_occasions: [DIETS_OCCASIONS.VEGAN, DIETS_OCCASIONS.FODMAP],
@@ -3058,8 +3053,7 @@ const christmas_salad: Recipe = {
   },
   steps: 5,
   tags: {
-    meal_type: MEAL_TYPE.MAIN_COURSES,
-    main_course_type: MAIN_COURSE_TYPE.SALADS,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -3093,8 +3087,7 @@ const orange_salad_with_pomegranate_and_cinnamon: Recipe = {
   },
   steps: 4,
   tags: {
-    meal_type: MEAL_TYPE.MAIN_COURSES,
-    main_course_type: MAIN_COURSE_TYPE.SALADS,
+    meal_type: MEAL_TYPE.SIDE_DISHES,
     diets_occasions: [
       DIETS_OCCASIONS.VEGAN,
       DIETS_OCCASIONS.FODMAP,
@@ -3365,18 +3358,14 @@ export const recipes: Array<Recipe> = [
 
   /** 7. Rice dishes */
   rice_with_pulled_vegme_and_green_peas,
+  oven_baked_root_vegetables_with_thyme_and_rosemary,
   oven_baked_root_vegetables_with_tahini_sauce,
   vegetable_teriyaki,
 
-  /**
-   * 8. Wok
-   * Not added for now because we never eat this anymore.
-   */
-
-  /** 9. Pizza */
+  /** 8. Pizza */
   pizza_with_pesto_and_sundried_tomatoes,
 
-  /** 10. Sushi */
+  /** 9. Sushi */
   sushi_rice,
   spicy_sushi_sauce,
   japanese_tuna_stuffing,
@@ -3387,7 +3376,7 @@ export const recipes: Array<Recipe> = [
   seaweed_nigiri,
   avocado_nigiri,
 
-  /** 11. Seafood */
+  /** 10. Seafood */
   snacks_with_tuna_and_mustard,
   tuna_mush,
   orange_and_oregano_marinated_tuna,
@@ -3401,7 +3390,7 @@ export const recipes: Array<Recipe> = [
   //shrimp_pasta_with_lemon_and_chili,
   //mussels_tomato_pasta,
 
-  /** 12. Legumes */
+  /** 11. Legumes */
   curry_lentils_soup,
   curry_lentils_stew_with_coconut_and_lime,
   creamy_coconut_lentils_soup,
@@ -3410,38 +3399,38 @@ export const recipes: Array<Recipe> = [
   black_bean_salad,
   beluga_patties,
   coriander_beans,
-  tacos_with_crispy_tahini_balls,
+  tacos_with_crispy_tahini_balls, // TODO: English translation
 
-  /** 13. Deserts*/
+  /** 12. Deserts*/
   fried_pineapple,
-  blueberry_cupcakes,
+  blueberry_cupcakes, // TODO: English translation
   chocolate_cupcakes,
-  chocolate_sauce,
+  chocolate_sauce, // TODO: English translation
   swedish_chocolate_balls,
-  cherry_cheese_cake,
-  choco_coco_squares,
+  cherry_cheese_cake, // TODO: English translation
+  choco_coco_squares, // TODO: English translation
 
-  /** 14. Drinks */
-  lavender_lemonade,
+  /** 13. Drinks */
+  lavender_lemonade, // TODO: English translation
   ginger_lemonade,
   mojito,
-  coconut_mojito,
+  coconut_mojito, // TODO: English translation
   oreo_milkshake,
   hot_chocolate,
   cinnamon_latte,
   lavender_latte,
 
-  /** 15. Christmas */
-  christmas_porridge,
-  christmas_salad,
-  orange_salad_with_pomegranate_and_cinnamon,
-  chocolate_dipped_clementines,
+  /** 14. Christmas */
+  christmas_porridge, // TODO: English translation
+  christmas_salad, // TODO: English translation
+  orange_salad_with_pomegranate_and_cinnamon, // TODO: English translation
+  chocolate_dipped_clementines, // TODO: English translation
   christmas_butterscotch,
   saffron_caramels,
-  saffron_biscuits,
-  gingerbread_cake_with_lingonberry_frosting,
-  gingerbread_milkshake,
+  saffron_biscuits, // TODO: English translation
+  gingerbread_cake_with_lingonberry_frosting, // TODO: English translation
+  gingerbread_milkshake, // TODO: English translation
 
-  /** 16. Extra  (buckwheat pasta, etc) */
+  /** 15. Extra  (buckwheat pasta, etc) */
   // TODO
 ];
