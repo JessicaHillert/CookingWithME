@@ -216,7 +216,7 @@ const chia_porridge_with_blueberries: Recipe = {
       toIngredient([INGREDIENT.SALT], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.BLUEBERRIES], '1/4', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.MSK,
         true
@@ -332,9 +332,9 @@ const chocolate_granola: Recipe = {
       toIngredient([INGREDIENT.PUMPKIN_SEEDS], '2 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.COCONUT_SHREDDED], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CACAO], '1', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1/2', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.DL
       ),
@@ -365,7 +365,7 @@ const berry_squares: Recipe = {
     jam: [
       toIngredient([INGREDIENT.BERRIES_FROZEN], '350', MEASUREMENT.GRAM),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1',
         MEASUREMENT.MSK
       ),
@@ -377,7 +377,7 @@ const berry_squares: Recipe = {
       toIngredient([INGREDIENT.WATER], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.COCONUT_OIL], '4/5', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '4/5',
         MEASUREMENT.DL
       ),
@@ -470,7 +470,7 @@ const root_vegetables_soup: Recipe = {
   },
 };
 
-const fried_asparagus_with_balsamic_vinegar: Recipe = {
+const fried_asparagus_with_VINEGAR_BALSAMIC: Recipe = {
   id: '2_3',
   time: 20,
   portions: 4,
@@ -480,7 +480,7 @@ const fried_asparagus_with_balsamic_vinegar: Recipe = {
       toIngredient([INGREDIENT.OLIVE_OIL], '2', MEASUREMENT.MSK),
     ],
     dressing: [
-      toIngredient([INGREDIENT.BALSAMIC_VINEGAR], '2', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.VINEGAR_BALSAMIC], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.OLIVE_OIL], '3', MEASUREMENT.MSK),
     ],
     to_serve: [toIngredient([INGREDIENT.SEA_SALT], '1', MEASUREMENT.MSK)],
@@ -581,15 +581,15 @@ const crostini_with_seaweed_caviar: Recipe = {
 };
 
 /** 3. Sauces */
-const condensed_balsamic_vinegar: Recipe = {
+const condensed_VINEGAR_BALSAMIC: Recipe = {
   id: '3_1',
   time: 20,
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.BALSAMIC_VINEGAR], '1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.VINEGAR_BALSAMIC], '1/2', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1/4',
         MEASUREMENT.DL
       ),
@@ -620,7 +620,7 @@ const coriander_sauce: Recipe = {
       toIngredient([INGREDIENT.CARAWAY], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.CHILI_POWDER], '1', MEASUREMENT.KRM),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1',
         MEASUREMENT.TSK
       ),
@@ -681,7 +681,7 @@ const coconut_rice: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.COCONUT_OIL], '1', MEASUREMENT.DL),
     ],
   },
@@ -742,7 +742,7 @@ const aubergine_bacon: Recipe = {
       toIngredient([INGREDIENT.RED_PEPPER_POWDER], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.LIQUID_SMOKE], '1', MEASUREMENT.TSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '2',
         MEASUREMENT.TSK
       ),
@@ -778,7 +778,7 @@ const almond_bacon: Recipe = {
       toIngredient([INGREDIENT.CANOLA_OIL], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.LIQUID_SMOKE], '1', MEASUREMENT.MSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1 1/2',
         MEASUREMENT.MSK
       ),
@@ -928,7 +928,7 @@ const crispy_sesame_cauliflower: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.CAULIFLOWERS], '1', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.WHITE_RICE_FLOUR], '2 1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.RICE_WHITE_FLOUR], '2 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WATER], '2 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.GARLIC_POWDER], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SESAME_SEEDS], '1', MEASUREMENT.MSK),
@@ -938,7 +938,7 @@ const crispy_sesame_cauliflower: Recipe = {
     sauce: [
       toIngredient([INGREDIENT.COCONUT_AMINOS], '1 1/4', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '3/5',
         MEASUREMENT.DL
       ),
@@ -974,7 +974,7 @@ const mushroom_bruschetta: Recipe = {
       toIngredient([INGREDIENT.OVEN_BAKED_BREAD_SLICES], '4', MEASUREMENT.ST),
       toIngredient([INGREDIENT.CHAMPIGNONS], '250', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.OLIVE_OIL], '2 1/2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.SHALLOT], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.SHALLOTS], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.PARSLEY], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.SALT]),
       toIngredient([INGREDIENT.BLACK_PEPPER]),
@@ -1065,7 +1065,7 @@ const simple_pasta_pesto: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.BUCKWHEAT_PASTA], '400', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.ZUCCHINI], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.ZUCCHINIS], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.CANOLA_OIL], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.VEGAN_PESTO_BASIL], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.NUTRITIONAL_YEAST], '1/2', MEASUREMENT.DL),
@@ -1094,7 +1094,7 @@ const pasta_pesto_with_kale_and_hemp_seeds: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.BUCKWHEAT_PASTA], '400', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.ZUCCHINI], '1', MEASUREMENT.ST, true),
+      toIngredient([INGREDIENT.ZUCCHINIS], '1', MEASUREMENT.ST, true),
     ],
     sauce: [
       toIngredient([INGREDIENT.HEMP_SEEDS], '70', MEASUREMENT.GRAM),
@@ -1108,7 +1108,7 @@ const pasta_pesto_with_kale_and_hemp_seeds: Recipe = {
       toIngredient([INGREDIENT.SALT], '3/4', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.BLACK_PEPPER], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.BUCKWHEAT_PASTA], '400', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.ZUCCHINI], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.ZUCCHINIS], '1', MEASUREMENT.ST),
     ],
   },
   steps: 4,
@@ -1291,7 +1291,7 @@ const caesar_salad: Recipe = {
       toIngredient([INGREDIENT.THYME], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.OLIVE_OIL], '1', MEASUREMENT.TSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.TSK
       ),
@@ -1332,7 +1332,7 @@ const rice_with_pulled_vegme_and_green_peas: Recipe = {
         'TODO: VegMe Pulled Original link'
       ),
       toIngredient([INGREDIENT.GREEN_PEAS_FROZEN], '500', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.COCONUT_AMINOS]),
       toIngredient([INGREDIENT.GARLIC_POWDER]),
       toIngredient([INGREDIENT.SALT]),
@@ -1360,7 +1360,7 @@ const oven_baked_root_vegetables_with_thyme_and_rosemary: Recipe = {
     base: [
       toIngredient([INGREDIENT.CARROTS], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.PARSNIPS], '400', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.ZUCCHINI], '200', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.ZUCCHINIS], '200', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.CANOLA_OIL], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.THYME_DRIED]),
       toIngredient([INGREDIENT.ROSEMARY_DRIED]),
@@ -1392,7 +1392,7 @@ const oven_baked_root_vegetables_with_tahini_sauce: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.ROOT_VEGETABLES], '1', MEASUREMENT.KG),
       toIngredient(
         [INGREDIENT.OLIVE_OIL, INGREDIENT.CANOLA_OIL],
@@ -1431,7 +1431,7 @@ const vegetable_teriyaki: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.CUCUMBERS], '1/2', MEASUREMENT.ST),
       toIngredient([INGREDIENT.MUNG_BEAN_SPROUTS], '180', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.CARROTS], '4', MEASUREMENT.ST),
@@ -1440,7 +1440,7 @@ const vegetable_teriyaki: Recipe = {
     sauce: [
       toIngredient([INGREDIENT.COCONUT_AMINOS], '1 4/5', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '3/5',
         MEASUREMENT.DL
       ),
@@ -1449,7 +1449,7 @@ const vegetable_teriyaki: Recipe = {
       toIngredient([INGREDIENT.CHIVES_FROZEN], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.SESAME_SEEDS], '1/2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CAYENNE_PEPPER], '1/2', MEASUREMENT.KRM),
-      toIngredient([INGREDIENT.WHITE_RICE_FLOUR], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.RICE_WHITE_FLOUR], '1', MEASUREMENT.MSK),
     ],
   },
   steps: 5,
@@ -1520,7 +1520,7 @@ const sushi_rice: Recipe = {
       toIngredient([INGREDIENT.SUSHI_RICE], '500', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.WATER], '6', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WHITE_WINE_VINEGAR], '1', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '2', MEASUREMENT.TSK),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT], '1/2', MEASUREMENT.TSK),
     ],
   },
@@ -1854,7 +1854,7 @@ const tuna_mush: Recipe = {
     base: [
       toIngredient([INGREDIENT.TUNA_CANNED], '150', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.VEGAN_MAYONNAISE], '1 1/2', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.PICKLED_CUCUMBER], '1 1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.CUCUMBER_PICKLED], '1 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.SRIRACHA_SAUCE], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT]),
       toIngredient([INGREDIENT.BLACK_PEPPER]),
@@ -1876,7 +1876,7 @@ const orange_and_oregano_marinated_tuna: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.TUNA_FILLETS], '4', MEASUREMENT.ST),
       toIngredient([INGREDIENT.COCONUT_AMINOS], '3/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.ORANGE_JUICE], '3/5', MEASUREMENT.DL),
@@ -1904,7 +1904,7 @@ const asian_marinated_tuna: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.TUNA_FILLETS], '4', MEASUREMENT.ST),
       toIngredient([INGREDIENT.COCONUT_AMINOS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CANOLA_OIL], '2', MEASUREMENT.MSK),
@@ -1943,9 +1943,9 @@ const wasabi_sauce: Recipe = {
         true
       ),
       toIngredient([INGREDIENT.RICE_WINE_VINEGAR], '2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '2', MEASUREMENT.TSK),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '2', MEASUREMENT.TSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1',
         MEASUREMENT.MSK
       ),
@@ -1976,7 +1976,7 @@ const cod_with_coconut_and_lime: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.COD], '450', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.COCONUT_SHREDDED], '3/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.COCONUT_OIL], '2', MEASUREMENT.MSK),
@@ -2009,7 +2009,7 @@ const tomato_cod_soup: Recipe = {
       toIngredient([INGREDIENT.COD], '600', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.WATER], '2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CARROTS], '2', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.ZUCCHINI], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.ZUCCHINIS], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.BAMBOO_SHOOTS], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.COCONUT_MILK], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.TOMATOES_CRUSHED], '400', MEASUREMENT.GRAM),
@@ -2103,7 +2103,7 @@ const curry_soup_with_cod: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS, true),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS, true),
       toIngredient([INGREDIENT.COD], '600', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.COCONUT_MILK], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.SAMBAL_OELEK], '1', MEASUREMENT.TSK),
@@ -2178,7 +2178,7 @@ const mussels_tomato_pasta: Recipe = {
       toIngredient([INGREDIENT.MUSSELS], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.TOMATOES_CRUSHED], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.OLIVE_OIL], '1', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.KRM),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1', MEASUREMENT.KRM),
       toIngredient([INGREDIENT.SALT]),
       toIngredient([INGREDIENT.BLACK_PEPPER]),
     ],
@@ -2234,7 +2234,7 @@ const curry_lentils_stew_with_coconut_and_lime: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_RICE], '4', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '4', MEASUREMENT.PORTIONS),
       toIngredient([INGREDIENT.LENTILS_RED], '2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WATER], '1/2', MEASUREMENT.L),
       toIngredient([INGREDIENT.COCONUT_MILK], '400', MEASUREMENT.GRAM),
@@ -2370,7 +2370,7 @@ const black_bean_salad: Recipe = {
         measurement: MEASUREMENT.GRAM,
         link: 'TODO: Buckwheat link',
       },
-      toIngredient([INGREDIENT.BLACK_BEANS], '230', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.BEANS_BLACK], '230', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.CORN_KERNELS], '140', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.BABY_SPINAGE], '50', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.SUNDRIED_TOMATOES], '100', MEASUREMENT.GRAM),
@@ -2401,7 +2401,7 @@ const beluga_patties: Recipe = {
   portions: 2,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.BELUGA_LENTILS], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.LENTILS_BELUGA], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WATER], '2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VEGETABLE_POWDER], '3/4', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.CARROTS], '50', MEASUREMENT.GRAM),
@@ -2412,7 +2412,7 @@ const beluga_patties: Recipe = {
       toIngredient([INGREDIENT.DIJON_MUSTARD], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT]),
       toIngredient([INGREDIENT.BLACK_PEPPER]),
-      toIngredient([INGREDIENT.WHITE_RICE], '2', MEASUREMENT.PORTIONS),
+      toIngredient([INGREDIENT.RICE_WHITE], '2', MEASUREMENT.PORTIONS),
     ],
   },
   steps: 9,
@@ -2436,7 +2436,7 @@ const coriander_beans: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.BLACK_BEANS], '400', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.BEANS_BLACK], '400', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.CORIANDER_DRIED], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.OLIVE_OIL], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.LIME_ZEST_ST], '1', MEASUREMENT.ST),
@@ -2463,9 +2463,9 @@ const tacos_with_crispy_tahini_balls: Recipe = {
   portions: 4,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.ONION], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.ONIONS], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.GARLIC_CLOVES], '2', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.WHITE_BEANS], '800', MEASUREMENT.GRAM),
+      toIngredient([INGREDIENT.BEANS_WHITE], '800', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.TAHINI], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CORN_STARCH], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CUMIN], '1/2', MEASUREMENT.MSK),
@@ -2478,7 +2478,7 @@ const tacos_with_crispy_tahini_balls: Recipe = {
       toIngredient([INGREDIENT.WATER], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.OLIVE_OIL], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.LEMON_JUICE], '2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.GARLIC_CLOVE], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.GARLIC_CLOVES], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.SALT], '1', MEASUREMENT.KRM),
     ],
     to_serve: [
@@ -2510,10 +2510,10 @@ const fried_pineapple: Recipe = {
   portions: 2,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.PINEAPPLE], '1', MEASUREMENT.ST),
+      toIngredient([INGREDIENT.PINEAPPLES], '1', MEASUREMENT.ST),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '2', MEASUREMENT.MSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '2',
         MEASUREMENT.MSK
       ),
@@ -2549,7 +2549,7 @@ const blueberry_cupcakes: Recipe = {
       toIngredient([INGREDIENT.BAKING_POWDER], '2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.SALT], '1/2', MEASUREMENT.TSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1',
         MEASUREMENT.DL
       ),
@@ -2583,7 +2583,7 @@ const chocolate_cupcakes: Recipe = {
       ),
       toIngredient([INGREDIENT.CHIA_SEEDS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.WATER], '1', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.ALMOND_FLOUR], '1', MEASUREMENT.DL),
       toIngredient(
         [INGREDIENT.COCONUT_FLOUR, INGREDIENT.BUCKWHEAT_FLOUR],
@@ -2617,7 +2617,7 @@ const chocolate_sauce: Recipe = {
   portions: 2,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_SUGAR], '4/5', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '4/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CACAO], '3/5', MEASUREMENT.DL),
       toIngredient(
         [INGREDIENT.ALMOND_MILK, INGREDIENT.COCONUT_MILK],
@@ -2652,12 +2652,12 @@ const swedish_chocolate_balls: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.VEGAN_BUTTER], '100', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '3/4', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '3/4', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CACAO], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.OAT_FLAKES], '3', MEASUREMENT.DL),
       toIngredient([INGREDIENT.COFFEE], '2', MEASUREMENT.MSK, true),
-      toIngredient([INGREDIENT.PEARL_SUGAR, INGREDIENT.COCONUT_SHREDDED]),
+      toIngredient([INGREDIENT.SUGAR_PEARL, INGREDIENT.COCONUT_SHREDDED]),
     ],
   },
   steps: 4,
@@ -2683,7 +2683,7 @@ const cherry_cheese_cake: Recipe = {
       toIngredient([INGREDIENT.DIGESTIVE_BISQUITS], '350', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '200', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.VEGAN_CREAM_CHEESE], '300', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.POWDERED_SUGAR], '3/4', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_POWDERED], '3/4', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '1', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.LEMON_JUICE], '1/2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.VEGAN_WHIPPED_CREAM], '3', MEASUREMENT.DL),
@@ -2713,7 +2713,7 @@ const choco_coco_squares: Recipe = {
       toIngredient([INGREDIENT.VEGAN_BUTTER], '150', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.CHIA_SEEDS], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.WATER], '1', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '2 1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '2 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.CACAO], '2', MEASUREMENT.MSK),
       toIngredient(
@@ -2731,7 +2731,7 @@ const choco_coco_squares: Recipe = {
       toIngredient([INGREDIENT.CACAO], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.COFFEE], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '2', MEASUREMENT.TSK),
-      toIngredient([INGREDIENT.POWDERED_SUGAR], '2 1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_POWDERED], '2 1/2', MEASUREMENT.DL),
     ],
   },
   steps: 9,
@@ -2756,9 +2756,9 @@ const lavender_lemonade: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.WATER], '2 1/2', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '3/5', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '3/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.LAVENDER_DRIED], '1 1/2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.LIGHT_SYRUP], '2', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.SYRUP_LIGHT], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.LEMON_JUICE_ST], '2', MEASUREMENT.ST),
     ],
   },
@@ -2785,9 +2785,9 @@ const ginger_lemonade: Recipe = {
       toIngredient([INGREDIENT.LEMON_JUICE_ST], '1', MEASUREMENT.ST),
       toIngredient(
         [
-          INGREDIENT.WHITE_SUGAR,
-          INGREDIENT.LIGHT_SYRUP,
-          INGREDIENT.MAPLE_SYRUP,
+          INGREDIENT.SUGAR_WHITE,
+          INGREDIENT.SYRUP_LIGHT,
+          INGREDIENT.SYRUP_MAPLE,
         ],
         '1/2',
         MEASUREMENT.MSK
@@ -2818,7 +2818,7 @@ const mojito: Recipe = {
     base: [
       toIngredient([INGREDIENT.LIME_JUICE_ST], '1/2', MEASUREMENT.ST),
       toIngredient([INGREDIENT.MINT_LEAVES], '6', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1/4', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1/4', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WATER], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.SUGAR_SODA], '3/4', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VODKA], undefined, undefined, true),
@@ -2849,9 +2849,9 @@ const coconut_mojito: Recipe = {
     base: [
       toIngredient([INGREDIENT.LIME_JUICE_ST], '1/2', MEASUREMENT.ST),
       toIngredient([INGREDIENT.MINT_LEAVES], '8', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.LIGHT_RUM], '2', MEASUREMENT.MSK),
-      toIngredient([INGREDIENT.COCONUT_RUM], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.RUM_LIGHT], '2', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.RUM_COCONUT], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.COCONUT_MILK], '3/5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.POMEGRANATE_SEEDS], '1', MEASUREMENT.MSK),
     ],
@@ -2882,7 +2882,7 @@ const oreo_milkshake: Recipe = {
       toIngredient([INGREDIENT.OREOS], '150', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.VEGAN_MILK], '2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VEGAN_VANILLA_ICE_CREAM], '3/4', MEASUREMENT.L),
-      toIngredient([INGREDIENT.LIGHT_RUM], undefined, undefined, true),
+      toIngredient([INGREDIENT.RUM_LIGHT], undefined, undefined, true),
     ],
   },
   steps: 2,
@@ -2906,7 +2906,7 @@ const hot_chocolate: Recipe = {
       toIngredient([INGREDIENT.VEGAN_MILK], '3', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CACAO], '1', MEASUREMENT.MSK),
       toIngredient(
-        [INGREDIENT.WHITE_SUGAR, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SUGAR_WHITE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.MSK
       ),
@@ -2937,7 +2937,7 @@ const cinnamon_latte: Recipe = {
       toIngredient([INGREDIENT.VEGAN_MILK], '2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.CINNAMON], '1', MEASUREMENT.KRM),
       toIngredient(
-        [INGREDIENT.WHITE_SUGAR, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SUGAR_WHITE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.MSK
       ),
@@ -2971,7 +2971,7 @@ const lavender_latte: Recipe = {
       toIngredient([INGREDIENT.VEGAN_MILK], '3', MEASUREMENT.DL),
       toIngredient([INGREDIENT.LAVENDER_DRIED], '1', MEASUREMENT.TSK),
       toIngredient(
-        [INGREDIENT.WHITE_SUGAR, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SUGAR_WHITE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.MSK
       ),
@@ -3005,7 +3005,7 @@ const christmas_porridge: Recipe = {
   portions: 6,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.ROUND_RICE], '2 1/2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.RICE_ROUND], '2 1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.WATER], '5', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.SALT], '3/4', MEASUREMENT.TSK),
@@ -3016,7 +3016,7 @@ const christmas_porridge: Recipe = {
       ),
 
       toIngredient([INGREDIENT.CINNAMON_STICK], '1', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.MSK),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1', MEASUREMENT.MSK),
     ],
   },
   steps: 6,
@@ -3044,7 +3044,7 @@ const christmas_salad: Recipe = {
       toIngredient([INGREDIENT.CURLY_KALE], '200', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.POMEGRANATE_SEEDS], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.ORANGES], '2', MEASUREMENT.ST),
-      toIngredient([INGREDIENT.DRIED_CRANBERRIES], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.CRANBERRIES_DRIED], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.LEMON_JUICE], '1 1/2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.OLIVE_OIL], '1 1/2', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.SALT], '1', MEASUREMENT.KRM),
@@ -3078,7 +3078,7 @@ const orange_salad_with_pomegranate_and_cinnamon: Recipe = {
       toIngredient([INGREDIENT.POMEGRANATE_SEEDS], '1/2', MEASUREMENT.DL),
       toIngredient([INGREDIENT.ORANGES], '4', MEASUREMENT.ST),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '2',
         MEASUREMENT.MSK
       ),
@@ -3141,9 +3141,9 @@ const christmas_butterscotch: Recipe = {
   time: 30,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_SUGAR], '2', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '2', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '2',
         MEASUREMENT.DL
       ),
@@ -3174,9 +3174,9 @@ const saffron_caramels: Recipe = {
   time: 30,
   ingredients: {
     base: [
-      toIngredient([INGREDIENT.WHITE_SUGAR], '3', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '3', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1 1/2',
         MEASUREMENT.DL
       ),
@@ -3209,10 +3209,10 @@ const saffron_biscuits: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.VEGAN_BUTTER], '100', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VANILLA_SUGAR], '1', MEASUREMENT.TSK),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '2',
         MEASUREMENT.MSK
       ),
@@ -3249,14 +3249,14 @@ const gingerbread_cake_with_lingonberry_frosting: Recipe = {
   ingredients: {
     base: [
       toIngredient([INGREDIENT.WHEAT_FLOUR], '3', MEASUREMENT.DL),
-      toIngredient([INGREDIENT.WHITE_SUGAR], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_WHITE], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.GINGERBREAD_SPICE], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.BAKING_POWDER], '1', MEASUREMENT.MSK),
       toIngredient([INGREDIENT.VEGAN_BUTTER], '100', MEASUREMENT.GRAM),
       toIngredient([INGREDIENT.OAT_CREAM], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.OAT_MILK], '1', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.MAPLE_SYRUP, INGREDIENT.LIGHT_SYRUP],
+        [INGREDIENT.SYRUP_MAPLE, INGREDIENT.SYRUP_LIGHT],
         '1/2',
         MEASUREMENT.DL
       ),
@@ -3264,7 +3264,7 @@ const gingerbread_cake_with_lingonberry_frosting: Recipe = {
     ],
     frosting: [
       toIngredient([INGREDIENT.VEGAN_CREAM_CHEESE], '225', MEASUREMENT.GRAM),
-      toIngredient([INGREDIENT.POWDERED_SUGAR], '1', MEASUREMENT.DL),
+      toIngredient([INGREDIENT.SUGAR_POWDERED], '1', MEASUREMENT.DL),
       toIngredient([INGREDIENT.LEMON_JUICE], '2', MEASUREMENT.TSK),
       toIngredient([INGREDIENT.LINGONBERRIES], '2', MEASUREMENT.MSK),
     ],
@@ -3291,7 +3291,7 @@ const gingerbread_milkshake: Recipe = {
       toIngredient([INGREDIENT.SOY_MILK], '3', MEASUREMENT.DL),
       toIngredient([INGREDIENT.VEGAN_VANILLA_ICE_CREAM], '3', MEASUREMENT.DL),
       toIngredient(
-        [INGREDIENT.LIGHT_RUM, INGREDIENT.DARK_RUM],
+        [INGREDIENT.RUM_LIGHT, INGREDIENT.RUM_DARK],
         undefined,
         undefined,
         true
@@ -3322,13 +3322,13 @@ export const recipes: Array<Recipe> = [
   /** 2. Starters */
   thai_soup_with_carrot_and_coconut_milk,
   root_vegetables_soup,
-  fried_asparagus_with_balsamic_vinegar,
+  fried_asparagus_with_VINEGAR_BALSAMIC,
   crostini_with_tapenade,
   crostini_with_sundried_tomatoes,
   crostini_with_seaweed_caviar,
 
   /** 3. Sauces */
-  condensed_balsamic_vinegar,
+  condensed_VINEGAR_BALSAMIC,
   coriander_sauce,
   chives_dip,
 
