@@ -73,9 +73,9 @@
     "BABY_SPINAGE": "Baby spinage",
     "BAKING_POWDER": "Baking powder",
     "BAMBOO_SHOOTS": "Bamboo shoots",
-    "BANANA_GREEN": "Green banana", 
-    "BANANA_OVERRIPE": "Overly ripe banana", 
-    "BANANA_RIPE": "Ripe banana", 
+    "BANANA_GREEN": "Banana, green", 
+    "BANANA_OVERRIPE": "Banana, overly ripe", 
+    "BANANA_RIPE": "Banana, ripe", 
     "BARBARY_FIGS": "Barbary Figs",
     "BARLEY": "Barley",
     "BASIL_DRIED": "Dried basil",
@@ -430,21 +430,37 @@
       "TITLE": "Raspberry chia pudding",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
-        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1"
       }
     },
     "1_1_2": {
       "TITLE": "Strawberry chia pudding",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
-        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1"
       }
     },
     "1_1_3": {
       "TITLE": "Very berry chia pudding",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
-        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1"
+      }
+    },
+    "1_1_4": {
+      "TITLE": "Chocolate chia pudding",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_2"
+      }
+    },
+    "1_1_5": {
+      "TITLE": "Vanilla chia pudding",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_2"
       }
     },
     "1_2": {
@@ -1193,7 +1209,7 @@
       }
     },
     "15_2": {
-      "TITLE": "TODO: Grönkålsallad med granatäpple",
+      "TITLE": "TODO: Grönkålsallad med apelsin och granatäpple",
       "STEPS": {
         "1": "Ta fram granatäpplekärnorna och låt tina ett tag",
         "2": "Lägg grönkål, torkade tranbär och eventuellt pumpafrön i en bunk",
@@ -1317,7 +1333,8 @@
       "PREPARE_CARAMEL_5": "Pour the caramell into small holders placed on a baking sheet",
       "PREPARE_CARAMEL_6": "Let cool",
       "PREPARE_CHIA_EGG": "Mix the chia seed egg and let it sit for 10 minutes",
-      "PREPARE_CHIA_PUDDING": "If wanted, wait 15-30 min for a thicker consistency",
+      "PREPARE_CHIA_PUDDING_1": "Put it in the refrigerator for at least 15 minutes (can be stored cold for several days or frozen for longer)",
+      "PREPARE_CHIA_PUDDING_2": "If wanted, top the pudding with roasted or natural coconut chips",
       "PREPARE_LENTILS_1": "Rinse the lentils and add everything into a pot",
       "PREPARE_LENTILS_2": "Boilfor 10 minutes or until the lentils are soft",
       "PREPARE_MILK": "Heat the milk to the desired temperature",
@@ -1393,7 +1410,9 @@
     "STEWS": "Stews",
     "SUSHI": "Sushi",
     "WOK": "Wok",
-    "CHRISTMAS": "Christmas",
+    "WINTER": "Winter",
+    "AUTUMN": "Autumn",
+    "SUMMER": "Summer",
     "FODMAP": "Low FODMAP diet",
     "QUICK_EASY": "Quick and easy",
     "VEGAN": "Vegan",

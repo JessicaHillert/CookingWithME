@@ -14,7 +14,7 @@ export enum MEDietLevel {
 }
 
 export interface FodmapIngredient {
-  ingredient: INGREDIENT;
+  ingredient: INGREDIENT | string;
   MEDiet: MEDietLevel;
 }
 
@@ -120,7 +120,7 @@ export const fodmapVegetables: FodmapSection = {
     { ingredient: INGREDIENT.OLIVES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.OYSTER_MUSHROOMS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.PARSNIPS, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.POTATOES, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.POTATOES, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.PUMPKINS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.RUTABAGAS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SCALLIONS_GREEN_PARTS, MEDiet: MEDietLevel.FULL },
@@ -139,7 +139,7 @@ export const fodmapVegetables: FodmapSection = {
     { ingredient: INGREDIENT.RED_CABBAGE, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SAVOY_CABBAGES, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.SUNDRIED_TOMATOES, MEDiet: MEDietLevel.FULL },
-    { ingredient: INGREDIENT.SWEET_POTATOES, MEDiet: MEDietLevel.FULL },
+    { ingredient: INGREDIENT.SWEET_POTATOES, MEDiet: MEDietLevel.SEMI },
     { ingredient: INGREDIENT.WINTER_SQUASHES, MEDiet: MEDietLevel.FULL },
   ],
   high: [
@@ -163,7 +163,7 @@ export const fodmapNutsLegumesSeeds: FodmapSection = {
     { ingredient: INGREDIENT.BRAZIL_NUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CACAO_RAW, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CACAO, MEDiet: MEDietLevel.SEMI },
-    { ingredient: INGREDIENT.CANOLA_OIL, MEDiet: MEDietLevel.SEMI },
+    { ingredient: INGREDIENT.CANOLA_OIL, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CHESTNUTS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.CHIA_SEEDS, MEDiet: MEDietLevel.FULL },
     { ingredient: INGREDIENT.FLAX_SEEDS, MEDiet: MEDietLevel.NO },
@@ -214,7 +214,7 @@ export const fodmapGrains: FodmapSection = {
     { ingredient: INGREDIENT.RICE_BROWN, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.RICE_JASMINE, MEDiet: MEDietLevel.SEMI },
     { ingredient: INGREDIENT.RICE_ROUND, MEDiet: MEDietLevel.NO },
-    { ingredient: INGREDIENT.SWEET_CORNS, MEDiet: MEDietLevel.SEMI },
+    { ingredient: INGREDIENT.SWEET_CORNS, MEDiet: MEDietLevel.NO },
     { ingredient: INGREDIENT.TEFF, MEDiet: MEDietLevel.NO },
   ],
   medium: [],

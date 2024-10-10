@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { TranslateService } from '@ngx-translate/core';
 import { BehaviorSubject } from 'rxjs';
 import {
   fodmapAnimalProducts,
@@ -20,24 +21,30 @@ import {
   styleUrls: ['./fodmap-list-page.component.scss'],
 })
 export class FodmapListPageComponent implements OnInit {
-  sections = [
-    fodmapFruits,
-    fodmapBerries,
-    fodmapVegetables,
-    fodmapGrains,
-    fodmapNutsLegumesSeeds,
-    fodmapAnimalProducts,
-    fodmapOthers,
-  ];
-
-  filteredLists: BehaviorSubject<Array<FodmapSection>> = new BehaviorSubject(
-    this.sections
-  );
+  constructor(private translate: TranslateService) {}
+  sections!: Array<FodmapSection>;
+  filteredLists!: BehaviorSubject<Array<FodmapSection>>;
 
   me_filter = new FormControl(false);
   semi_me_filter = new FormControl(false);
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    /** Wait for TranslateService to load */
+    const sleep = (m: any) => new Promise((r) => setTimeout(r, m));
+    (async () => {
+      await sleep(200);
+      this.sections = [
+        this.sortList(fodmapFruits),
+        this.sortList(fodmapBerries),
+        this.sortList(fodmapVegetables),
+        this.sortList(fodmapGrains),
+        this.sortList(fodmapNutsLegumesSeeds),
+        this.sortList(fodmapAnimalProducts),
+        this.sortList(fodmapOthers),
+      ];
+      this.filteredLists = new BehaviorSubject(this.sections);
+    })();
+
     this.me_filter.valueChanges.subscribe(() => {
       this.filterLists();
     });
@@ -45,6 +52,28 @@ export class FodmapListPageComponent implements OnInit {
       this.filterLists();
     });
   }
+
+  sortList(section: FodmapSection): FodmapSection {
+    return {
+      title: section.title,
+      low: section.low.sort(this.sortTranslateFunc),
+      medium: section.medium.sort(this.sortTranslateFunc),
+      high: section.high.sort(this.sortTranslateFunc),
+    };
+  }
+
+  sortTranslateFunc = (a: any, b: any): any => {
+    if (
+      this.translate.instant('INGREDIENT.' + a.ingredient) <
+      this.translate.instant('INGREDIENT.' + b.ingredient)
+    ) {
+      return -1;
+    }
+    if (a.ingredient > b.ingredient) {
+      return 1;
+    }
+    return 0;
+  };
 
   filterLists() {
     const newList: Array<FodmapSection> = [];

@@ -73,9 +73,9 @@
     "BABY_SPINAGE": "Babyspenat",
     "BAKING_POWDER": "Bakpulver",
     "BAMBOO_SHOOTS": "Bambuskott",
-    "BANANA_GREEN": "Grön banan", 
-    "BANANA_OVERRIPE": "Övermogen banan", 
-    "BANANA_RIPE": "Mogen banan", 
+    "BANANA_GREEN": "Banan, grön", 
+    "BANANA_OVERRIPE": "Banan, övermogen", 
+    "BANANA_RIPE": "Banan, mogen", 
     "BARBARY_FIGS": "Fikonkaktus",
     "BARLEY": "Korn",
     "BASIL_DRIED": "Torkad basilika",
@@ -83,7 +83,7 @@
     "BAY_LEAF": "Lagerblad",
     "BEANS_BLACK": "Svarta bönor",
     "BEANS_KIDNEY": "Kidneybönor",
-    "BEANS_RED": "röda bönor",
+    "BEANS_RED": "Röda bönor",
     "BEANS_SOY": "Sojabönor",
     "BEANS_WHITE": "Vita bönor",
     "BEER": "Öl",
@@ -173,7 +173,7 @@
     "ENDIVES": "Endiver",
     "FENNELS": "Fänkålar",
     "FISH": "Fisk",
-    "FLAX_SEEDS": "Finfrön",
+    "FLAX_SEEDS": "Linfrön",
     "FRUIT": "Frukt",
     "GARLIC_CLOVES_SMALL": "Små vitlöksklyftor",
     "GARLIC_CLOVES": "Vitlöksklyftor",
@@ -297,7 +297,7 @@
     "RHUBARBS": "Rabarber",
     "RICE_BASMATI": "Basmatiris", 
     "RICE_BROWN": "Brunt ris",
-    "RICE_JASMINE": "Jasmine rice", 
+    "RICE_JASMINE": "Jasminris", 
     "RICE_MILK": "Rismjölk",
     "RICE_NOODLES": "Risnudlar",
     "RICE_ROUND": "Runt ris", 
@@ -411,7 +411,7 @@
     "WINES": "Vin",
     "WINTER_SQUASHES": "Vintersquash",
     "YEAST": "Jäst",
-    "YELLOW_PEAS_DRIED": "Torkade gula bönor",
+    "YELLOW_PEAS_DRIED": "Torkade gula ärtor",
     "YELLOW_PEAS": "Gula ärtor",
     "ZUCCHINIS": "Zucchinis"
   },
@@ -427,24 +427,40 @@
   },
   "RECIPES": {
     "1_1_1": {
-      "TITLE": "Chiapudding med hallon",
+      "TITLE": "Hallonchiapudding",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
-        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1"
       }
     },
     "1_1_2": {
-      "TITLE": "Chiapudding med jordgubb",
+      "TITLE": "Jordgubbschiapudding",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
-        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1"
       }
     },
     "1_1_3": {
       "TITLE": "Chiapudding med bärblandning",
       "STEPS": {
         "1": "RECIPES.COMMON_STEPS.DO_USE_MIXER_OR_HAND_BLENDER",
-        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING"
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1"
+      }
+    },
+    "1_1_4": {
+      "TITLE": "Chokladchiapudding",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_2"
+      }
+    },
+    "1_1_5": {
+      "TITLE": "Vaniljchiapudding",
+      "STEPS": {
+        "1": "RECIPES.COMMON_STEPS.PUT_EVERYTHING_TOGETHER",
+        "2": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_1",
+        "3": "RECIPES.COMMON_STEPS.PREPARE_CHIA_PUDDING_2"
       }
     },
     "1_2": {
@@ -1193,7 +1209,7 @@
       }
     },
     "15_2": {
-      "TITLE": "Grönkålsallad med granatäpple",
+      "TITLE": "Grönkålsallad med apelsin och granatäpple",
       "STEPS": {
         "1": "Ta fram granatäpplekärnorna och låt tina ett tag",
         "2": "Lägg grönkål, torkade tranbär och eventuellt pumpafrön i en bunk",
@@ -1316,7 +1332,8 @@
       "PREPARE_CARAMEL_5": "Häll upp smeten i små knäckformar ställda på en plåt",
       "PREPARE_CARAMEL_6": "Låt den svalna",
       "PREPARE_CHIA_EGG": "Blanda ihop chiaägget och låt stå i minst 10 minuter",
-      "PREPARE_CHIA_PUDDING": "Eventuellt vänta 15-30 min för att få en tjockare konsistens",
+      "PREPARE_CHIA_PUDDING_1": "Låt stå i kylskåpet i minst 15 minuter (kan förvaras i kylen i flera dagar och i frysen längre)",
+      "PREPARE_CHIA_PUDDING_2": "Toppa gärna med naturella eller rostade kokoschips",
       "PREPARE_LENTILS_1": "Skölj linserna och lägg sedan allt i en kastrull",
       "PREPARE_LENTILS_2": "Koka i cirka 10 minuter eller tills linserna är mjuka",
       "PREPARE_MILK": "Värm mjölken till önskad temperatur i mikro eller kastrull",
@@ -1392,7 +1409,9 @@
     "STEWS": "Grytor",
     "SUSHI": "Sushi",
     "WOK": "Wok",
-    "CHRISTMAS": "Jul",
+    "WINTER": "Vinter",
+    "AUTUMN": "Höst",
+    "SUMMER": "Sommar",
     "FODMAP": "Låg FODMAP-diet",
     "QUICK_EASY": "Snabbt och lättlagat",
     "VEGAN": "Veganskt",

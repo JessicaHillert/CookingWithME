@@ -17,7 +17,9 @@ import {
 })
 export class RecipesComponent implements OnInit {
   diets_occasions = new FormGroup({
-    christmas: new FormControl(false),
+    winter: new FormControl(false),
+    autumn: new FormControl(false),
+    summer: new FormControl(false),
     fodmap: new FormControl(false),
     quick_easy: new FormControl(false),
     vegan: new FormControl(false),
